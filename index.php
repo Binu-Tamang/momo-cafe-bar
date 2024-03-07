@@ -20,17 +20,25 @@
     <!-- ====================About Us================= -->
     <section class="abt-food">
         <div class="container">
+            <div class="bg-img">
+                <div class="bg-img-top">
+                    <img src="assets/img/tomo-bg.png" alt="background food">
+                </div>
+                <div class="bg-img-down">
+                    <img src="assets/img/tomo-bg.png" alt="background food">
+                </div>
+            </div>
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-6">
                     <div class="abt-food-img">
                         <div class="food_1">
-                            <img src="assets/img/two-pasta.png" alt="food">
+                            <img src="assets/img/two-pasta.jpg" alt="food">
                         </div>
                         <div class="food_2">
-                            <img src="assets/img/momo-plate.png" alt="food">
+                            <img src="assets/img/momo.jpg" alt="food">
                         </div>
                         <div class="food_3">
-                            <img src="assets/img/burger.png" alt="food">
+                            <img src="assets/img/burger.jpg" alt="food">
                         </div>
                     </div>
                 </div>
@@ -69,8 +77,12 @@
     <!-- ====================Opening Hours============= -->
 
     <!-- ====================reservation section============= -->
+    <!-- <div class="bg-up">
+        <img src="assets/img/bg-1.jpg" alt="background">
+    </div> -->
     <section class="reserv_wrapper">
         <div class="container">
+
             <div class="row">
                 <div class="col-md-5 col-sm-12">
                     <div class="reserv_img">
@@ -80,7 +92,7 @@
                 <div class="col-md-7 col-sm-12">
                     <div class="reserv_form">
                         <span class="small-heading">Reservations</span>
-                        <h2 class="web-tittle">Book Your Table Now</h2>
+                        <h2 class="web-tittle text-white">Book Your Table Now</h2>
                         <form class="cnct-form" id="contactForm" action="php/contact-form.php" method="post">
                             <div class="row g-3">
                                 <div class="col-12 col-lg-6">
@@ -157,6 +169,9 @@
             </div>
         </div>
     </section>
+    <!-- <div class="bg-up">
+        <img src="assets/img/crop-bg-up.png" alt="background">
+    </div> -->
     <!-- ====================reservation section============= -->
 
     <!-- ==================food menu ======================== -->
@@ -168,7 +183,7 @@
     <!-- ==================food video===================== -->
     <section class="food_video">
         <div class="container">
-            
+
         </div>
     </section>
 
