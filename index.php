@@ -12,22 +12,24 @@
 
 <body>
     <!-- =====================Banner Slider ==================== -->
-    <section class="banner_slider">
+    <!-- <section class="banner_slider">
         <img src="assets/img/banner_food.jpg" alt="momo and other food">
-    </section>
+    </section> -->
     <!-- =====================Banner Slider ==================== -->
 
     <!-- ====================About Us================= -->
     <section class="abt-food">
         <div class="container">
             <div class="bg-img">
-                <div class="bg-img-top">
+                <div id="objectTop" class="moveable bg-img-top">
                     <img src="assets/img/tomo-bg.png" alt="background food">
                 </div>
-                <div class="bg-img-down">
+                <div id="objectDown" class="moveable bg-img-down">
                     <img src="assets/img/tomo-bg.png" alt="background food">
                 </div>
             </div>
+
+
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-6">
                     <div class="abt-food-img">
@@ -51,6 +53,16 @@
                             mollitia odit ullam ipsam enim, molestias sunt nulla aut autem tenetur sapiente
                             reprehenderit,
                             suscipit modi a. Facere, possimus.</p>
+                        <div class="div-two">
+                            <ul>
+                                <li><i class="fa-solid fa-check"></i><span>Food Items management</span></li>
+                                <li><i class="fa-solid fa-check"></i><span>Customer feedback portal</span></li>
+                            </ul>
+                            <ul>
+                                <li><i class="fa-solid fa-check"></i><span>Table reservation</span></li>
+                                <li><i class="fa-solid fa-check"></i><span>Location-based services</span></li>
+                            </ul>
+                        </div>
                         <div class="text-left">
                             <a href="#" class="yellow_btn"> About Resturant <span></span><i
                                     class="fa-solid fa-arrow-right-long"></i></a>
@@ -85,9 +97,60 @@
 
             <div class="row">
                 <div class="col-md-5 col-sm-12">
-                    <div class="reserv_img">
+                    <!-- <div class="reserv_img">
                         <img src="assets/img/chicken_lilipop.jpg" alt="Chicken lalipop">
+                    </div> -->
+                    <div class="main-container-md">
+                <div class="main">
+                    <div class="big-circle">
+                        <!-- <div class="icon-block">
+                            <a href="about-us.php">
+                                <img src="assets/img/mountain.png" alt="icon">
+                            </a>
+                        </div> -->
+                        <!-- <div class="icon-block">
+                            <a href="about-us.php">
+                                <img src="assets/img/medal.png" alt=" icon">
+                            </a>
+                        </div> -->
+                        <!-- <div class="icon-block">
+                            <a href="about-us.php">
+                                <img src="assets/img/snowflake.png" alt=" icon">
+                            </a>
+                        </div> -->
+                        <!-- <div class="icon-block">
+                            <a href="about-us.php">
+                                <img src="assets/img/helmet.png" alt=" icon">
+                            </a>
+                        </div> -->
                     </div>
+                    <div class="circle">
+                        <!-- <div class="icon-block">
+                            <a href="trails.php">
+                                <img src="assets/img/map.png" alt=" icon">
+                            </a>
+                        </div> -->
+                        <!-- <div class="icon-block">
+                            <a href="gallery.php">
+                                <img src="assets/img/image-gallery.png" alt=" icon">
+                            </a>
+                        </div> -->
+                        <!-- <div class="icon-block">
+                            <a href="sponsor.php">
+                                <img src="assets/img/sponsor.png" alt="icon">
+                            </a>
+                        </div> -->
+                        <!-- <div class="icon-block">
+                            <a href="events.php">
+                                <img src="assets/img/planner.png" alt=" icon">
+                            </a>
+                        </div> -->
+                    </div>
+                    <div class="center-logo">
+                        <img href="index.php" src="assets/img/chief.png" alt="logo">
+                    </div>
+                </div>
+            </div>
                 </div>
                 <div class="col-md-7 col-sm-12">
                     <div class="reserv_form">
@@ -181,12 +244,123 @@
     <!-- ==================food menu ======================== -->
 
     <!-- ==================food video===================== -->
-    <section class="food_video">
+    <!-- <section class="food_video">
         <div class="container">
+            <span class="small-heading">Reservations</span>
+            <h2 class="web-tittle text-white">Book Your Table Now</h2>
+        </div>
+    </section> -->
+    <!-- ==================food video===================== -->
 
+    <section class="testimonial cafe-hrs">
+        <div class="container">
+            <span class="small-heading text-center">testimonials</span>
+            <h2 class="web-tittle text-center">Some Words From Our Loyal Guests</h2>
+
+            <div class="owl-carousel owl-theme testimonial-owl">
+                <div class="item pro-wrap">
+                    <div class="img-peofile">
+                        <img src="assets/img/Ellipse16.png" alt="user">
+                    </div>
+                    <span class="quote"><i class="fa-solid fa-quote-right"></i></span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus sequi temporibus dignissimos
+                        aspernatur, voluptatum laudantium debitis, eius veritatis illum esse cumque officiis vero! Optio
+                        commodi harum aliquid voluptatibus esse animi.</p>
+                    <strong>person name</strong>
+                </div>
+
+                <div class="item pro-wrap">
+                    <div class="img-peofile">
+                        <img src="assets/img/Ellipse16.png" alt="user">
+                    </div>
+                    <span class="quote"><i class="fa-solid fa-quote-right"></i></span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus sequi temporibus dignissimos
+                        aspernatur, voluptatum laudantium debitis, eius veritatis illum esse cumque officiis vero! Optio
+                        commodi harum aliquid voluptatibus esse animi.</p>
+                    <strong>person name</strong>
+                </div>
+
+                <div class="item pro-wrap">
+                    <div class="img-peofile">
+                        <img src="assets/img/Ellipse16.png" alt="user">
+                    </div>
+                    <span class="quote"><i class="fa-solid fa-quote-right"></i></span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus sequi temporibus dignissimos
+                        aspernatur, voluptatum laudantium debitis, eius veritatis illum esse cumque officiis vero! Optio
+                        commodi harum aliquid voluptatibus esse animi.</p>
+                    <strong>person name</strong>
+                </div>
+
+                <div class="item pro-wrap">
+                    <div class="img-peofile">
+                        <img src="assets/img/Ellipse16.png" alt="user">
+                    </div>
+                    <span class="quote"><i class="fa-solid fa-quote-right"></i></span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus sequi temporibus dignissimos
+                        aspernatur, voluptatum laudantium debitis, eius veritatis illum esse cumque officiis vero! Optio
+                        commodi harum aliquid voluptatibus esse animi.</p>
+                    <strong>person name</strong>
+                </div>
+
+                <div class="item pro-wrap">
+                    <div class="img-peofile">
+                        <img src="assets/img/Ellipse16.png" alt="user">
+                    </div>
+                    <span class="quote"><i class="fa-solid fa-quote-right"></i></span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus sequi temporibus dignissimos
+                        aspernatur, voluptatum laudantium debitis, eius veritatis illum esse cumque officiis vero! Optio
+                        commodi harum aliquid voluptatibus esse animi.</p>
+                    <strong>person name</strong>
+                </div>
+
+                <div class="item pro-wrap">
+                    <div class="img-peofile">
+                        <img src="assets/img/Ellipse16.png" alt="user">
+                    </div>
+                    <span class="quote"><i class="fa-solid fa-quote-right"></i></span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus sequi temporibus dignissimos
+                        aspernatur, voluptatum laudantium debitis, eius veritatis illum esse cumque officiis vero! Optio
+                        commodi harum aliquid voluptatibus esse animi.</p>
+                    <strong>person name</strong>
+                </div>
+
+                <div class="item pro-wrap">
+                    <div class="img-peofile">
+                        <img src="assets/img/Ellipse16.png" alt="user">
+                    </div>
+                    <span class="quote"><i class="fa-solid fa-quote-right"></i></span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus sequi temporibus dignissimos
+                        aspernatur, voluptatum laudantium debitis, eius veritatis illum esse cumque officiis vero! Optio
+                        commodi harum aliquid voluptatibus esse animi.</p>
+                    <strong>person name</strong>
+                </div>
+            </div>
+            <div class="text-center pt-3">
+                <a href="#" class="default-btn"> Write A Review <span></span><i
+                        class="fa-solid fa-arrow-right-long"></i></a>
+                <a href="#" class="yellow_btn"> View All <span></span><i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
         </div>
     </section>
 
+    <div class="row">
+        <div class="col-lg-6">
+            
+        </div>
+    </div>
+
+    <!-- ---------------------------footer starts--------------------- -->
+    <?php
+
+    include('inc/footer.php');
+    include('inc/js.php')
+        ?>
+
+    <script>const navItems = document.querySelectorAll('.nav-links ul.links  > li ');
+        if (navItems.length >= 1) {
+            navItems[0].classList.add("active");
+        }
+    </script>
 </body>
 
 </html>
