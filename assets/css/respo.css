@@ -1,0 +1,74 @@
+/* Small Devices (Smartphones) */
+@media only screen and (max-width: 599px) {
+  /* Styles for small devices */
+  .left-banner strong {
+    font-size: 28px;
+  }
+
+  .banner-img-cover img {
+    max-width: 80%;
+  }
+
+  .owl-carousel.owl-theme.banner-slider .owl-dots .owl-dot {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+
+  .banner-fly-object img:nth-child(1) {
+    left: -4%;
+  }
+
+  .banner-fly-object img:nth-child(2) {
+    right: 10%;
+  }
+
+  .banner-fly-object img:nth-child(3) {
+    left: -17px;
+  }
+
+  .banner-fly-object img:nth-child(4) {
+    right: -10%;
+    width: 75%;
+  }
+
+  .banner-fly-object img:nth-child(5) {
+    right: 5%;
+    width: 75%;
+  }
+  .header-logo img {
+    max-width: 100px;
+  }
+
+  .default-btn,
+  .yellow_btn {
+    padding: 0 20px;
+  }
+
+  .primary-header-one.primary-header {
+    padding: 10px 0;
+  }
+}
+
+section.banner-slider {
+  padding: 3rem 0;
+}
+
+.right-banner {
+  padding-top: 3.5rem;
+}
+
+/* Medium Devices (Tablets) */
+@media only screen and (min-width: 600px) and (max-width: 991px) {
+  /* Styles for medium devices */
+}
+
+/* Large Devices (Desktops, Laptops) */
+@media only screen and (min-width: 992px) {
+  /* Styles for large devices */
+}
+
+/* Extra Large Devices (Large Desktops, Wide Screens) */
+@media only screen and (min-width: 1200px) {
+  /* Styles for extra large devices */
+}
