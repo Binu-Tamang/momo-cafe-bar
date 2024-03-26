@@ -6,6 +6,8 @@ $(document).ready(function () {
     dots: true, // Enable dots navigation
     autoplayTimeout: 5000,
     navSpeed: 2000,
+    dotsContainer: '#circlebanner',
+    dotsData: true,
     autoplay: true, // Enable autoplay
     responsive: {
       // Responsive breakpoints
@@ -19,6 +21,12 @@ $(document).ready(function () {
         items: 1, // Number of items to display on desktops
       },
     },
+  });
+  $('#circlebanner .owl-dot').each(function() {
+    var $this = $(this);
+    $this.replaceWith(function() {
+        return $('<button>').append($this.contents());
+    });
   });
 });
 
@@ -65,22 +73,18 @@ document
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
   });
 
-// ===============mouse move parallax effect js
-$(document).ready(function () {
-  var layer = $("#main");
 
-  layer.mousemove(function (e) {
-    var mouseX = e.clientX / window.innerWidth - 0.5;
-    var mouseY = e.clientY / window.innerHeight - 0.5;
+// ===============mouse move parallax effect js===================
+document.addEventListener("mousemove", parallax);
 
-    $(".move-mouse img").each(function () {
-      var depth = parseFloat($(this).attr("data-depth"));
-      var translateX = mouseX * depth + "px";
-      var translateY = mouseY * depth + "px";
-      $(this).css(
-        "transform",
-        "translate(" + translateX + ", " + translateY + ")"
-      );
+function parallax(event) {
+    this.querySelectorAll(".mouse").forEach((shift) => {
+        const position = shift.getAttribute("value");
+        const x = (window.innerWidth - event.pageX * position) / 90;
+        const y = (window.innerHeight - event.pageY * position) / 90;
+
+        shift.style.transform = `translateX(${x}px) translateY(${y}px)`;
     });
-  });
-});
+}
+
+

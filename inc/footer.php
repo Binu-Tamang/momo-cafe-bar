@@ -1,7 +1,7 @@
 <footer class="main-footer">
     <div class="container">
         <!-- ====scroll up to btn -->
-        <button id="scrollToTopBtn"><i class="fa-solid fa-sort-up"></i></button>
+        <button id="scrollToTopBtn"><i class="fa-solid fa-arrow-up"></i></button>
 
         <!-- ====scroll up to btn -->
         <div class="footer-up">

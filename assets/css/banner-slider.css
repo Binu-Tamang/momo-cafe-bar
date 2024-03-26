@@ -150,6 +150,12 @@ p {
   background: var(--maincolor) none repeat scroll 0 0;
 }
 /* ============button css============= */
+.form-box-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
 .form-control,
 input,
 select#guests,
@@ -158,10 +164,16 @@ textarea#message {
   background: #fff !important;
   color: #ffffffd9 !important;
 }
-
+.input-group i {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #010f1c;
+}
 /* ============banner css starts ================= */
 section.banner-slider {
   padding: 6rem 0;
+  position: relative;
 }
 .left-banner strong {
   font-weight: 600;
@@ -169,6 +181,7 @@ section.banner-slider {
   font-optical-sizing: auto;
   font-style: normal;
   font-size: 68px;
+  line-height: 1;
 }
 
 .left-banner span {
@@ -182,10 +195,12 @@ section.banner-slider {
 }
 
 .banner-img-cover img {
-  max-width: 550px;
+  max-width: 450px;
   width: 100%;
+  /* box-shadow: #e9831d 0px 7px 29px 0px; */
+  border-radius: 100%;
 }
-
+/* 
 .banner-slider .owl-dots .owl-dot:nth-child(1) {
   background-image: url("../img/b-1.png");
 }
@@ -196,8 +211,8 @@ section.banner-slider {
 
 .banner-slider .owl-dots .owl-dot:nth-child(3) {
   background-image: url("../img/b-3.png");
-}
-.banner-slider .owl-dots .owl-dot {
+} */
+ .owl-dot img{
   width: 100px;
   height: 100px;
   border-radius: 100%;
@@ -233,6 +248,9 @@ section.banner-slider {
 }
 .circle-animated-box {
   position: relative;
+  display: flex;
+  align-items: center;
+  height: 100%;
 }
 
 .move-mouse img:nth-child(1) {
@@ -245,22 +263,22 @@ section.banner-slider {
 
 .move-mouse img:nth-child(2) {
   position: absolute;
-  top: -2px;
-  left: 120px;
+  top: 100px;
+  left: 150px;
 }
 
 .move-mouse img:nth-child(3) {
   position: absolute;
-  top: 0;
+  top: 170px;
   right: 142px;
   rotate: 7deg;
 }
 
 .move-mouse img:nth-child(4) {
   position: absolute;
-  bottom: 75px;
-  right: 53px;
-  rotate: 109deg;
+  bottom: 170px;
+  right: 110px;
+  rotate: 128deg;
   width: 216px;
   /* z-index: 0; */
   transform: scalex(-1);
@@ -283,9 +301,9 @@ section.banner-slider {
 }
 .banner-fly-object img:nth-child(4) {
   position: absolute;
-  bottom: -106px;
-  right: -36px;
-  width: 380px;
+  bottom: -70px;
+  right: -20px;
+  width: 300px;
 }
 .banner-fly-object img:nth-child(5) {
   position: absolute;
@@ -295,9 +313,62 @@ section.banner-slider {
   width: 400px;
   rotate: -8deg;
 }
+#circlebanner {
+  display: flex;
+  margin-top: 30px;
+}
+#circlebanner button{
+  width: 85px;
+  border-radius: 100%;
+  background: none;
+  border: none;
+  margin-right: 15px;
+}
+
+/* =============banner foo dobjects fly================== */
+.mouse_move.objects img {
+  position: absolute;
+  width: 110px;
+  z-index: -4;
+}
+
+.mouse_move.objects img:nth-child(01) {
+  top: 0;
+  left: 40%;
+}
+
+.mouse_move.objects img:nth-child(02) {
+  bottom: 35%;
+  left: 0;
+}
+
+.mouse_move.objects img:nth-child(03) {
+  bottom: 0;
+  left: 15%;
+}
+
+.mouse_move.objects img:nth-child(04) {
+  bottom: 25%;
+  left: 40%;
+  rotate: -40deg;
+}
 /* /============banner slider css end */
 
 /* ========food box css starts==================== */
+.mouse_move.second-objects img {
+  position: absolute;
+  /* width: 100px; */
+}
+
+.mouse_move.second-objects img:nth-child(01) {
+  top: 10%;
+  left: 0;
+}
+
+.mouse_move.second-objects img:nth-child(02) {
+  top: 10%;
+  right: 0;
+}
 .food-box-wrap {
   text-align: center;
   display: block;
@@ -312,6 +383,8 @@ section.banner-slider {
 
 section.food-box {
   padding: 4rem 0;
+  background: #f9f9f9;
+  position: relative;
 }
 /* ========food box css starts==================== */
 
@@ -427,6 +500,7 @@ section.banner_slider img {
 *===================================*/
 section.food-menu {
   padding: 6rem 0;
+  position: relative;
 }
 .menu-list-details button {
   background: transparent;
@@ -743,6 +817,7 @@ section.book-table p {
 /* ==============review section css starts=============== */
 section.guest-review {
   padding: 4rem 0;
+  position: relative;
 }
 .banner-review-carousel button.owl-prev span,
 .banner-review-carousel button.owl-next span {
@@ -823,7 +898,7 @@ section.guest-review {
   color: white;
   border: none;
   border-radius: 100%;
-  padding: 10px 20px;
+  padding: 12px 20px;
   cursor: pointer;
 }
 
@@ -862,8 +937,9 @@ ul.footer-contact li a {
   text-decoration: none;
   display: flex;
   align-items: center;
-  letter-spacing: 1px;
+  /* letter-spacing: 1px; */
   transition: 0.2s all ease;
+  font-size: 16px;
 }
 
 ul.imp-link li,
@@ -879,6 +955,7 @@ ul.footer-contact li i {
 ul.footer-contact li {
   display: flex;
   padding: 6px 0;
+  word-break: break-all;
 }
 a.email-footer {
   text-decoration: underline !important;
@@ -939,33 +1016,6 @@ ul.footer-contact li strong {
   letter-spacing: 1px;
 }
 
-.footer-newletter input[type="text"] {
-  padding: 6px;
-  border: none;
-  margin-bottom: 10px;
-}
-
-.footer-newletter {
-  margin-top: 10px;
-}
-
-.news-btn input {
-  padding: 8px 56px;
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: 600;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  transition: 0.2s all ease;
-  color: #fff;
-  background: #4d9784;
-  border: 1px solid #4d9784;
-}
-
-.news-btn input:hover {
-  background: transparent;
-}
-
 ul.imp-link li i {
   margin-right: 10px;
 }
@@ -1015,4 +1065,30 @@ ul.time-ul li {
 }
 ul.time-ul p {
   padding: 0;
+}
+
+/* ======about he parallax mouse moving effects css starts ===================== */
+section.food-menu .mouse_move.objects img:nth-child(01) {
+  top: 10%;
+  left: 10%;
+}
+
+section.guest-review .mouse_move.objects img:nth-child(01) {
+  top: 10%;
+  left: 20%;
+}
+
+section.guest-review .mouse_move.objects img:nth-child(02) {
+  z-index: -9;
+  bottom: 0;
+  right: 10%;
+}
+#circlebanner button.active {
+  border: 2px solid #e9831d;
+  /* padding: 4px; */
+}
+
+#circlebanner button.active img {
+  box-shadow: #e9831d 0px 7px 29px 0px;
+  border-radius: 100%;
 }
