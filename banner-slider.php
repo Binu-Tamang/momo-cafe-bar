@@ -184,12 +184,7 @@
         <button class="nav-link nav-tab-btn" id="pills-profile-tab" data-bs-toggle="pill"
           data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
           aria-selected="false">Lunch</button>
-      </li>
-      <li class="nav-item" role="presentation">
-        <button class="nav-link nav-tab-btn" id="pills-contact-tab" data-bs-toggle="pill"
-          data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
-          aria-selected="false">Children Menu</button>
-      </li>
+</li>
       <li class="nav-item" role="presentation">
         <button class="nav-link nav-tab-btn" id="salads-tab" data-bs-toggle="pill" data-bs-target="#salads"
           type="button" role="tab" aria-controls="salads" aria-selected="false">Salads</button>
@@ -201,6 +196,11 @@
       <li class="nav-item" role="presentation">
         <button class="nav-link nav-tab-btn" id="pizza-tab" data-bs-toggle="pill" data-bs-target="#pizza" type="button"
           role="tab" aria-controls="pizza" aria-selected="false">Pizza</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link nav-tab-btn" id="pills-contact-tab" data-bs-toggle="pill"
+          data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+          aria-selected="false">Children Menu</button>
       </li>
     </ul>
     <div class="tab-content" id="pills-tabContent">
@@ -322,9 +322,6 @@
       <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
         Content for Lunch tab
       </div>
-      <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-        Content for Children Menu tab
-      </div>
       <div class="tab-pane fade" id="salads" role="tabpanel" aria-labelledby="salads-tab">
         Content for Salads tab
       </div>
@@ -334,8 +331,11 @@
       <div class="tab-pane fade" id="pizza" role="tabpanel" aria-labelledby="pizza-tab">
         Content for Pizza tab
       </div>
+      <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+        Content for Children Menu tab
+      </div>
     </div>
-    <div class="text-center pt-5">
+    <div class="text-center pt-5 two-btn">
       <a href="#" class="default-btn"> Order Online<span></span><i class="fa-solid fa-arrow-right-long"></i></a>
       <a href="#" class="yellow_btn mx-4"> View Our Menu <span></span><i class="fa-solid fa-arrow-right-long"></i></a>
     </div>
@@ -388,11 +388,12 @@
               </div>
             </div>
             <div class="col-md-4 col-sm-6">
-              <div class="input-group">
-                <input type="date" id="birthDate" name="birthDate" class="form-control border-2" required
-                  placeholder="Your Date of Birth" style="height: 40px;">
-                <div class="input-group-append">
-                </div>
+              <div class="input-group flatpickr">
+                <input type="text" id="reservation-date" name="reservation-date" class="form-control border-2" required
+                  placeholder="Reservation Date" style="height: 40px;">
+                  <a class="input-button" title="toggle" data-toggle>
+        <i class="icon-calendar"></i>
+    </a>
               </div>
             </div>
 
@@ -507,10 +508,10 @@
 
           <div class="main-container-md">
             <div class="main">
-              <div class="big-circle">
+              <!-- <div class="big-circle">
               </div>
               <div class="circle">
-              </div>
+              </div> -->
               <div class="center-logo">
                 <img href="index.php" src="assets/img/chicken-grill.png" alt="logo">
               </div>

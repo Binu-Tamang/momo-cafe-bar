@@ -1,5 +1,13 @@
 /* Small Devices (Smartphones) */
 @media only screen and (max-width: 599px) {
+  .footer-box {
+    /* text-align: center; */
+    padding-left: 30px;
+}
+  .footer-h {
+    margin: 0;
+    margin-top: 30px;
+}
   /* Styles for small devices */
   .header-contact-detail span,
   .header-contact-detail span a {
@@ -35,7 +43,9 @@
   }
 
   .banner-fly-object img:nth-child(1) {
-    left: -4%;
+    left: 4%;
+    /* width: 30%; */
+    top: 5%;
   }
 
   .banner-fly-object img:nth-child(2) {
@@ -117,7 +127,7 @@
 /* ====circle animation==== */
   
 .center-logo img {
-  width: 240px;
+  width: 280px;
 }
 
 .circle {
@@ -151,12 +161,13 @@ section.welcome-part {
 }
 
 .move-mouse img:nth-child(1) {
-  top: 150px;
-  left: 30px;
+  top: 50%;
+  left: 25%;
 }
 
 .move-mouse img:nth-child(4) {
-  bottom: 200px;
+  bottom: 30%;
+  right: 30%;
 }
 /* ==================== */
   /* =============footer css starts here ============= */
@@ -175,10 +186,19 @@ section.banner-slider {
 
 .right-banner {
   padding-top: 3.5rem;
+  margin-top: 1.5rem;
 }
 
 /* Medium Devices (Tablets) */
 @media only screen and (min-width: 600px) and (max-width: 991px) {
+  .footer-box {
+    /* text-align: center; */
+    padding-left: 30px;
+}
+  .footer-h {
+    margin: 0;
+    margin-top: 30px;
+}
   /* Styles for medium devices */
   /* ===========menu css starts here ===================== */
   .nav-link.nav-tab-btn {

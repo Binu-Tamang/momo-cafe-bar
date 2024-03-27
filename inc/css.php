@@ -27,3 +27,4 @@
 <!-- <link media="all" rel="stylesheet" type="text/css" href="assets/css/style.css"> -->
 <link media="all" rel="stylesheet" type="text/css" href="assets/css/header.css">
 <link media="all" rel="stylesheet" type="text/css" href="assets/css/respo.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">

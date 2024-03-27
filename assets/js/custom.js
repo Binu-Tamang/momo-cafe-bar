@@ -127,9 +127,6 @@ function myFunction() {
       });
     }
 
-    //Spliting Js Active
-    Splitting();
-
     //Food Carousel
     const foodCarousel = document.querySelector(".food-carousel");
     const swiperOptions = {
@@ -196,3 +193,16 @@ function myFunction() {
   });
 })(jQuery);
 
+
+flatpickr('#reservation-date', {
+  minDate: "today"
+
+});
+
+
+flatpickr('#time', {
+  enableTime: true,
+    noCalendar: true,
+    dateFormat: "H:i",
+
+});

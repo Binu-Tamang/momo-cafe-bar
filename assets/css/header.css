@@ -825,7 +825,7 @@
 /* ==========header top css starts=============== */
 .header-top .container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding: 10px 0;
 }
 

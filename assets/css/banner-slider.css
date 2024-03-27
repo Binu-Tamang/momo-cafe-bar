@@ -12,6 +12,7 @@
 }
 body {
   font-family: var(--popin);
+  overflow-x: clip;
 }
 a {
   text-decoration: none;
@@ -65,7 +66,9 @@ p {
   margin: 0;
   padding: 20px 0;
 }
-
+section{
+  overflow-x: clip;
+}
 .col-xs-12.col-sm-6.col-md-6 {
   justify-content: center;
   align-items: center;
@@ -212,7 +215,7 @@ section.banner-slider {
 .banner-slider .owl-dots .owl-dot:nth-child(3) {
   background-image: url("../img/b-3.png");
 } */
- .owl-dot img{
+.owl-dot img {
   width: 100px;
   height: 100px;
   border-radius: 100%;
@@ -251,34 +254,35 @@ section.banner-slider {
   display: flex;
   align-items: center;
   height: 100%;
+  justify-content: center;
 }
 
 .move-mouse img:nth-child(1) {
   position: absolute;
-  top: 170px;
-  left: 0;
-  rotate: -75deg;
+  top: 30%;
+  left: 6%;
+  rotate: -70deg;
   width: 216px;
 }
 
 .move-mouse img:nth-child(2) {
   position: absolute;
-  top: 100px;
-  left: 150px;
+  top: 20%;
+  left: 35%;
 }
 
 .move-mouse img:nth-child(3) {
   position: absolute;
-  top: 170px;
-  right: 142px;
+  top: 25%;
+  right: 15%;
   rotate: 7deg;
 }
 
 .move-mouse img:nth-child(4) {
   position: absolute;
-  bottom: 170px;
-  right: 110px;
-  rotate: 128deg;
+  bottom: 20%;
+  right: 7%;
+  rotate: 135deg;
   width: 216px;
   /* z-index: 0; */
   transform: scalex(-1);
@@ -286,38 +290,39 @@ section.banner-slider {
 .banner-fly-object img:nth-child(1) {
   position: absolute;
   top: 0;
-  left: 100px;
+  left: 14%;
+  rotate: -30deg;
 }
 .banner-fly-object img:nth-child(2) {
   position: absolute;
   top: 0;
-  right: 150px;
+  right: 20%;
   rotate: 120deg;
 }
 .banner-fly-object img:nth-child(3) {
   position: absolute;
   bottom: 0;
-  left: 75px;
+  left: 6%;
 }
 .banner-fly-object img:nth-child(4) {
   position: absolute;
-  bottom: -70px;
-  right: -20px;
+  bottom: -18%;
+  right: -3%;
   width: 300px;
 }
 .banner-fly-object img:nth-child(5) {
   position: absolute;
-  bottom: -50px;
+  bottom: -5%;
   z-index: 1;
-  right: 31px;
-  width: 400px;
+  right: 5%;
+  width: 350px;
   rotate: -8deg;
 }
 #circlebanner {
   display: flex;
   margin-top: 30px;
 }
-#circlebanner button{
+#circlebanner button {
   width: 85px;
   border-radius: 100%;
   background: none;
@@ -591,9 +596,9 @@ section.food-menu {
 }
 .offer-banner img {
   position: absolute;
-  top: 270px;
-  width: 340px;
-  right: -30px;
+  top: 50%;
+  width: 300px;
+  right: -10%;
 }
 /*===================================*
    END MENU STYLE
@@ -612,27 +617,27 @@ section.food-menu {
 }
 .main {
   margin: 0px auto;
-  width: 480px;
-  height: 480px;
+  /* width: 480px; */
+  /* height: 480px; */
   position: relative;
   margin-top: 2rem;
 }
-.big-circle {
-  height: 90%;
-  width: 90%;
-  position: relative;
-  border: 3px solid #7e807e;
-  border-style: dashed;
+.center-logo::after,
+.center-logo::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 3px dotted #495057;
+  opacity: 0.2;
   border-radius: 50%;
-  display: flex;
-  display: -webkit-flex;
-  align-items: center;
-  -webkit-align-items: center;
-  justify-content: center;
-  -webkit-justify-content: center;
+  pointer-events: none;
   animation: Rotate 20s linear infinite;
   -webkit-animation: Rotate 20s linear infinite;
   z-index: -1;
+}
+
+.center-logo::after {
+  inset: 30px;
 }
 .icon-block {
   width: 55px;
@@ -708,14 +713,18 @@ section.food-menu {
 }
 /* center logo */
 .center-logo {
-  position: absolute;
-  top: 45%;
-  left: 45%;
-  transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
+  /* position: absolute; */
+  /* top: 45%; */
+  /* left: 45%; */
+  /* transform: translate(-50%, -50%); */
+  /* -webkit-transform: translate(-50%, -50%); */
 }
 .center-logo {
   border-radius: 100%;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  width: 100%;
 }
 .main img {
   padding: 4px;
@@ -968,7 +977,7 @@ a.email-footer {
 }
 .scan img {
   background: #fff;
-  width: 80px;
+  width: 100px;
   margin-top: 1.5rem;
 }
 ul.imp-link,
@@ -1091,4 +1100,9 @@ section.guest-review .mouse_move.objects img:nth-child(02) {
 #circlebanner button.active img {
   box-shadow: #e9831d 0px 7px 29px 0px;
   border-radius: 100%;
+}
+
+.two-btn a {
+  min-width: 200px;
+  max-width: 100%;
 }
