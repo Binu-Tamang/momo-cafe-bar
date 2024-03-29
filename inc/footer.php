@@ -71,7 +71,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="footer-down-copyr text-center">
-                        <p>Copyright © 2024, <span>The Momo Cafe Bar &amp;.</span>, all rights reserved </p>
+                        <p>Copyright © 2024, <span>The Momo Cafe Bar.</span>, all rights reserved </p>
                     </div>
                     <div class="footer-down-policy text-center">
                         <p>Designed &amp; Hosted By : <a href="#"><img src="assets/img/maple.jpg" alt="maple logo"></a>

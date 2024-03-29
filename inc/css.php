@@ -16,15 +16,14 @@
 <!-- light box cdn css -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css">
 
-<!-- Aos css -->
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-<!-- <link href="assets/css/animate.min.css" rel="stylesheet"> -->
+<!-- WOW js css -->
+<!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+<link href="assets/css/animate.min.css" rel="stylesheet">
 
 
 <!-- custom css -->
-<link media="all" rel="stylesheet" type="text/css" href="assets/css/banner-slider.css">
-
-<!-- <link media="all" rel="stylesheet" type="text/css" href="assets/css/style.css"> -->
+<!-- <link media="all" rel="stylesheet" type="text/css" href="assets/css/banner-slider.css"> -->
+<link media="all" rel="stylesheet" type="text/css" href="assets/css/style.css">
 <link media="all" rel="stylesheet" type="text/css" href="assets/css/header.css">
 <link media="all" rel="stylesheet" type="text/css" href="assets/css/respo.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">

@@ -11,7 +11,8 @@
   --secondcolor: #333533;
 }
 body {
-  font-family: var(--popin);
+  /* font-family: var(--popin); */
+  overflow-x: clip;
 }
 a {
   text-decoration: none;
@@ -46,6 +47,14 @@ h6 {
   font-weight: 700;
   /* font-family: "Poppins", sans-serif; */
 }
+option, ::placeholder, select{
+  color: #010f1c;
+}
+.cnct-form .form-control:focus {
+  border-color: none;
+  outline: 0;
+  box-shadow: none;
+}
 .web-tittle {
   font-weight: 600;
   font-family: "Quicksand", sans-serif;
@@ -65,7 +74,9 @@ p {
   margin: 0;
   padding: 20px 0;
 }
-
+section{
+  overflow-x: clip;
+}
 .col-xs-12.col-sm-6.col-md-6 {
   justify-content: center;
   align-items: center;
@@ -81,7 +92,9 @@ p {
   display: block;
 }
 
-/* ============button css============= */
+/* =============================
+button css
+=============================== */
 .default-btn,
 .yellow_btn {
   display: inline-block;
@@ -109,7 +122,6 @@ p {
 .default-btn:hover,
 .yellow_btn:hover {
   color: #fff;
-  /* border: 1px solid  transparent; */
 }
 .yellow_btn:hover {
   border: 1px solid var(--maincolor);
@@ -149,9 +161,253 @@ p {
 .yellow_btn span {
   background: var(--maincolor) none repeat scroll 0 0;
 }
-/* ============button css============= */
+/* ===========================
+button css
+============================= */
+.form-box-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.form-control,
+input,
+select#guests,
+textarea#message {
+  /* border-radius: 6px !important; */
+  border-color: none;
+  border: 0;
+}
+.input-group i {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #010f1c;
+}
+/* =========================
+banner css starts 
+============================= */
+section.banner-slider {
+  padding: 6rem 0;
+  position: relative;
+}
+.left-banner strong {
+  font-weight: 600;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 68px;
+  line-height: 1;
+  color: var(--secondcolor);
+}
 
-/* =============about us css starts ================= */
+.left-banner span {
+  color: var(--maincolor);
+}
+.banner-img-cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.banner-img-cover img {
+  max-width: 450px;
+  width: 100%;
+  /* box-shadow: #e9831d 0px 7px 29px 0px; */
+  border-radius: 100%;
+}
+.owl-dot img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  margin-right: 20px;
+}
+.banner-slider .owl-dots .owl-dot span {
+  display: none !important;
+}
+.right-banner {
+  position: relative;
+}
+
+.owl-carousel.owl-theme.banner-slider .owl-dots {
+  position: absolute;
+  left: -35rem;
+  bottom: 2rem;
+}
+/* ===========animation for the banner sliding============= */
+.banner-slider .owl-carousel .owl-item.active {
+  transform: rotate(-0.25turn);
+}
+.banner-slider .owl-carousel .owl-item {
+  transition: all 0.75s ease-in-out;
+}
+
+.banner-slider .owl-carousel .owl-item {
+  -webkit-transition: all 0.75s ease-in-out;
+  -moz-transition: all 0.75s ease-in-out;
+  -o-transition: all 0.75s ease-in-out;
+  transition: all 0.75s ease-in-out;
+}
+/* ===========animation for the banner sliding============= */
+
+.circle-animated-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+}
+
+.move-mouse img:nth-child(1) {
+  position: absolute;
+  top: 30%;
+  left: 6%;
+  rotate: -70deg;
+  width: 216px;
+}
+
+.move-mouse img:nth-child(2) {
+  position: absolute;
+  top: 20%;
+  left: 35%;
+}
+
+.move-mouse img:nth-child(3) {
+  position: absolute;
+  top: 25%;
+  right: 15%;
+  rotate: 7deg;
+}
+
+.move-mouse img:nth-child(4) {
+  position: absolute;
+  bottom: 20%;
+  right: 7%;
+  rotate: 135deg;
+  width: 216px;
+  /* z-index: 0; */
+  transform: scalex(-1);
+}
+.banner-fly-object img:nth-child(1) {
+  position: absolute;
+  top: 0;
+  left: 14%;
+  rotate: -30deg;
+}
+.banner-fly-object img:nth-child(2) {
+  position: absolute;
+  top: 0;
+  right: 20%;
+  rotate: 120deg;
+}
+.banner-fly-object img:nth-child(3) {
+  position: absolute;
+  bottom: 0;
+  left: 6%;
+}
+.banner-fly-object img:nth-child(4) {
+  position: absolute;
+  bottom: -18%;
+  right: -3%;
+  width: 300px;
+}
+.banner-fly-object img:nth-child(5) {
+  position: absolute;
+  bottom: -5%;
+  z-index: 1;
+  right: 5%;
+  width: 350px;
+  rotate: -8deg;
+}
+#circlebanner {
+  display: flex;
+  margin-top: 30px;
+}
+#circlebanner button {
+  width: 85px;
+  border-radius: 100%;
+  background: none;
+  border: none;
+  margin-right: 15px;
+}
+
+/* ===================================
+banner for dobjects fly
+====================================== */
+.mouse_move.objects img {
+  position: absolute;
+  width: 110px;
+  z-index: -4;
+}
+
+.mouse_move.objects img:nth-child(01) {
+  top: 0;
+  left: 40%;
+}
+
+.mouse_move.objects img:nth-child(02) {
+  bottom: 35%;
+  left: 0;
+}
+
+.mouse_move.objects img:nth-child(03) {
+  bottom: 0;
+  left: 15%;
+}
+
+.mouse_move.objects img:nth-child(04) {
+  bottom: 25%;
+  left: 40%;
+  rotate: -40deg;
+}
+/* /===============================
+banner slider css end 
+===================================*/
+
+/* =================================
+food box css starts
+==================================== */
+.mouse_move.second-objects img {
+  position: absolute;
+  /* width: 100px; */
+}
+
+.mouse_move.second-objects img:nth-child(01) {
+  top: 10%;
+  left: 0;
+}
+
+.mouse_move.second-objects img:nth-child(02) {
+  top: 10%;
+  right: 0;
+}
+.food-box-wrap {
+  text-align: center;
+  display: block;
+  padding: 20px;
+}
+
+.food-box-wrap strong {
+  display: block;
+  padding: 20px 0;
+  font-size: 20px;
+}
+
+section.food-box {
+  padding: 4rem 0;
+  background: #f9f9f9;
+  position: relative;
+}
+/* ================================
+food box css starts
+================================== */
+
+/* =================================
+about us css starts 
+===================================== */
 section.cafe-hrs {
   background-image: linear-gradient(#f8f9facf, #f8f9fabf),
     url(../img/demo-2.jpg);
@@ -247,7 +503,7 @@ section.banner_slider img {
 }
 
 .div-two i {
-  color: #e9831d;
+  color: var(--maincolor);
   margin-right: 10px;
 }
 
@@ -256,299 +512,457 @@ section.banner_slider img {
   font-size: 15px;
   letter-spacing: 1px;
 }
-/* =============about us css end ================= */
+/* ==================================
+about us css end 
+===================================== */
 
-/* ==============opening hours ================= */
-section.cafe-hrs {
-  padding: 5rem 0;
-  text-align: center;
+/*===================================*
+   START MENU STYLE
+*===================================*/
+section.food-menu {
+  padding: 6rem 0;
+  position: relative;
 }
-
-ul.opening_time li {
-  list-style: none;
-  padding: 20px 0 5px 0;
-  border-bottom: 2px solid #7e807e;
+.menu-list-details button {
+  background: transparent;
+  border: none;
+  color: var(--maincolor);
+}
+.menu-list img {
+  width: 75px;
+  height: 75px;
+  border-radius: 100%;
+  object-fit: cover;
+  min-width: 75px;
+  border: 1px solid var(--maincolor);
+  /* padding: 2px; */
+}
+.menu-list {
+  display: flex;
+  padding-top: 28px;
+}
+.menu-list-details strong {
+  font-size: 20px;
+}
+.menu-list-details p {
+  padding: 10px 0;
+}
+.menu-list-details {
+  margin-left: 20px;
+}
+.food-review i,
+.food-review strong {
+  color: var(--maincolor);
+}
+/* .food-review {
   display: flex;
   justify-content: space-between;
-  letter-spacing: 1px;
-}
+} */
 
-ul.opening_time span {
-  font-size: 24px;
-  font-weight: 600;
-  color: #585958;
-}
-
-ul.opening_time {
-  padding: 0 18rem;
-}
-/* ==============opening hours ================= */
-
-/* =======reservation form css starts========== */
-.bg-up img {
-  width: 100%;
-}
-.bg-up.u-bg img {
-  margin-top: -17rem;
-}
-.bg-up.d-bg img {
-  margin-bottom: -17rem;
-  position: relative;
-  z-index: 6;
-}
-.moveable.bckg-up img {
-  width: 240px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  opacity: 1;
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
-}
-.moveable.bckg-dwn img {
-  width: 240px;
-  position: absolute;
-  top: 0;
-  right: 0;
-  opacity: 1;
-}
-section.reserv_wrapper {
-  padding: 4rem 0 4rem 0;
-  background: #333533;
-  position: relative;
-}
-.form-control:focus {
-  color: var(--bs-body-color);
-  background-color: var(--bs-body-bg);
-  border-color: #e9831d;
-  outline: 0;
-  box-shadow: 0 0 0 0.25rem rgb(233 131 29 / 23%);
-}
-.custom-select {
-  position: relative;
-}
-
-.custom-select select {
-  padding-right: 30px;
-  /* width: 100%; */
-}
-
-.custom-select i {
-  position: absolute;
-  top: 50%;
-  right: 10px;
-  transform: translateY(-50%);
-}
-/* Style for the input group */
-.input-group {
-  position: relative;
-}
-
-/* Style for the icon inside the input group */
-.input-group i {
-  position: absolute;
-  top: 50%;
-  right: 10px;
-  transform: translateY(-50%);
-  font-size: 16px;
+.food-review span {
   color: #7e807e;
 }
-
-/* Style for the custom-select */
-.custom-select {
-  position: relative;
+.nav.nav-tab-btn-wrap {
+  justify-content: center;
+  margin-top: 2rem;
 }
 
-/* Style for the icon inside the custom-select */
-.custom-select i {
-  position: absolute;
-  top: 50%;
-  right: 10px;
-  transform: translateY(-50%);
-  font-size: 16px; /* Adjust the font size of the icon */
-  color: #555; /* Adjust the color of the icon */
+.nav-link.nav-tab-btn.active {
+  background: var(--maincolor);
+  border: 2px solid;
 }
-.form-control,
-input,
-select#guests,
-textarea#message {
-  border-radius: 6px !important;
-  background: var(--secondcolor);
-  color: #7e807e !important;
-}
-form#contactForm {
-  padding: 1rem 0;
-}
-.reserv_img img {
-  width: 100%;
-  height: 100%;
-  border-radius: 80px 0 80px 0;
-}
-.reserv_form {
-  padding: 0 20px;
-}
-.reserv_img {
-  width: 100%;
-  height: 600px;
-  padding-right: 60px;
-}
-/* =======reservation form css end========== */
 
-/* ===========food video css starts =============== */
-section.food_video {
-  text-align: center;
-  position: relative;
+.nav-link.nav-tab-btn {
+  font-size: 16px;
+  color: #9e9e9e;
+  padding: 10px 25px;
+  border-radius: 0;
+  border: 2px solid;
+  margin: 0 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
-input::placeholder {
-  color: #7e807e !important;
-}
-section.food_video img {
+.food-menu-offer-img img {
   width: 100%;
   object-fit: cover;
+  max-width: 400px;
 }
 
-/* ===========circular animation============= */
-.item_btn {
-  min-height: 76px;
-  height: auto;
+.food-menu-offer-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.food-offer-wrap {
+  position: relative;
+  height: 100%;
+}
+
+.food-bg-cap img {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 200px;
+}
+.cap-down img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  -webkit-transform: scaleY(-1);
+  transform: scaleY(-1);
+  width: 200px;
+}
+.offer-banner img {
   position: absolute;
   top: 50%;
+  width: 300px;
+  right: -10%;
+}
+/*===================================*
+   END MENU STYLE
+*===================================*/
+
+/* ==================================
+circular animated css
+===================================== */
+/******* Common Element CSS Start ******/
+.main-container {
+  min-height: 55vh;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -webkit-align-items: center;
+  height: 440px;
+  /* overflow: hidden; */
+}
+.main {
+  margin: 0px auto;
+  /* width: 480px; */
+  /* height: 480px; */
+  position: relative;
+  margin-top: 2rem;
+}
+.center-logo::after,
+.center-logo::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 3px dotted #495057;
+  opacity: 0.2;
+  border-radius: 50%;
+  pointer-events: none;
+  animation: Rotate 20s linear infinite;
+  -webkit-animation: Rotate 20s linear infinite;
+  z-index: -1;
+}
+
+.center-logo::after {
+  inset: 30px;
+}
+.icon-block {
+  width: 55px;
+  height: 55px;
+  position: absolute;
+  border-radius: 50%;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -webkit-align-items: center;
+  justify-content: center;
+  -webkit-justify-content: center;
+  background-image: linear-gradient(180deg, #fefefe 0%, #fefefe 100%);
+  -webkit-background-image: linear-gradient(180deg, #fefefe 0%, #fefefe 100%);
+  box-shadow: 0 2px 4px 0 #d9ded8;
+  -webkit-box-shadow: 0 2px 4px 0 #d9ded8;
+  padding: 4px;
+  transition: 0.3s ease;
+}
+.icon-block i {
+  font-size: 22px;
+  color: #054d72;
+}
+.icon-block img {
+  margin: 0px auto;
+  width: 86%;
+  animation: Rotate-reverse 20s linear infinite;
+  -webkit-animation: Rotate-reverse 20s linear infinite;
+}
+.icon-block:first-child {
+  top: 0;
   left: 50%;
-  /* background: #fff; */
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+.icon-block:nth-child(2) {
+  top: 50%;
+  right: 0;
+  transform: translate(50%, -50%);
+  -webkit-transform: translate(50%, -50%);
+}
+.icon-block:nth-child(3) {
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  -webkit-transform: translate(-50%, 50%);
+}
+.icon-block:nth-child(4) {
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+/* circle content */
+.circle {
+  animation: circle-rotate 20s linear infinite;
+  -webkit-animation: circle-rotate 20s linear infinite;
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  -webkit-transform: translate(-50%, -50%) rotate(45deg);
+  width: 80%;
+  height: 80%;
+  border: 3px solid #7e807e;
+  border-style: dashed;
+  border-radius: 50%;
+  z-index: -1;
+}
+.circle .icon-block img {
+  animation: img-rotate 20s linear infinite;
+  -webkit-animation: img-rotate 20s linear infinite;
+}
+/* ============================
+center logo
+============================= */
+.center-logo {
   border-radius: 100%;
-  /* padding: 10px; */
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  width: 100%;
 }
-.btn_play {
-  position: relative;
-  display: inline-block;
+.main img {
+  padding: 4px;
 }
-.btn_play span {
-  width: 100px;
-  height: 100px;
-  display: inline-block;
-  position: relative;
-  background: #fff;
-  border-radius: 100%;
+.center-logo img {
+  padding: 2px;
 }
-@keyframes rotating {
+.icon-block:hover {
+  height: 65px;
+  width: 65px;
+}
+/* ===========================
+keyframe animation
+============================= */
+@keyframes Rotate {
   from {
-    -ms-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
     transform: rotate(0deg);
   }
   to {
-    -ms-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -webkit-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
     transform: rotate(360deg);
   }
 }
-.btn_play span::before {
-  content: "";
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  background: url(../img/circular_text.svg) no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 100%;
-  -webkit-animation: rotating 5s linear infinite;
-  -moz-animation: rotating 5s linear infinite;
-  -ms-animation: rotating 5s linear infinite;
-  -o-animation: rotating 5s linear infinite;
-  animation: rotating 5s linear infinite;
-}
-.btn_play span::after {
-  content: "";
-  position: absolute;
-  left: 53%;
-  top: 50%;
-  background: url(../img/icon_play.svg) no-repeat;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 18px;
-  height: 24px;
-  transform: translate(-50%, -50%);
-}
-.item.pro-wrap p {
-  color: #7b7b7b;
+
+@-webkit-keyframes Rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
 }
 
-.item.pro-wrap strong {
-  color: #e9831d;
-  font-size: 22px;
+@keyframes Rotate-reverse {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
 }
-/* ============testimonials css starts ========== */
 
-.testimonial-box-wrap {
-  margin: 2rem 0;
+@-webkit-keyframes Rotate-reverse {
+  from {
+    -webkit-transform: rotate(360deg);
+  }
+  to {
+    -webkit-transform: rotate(0deg);
+  }
 }
 
-.testimonial-boxes {
+@keyframes circle-rotate {
+  from {
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(405deg);
+  }
+}
+
+@-webkit-keyframes circle-rotate {
+  from {
+    -webkit-transform: translate(-50%, -50%) rotate(45deg);
+  }
+  to {
+    -webkit-transform: translate(-50%, -50%) rotate(405deg);
+  }
+}
+
+@keyframes img-rotate {
+  from {
+    transform: rotate(-45deg);
+  }
+  to {
+    transform: rotate(-405deg);
+  }
+}
+
+@-webkit-keyframes img-rotate {
+  from {
+    -webkit-transform: rotate(-45deg);
+  }
+  to {
+    -webkit-transform: rotate(-405deg);
+  }
+}
+.center-logo img {
+  width: 500px;
+  max-width: 500px;
+}
+
+/* ====================================
+book a table css starts
+====================================== */
+section.book-table {
+  background: var(--secondcolor);
+  padding: 3rem 0;
+}
+section.book-table p {
+  color: #f9f9f9;
+}
+.input-group-text {
+  background: #fff;
+}
+input#date, input#time {
+  border-radius: 6px;
+}
+/* ====================================
+review section css starts
+======================================= */
+section.guest-review {
+  padding: 4rem 0;
   position: relative;
-  width: 100%;
-  padding: 2rem;
-  box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.1);
-  text-align: left;
-  border: 1px solid #ffffff;
-  transition: 0.3s ease;
-  margin: 2rem 0;
 }
-.testimonial-boxes:hover {
-  border: 1px solid #7c6927;
-  transform: translate(0, -2ex);
-  /* box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.1); */
+.quotation img {
+  width: 50px !important;
+  height: 50px;
+  object-fit: contain;
+  background: var(--maincolor);
+  border-radius: 100%;
+  padding: 13px;
+  position: absolute;
+  top: -8%;
+  z-index: 11;
+  right: 8%;
 }
-
-.owl-theme .owl-dots .owl-dot.active span,
-.owl-theme .owl-dots .owl-dot:hover span {
-  background: #e9831d;
-}
-.img-peofile {
-  width: 100%;
+.banner-review-carousel button.owl-prev span,
+.banner-review-carousel button.owl-next span {
+  background: var(--maincolor);
+  padding: 5px 15px;
+  border-radius: 100%;
+  color: #fff;
+  font-size: 20px;
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+.user-profile img {
+  width: 100px;
+  max-width: 75px;
 }
 
-.pro-wrap {
-  background: #fff;
-  padding: 4rem 1.5rem;
-  margin-top: 4rem;
+.user-profile {
+  display: flex;
 }
 
-.img-peofile img {
-  width: 65px !important;
-  margin-top: -8rem;
-  object-fit: contain;
+.user-name strong {
+  display: flex;
+  margin-left: 20px;
+  align-items: center;
+  color: var(--maincolor);
+  margin-top: 1.5rem;
 }
-.f-box img {
-  width: 220px;
-  margin-left: 10px;
+.review-box-wrap {
+  padding: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  /* border: 1px solid; */
+  border-radius: 20px;
+  margin: 10px;
+  /* margin-left: 0; */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-bottom: 30px;
+  position: relative;
+  margin-right: 3rem;
+  margin-top: 3rem;
 }
-img.socisl-img-1 {
-  width: 160px;
+.banner-review-carousel .owl-nav {
+  position: absolute;
+  top: -4rem;
 }
 
-img.socisl-img-2 {
-  width: 250px;
-  margin-left: 30px;
+.owl-carousel.owl-theme.banner-review-carousel.owl-loaded.owl-drag {
+  margin-top: 5rem;
+}
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  background: transparent;
+  color: #fff;
+  text-decoration: none;
+}
+.social-platform img {
+  width: 135px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+.social-platform img:nth-child(2) {
+  width: 170px;
 }
 
-.review-platform {
-  padding-top: 4rem;
-}
-img.socisl-img-3 {
-  width: 180px;
+.social-platform img:nth-child(1) {
+  width: 100px;
 }
 
-/* ======================reservation form css starts ======================== */
+.social-platform img:nth-child(3) {
+  margin-left: -10px;
+}
+/* ===============================
+top to button scroll css starts
+=================================== */
+#scrollToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  background-color: var(--maincolor);
+  color: white;
+  border: none;
+  border-radius: 100%;
+  padding: 12px 20px;
+  cursor: pointer;
+}
 
-/* =============footer css starts ================== */
+#scrollToTopBtn:hover {
+  background-color: var(--maincolor);
+}
+
+/* =============================
+footer css starts 
+================================ */
 footer.main-footer {
-  background: #333533;
+  background: var(--secondcolor);
   padding-top: 1rem;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -577,8 +991,9 @@ ul.footer-contact li a {
   text-decoration: none;
   display: flex;
   align-items: center;
-  letter-spacing: 1px;
+  /* letter-spacing: 1px; */
   transition: 0.2s all ease;
+  font-size: 16px;
 }
 
 ul.imp-link li,
@@ -594,6 +1009,7 @@ ul.footer-contact li i {
 ul.footer-contact li {
   display: flex;
   padding: 6px 0;
+  word-break: break-all;
 }
 a.email-footer {
   text-decoration: underline !important;
@@ -606,7 +1022,7 @@ a.email-footer {
 }
 .scan img {
   background: #fff;
-  width: 80px;
+  width: 100px;
   margin-top: 1.5rem;
 }
 ul.imp-link,
@@ -652,33 +1068,6 @@ ul.footer-contact li p a {
 ul.footer-contact li strong {
   font-size: 16px;
   letter-spacing: 1px;
-}
-
-.footer-newletter input[type="text"] {
-  padding: 6px;
-  border: none;
-  margin-bottom: 10px;
-}
-
-.footer-newletter {
-  margin-top: 10px;
-}
-
-.news-btn input {
-  padding: 8px 56px;
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: 600;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  transition: 0.2s all ease;
-  color: #fff;
-  background: #4d9784;
-  border: 1px solid #4d9784;
-}
-
-.news-btn input:hover {
-  background: transparent;
 }
 
 ul.imp-link li i {
@@ -732,106 +1121,36 @@ ul.time-ul p {
   padding: 0;
 }
 
-/*===================================*
-   START MENU STYLE
-*===================================*/
-section.food-menu {
-  padding: 6rem 0;
+/* ==========================================
+about parallax mouse moving effects css starts 
+============================================= */
+section.food-menu .mouse_move.objects img:nth-child(01) {
+  top: 10%;
+  left: 10%;
 }
-.menu-list-details button {
-  background: transparent;
-  border: none;
-  color: #e9831d;
+
+section.guest-review .mouse_move.objects img:nth-child(01) {
+  top: 10%;
+  left: 20%;
 }
-.menu-list img {
-  width: 75px;
-  height: 75px;
+
+section.guest-review .mouse_move.objects img:nth-child(02) {
+  z-index: -9;
+  bottom: 0;
+  right: 10%;
+}
+#circlebanner button.active {
+  border: 2px solid var(--maincolor);
+  /* padding: 4px; */
+}
+
+#circlebanner button.active img {
+  box-shadow: #e9831d 0px 7px 29px 0px;
   border-radius: 100%;
 }
-.menu-list {
-  display: flex;
-  padding-top: 28px;
-}
-.menu-list-details strong {
-  font-size: 20px;
-}
-.menu-list-details p {
-  padding: 10px 0;
-}
-.menu-list-details {
-  margin-left: 20px;
-}
-.food-review i,
-.food-review strong {
-  color: #e9831d;
-}
-/* .food-review {
-  display: flex;
-  justify-content: space-between;
-} */
 
-.food-review span {
-  color: #7e807e;
+.two-btn a {
+  min-width: 200px;
+  max-width: 100%;
 }
-.nav.nav-tab-btn-wrap {
-  justify-content: center;
-  margin-top: 2rem;
-}
-
-.nav-link.nav-tab-btn.active {
-  background: #e9831d;
-  border: 2px solid;
-}
-
-.nav-link.nav-tab-btn {
-  font-size: 16px;
-  color: #9e9e9e;
-  padding: 10px 25px;
-  border-radius: 0;
-  border: 2px solid;
-  margin: 0 5px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-.food-menu-offer-img img {
-  width: 100%;
-  object-fit: cover;
-}
-
-.food-menu-offer-img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-}
-.food-offer-wrap {
-  position: relative;
-  height: 100%;
-}
-
-.food-bg-cap img {
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  width: 200px;
-}
-.cap-down img {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  z-index: -1;
-  -webkit-transform: scaleY(-1);
-  transform: scaleY(-1);
-  width: 200px;
-}
-.offer-banner img {
-  position: absolute;
-  top: 270px;
-  width: 340px;
-  right: -30px;
-}
-/*===================================*
-   END MENU STYLE
-*===================================*/
 

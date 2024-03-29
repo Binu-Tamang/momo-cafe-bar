@@ -1,5 +1,47 @@
 /* Small Devices (Smartphones) */
 @media only screen and (max-width: 599px) {
+  .food-bg-cap img {
+    width: 150px;
+    top: 15%;
+    rotate: -40deg;
+}
+
+.cap-down img {
+    width: 150px;
+    bottom: 9%;
+    right: 6%;
+    rotate: 135deg;
+}
+
+.move-mouse img:nth-child(2) {
+    top: 8%;
+    width: 55px;
+}
+
+.move-mouse img:nth-child(3) {
+    width: 50px;
+}
+  .web-tittle {
+    font-size: 35px;
+    margin: 0;
+}
+
+.small-heading {
+    font-size: 12px;
+    padding: 10px 0;
+}
+
+p {
+    padding: 10px 0;
+    /* line-height: 1.3; */
+}
+  section.book-table{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .header-top .container {
+    justify-content: space-evenly;
+}
   .footer-box {
     /* text-align: center; */
     padding-left: 30px;
@@ -9,6 +51,11 @@
     margin-top: 30px;
 }
   /* Styles for small devices */
+  
+.right-banner {
+  padding: 3.5rem 0;
+  margin-top: 1.5rem;
+}
   .header-contact-detail span,
   .header-contact-detail span a {
     font-size: 12px;
@@ -44,8 +91,8 @@
 
   .banner-fly-object img:nth-child(1) {
     left: 4%;
-    /* width: 30%; */
-    top: 5%;
+    width: 45%;
+    top: 15%;
   }
 
   .banner-fly-object img:nth-child(2) {
@@ -57,13 +104,14 @@
   }
 
   .banner-fly-object img:nth-child(4) {
-    right: -10%;
-    width: 75%;
+    right: 0%;
+    width: 65%;
   }
 
   .banner-fly-object img:nth-child(5) {
-    right: 5%;
-    width: 75%;
+    right: 0%;
+    width: 65%;
+    bottom: 10%;
   }
   .header-logo img {
     max-width: 100px;
@@ -161,13 +209,13 @@ section.welcome-part {
 }
 
 .move-mouse img:nth-child(1) {
-  top: 50%;
-  left: 25%;
+  /* top: 50%; */
+  left: 14%;
 }
 
 .move-mouse img:nth-child(4) {
-  bottom: 30%;
-  right: 30%;
+  bottom: 18%;
+  right: 18%;
 }
 /* ==================== */
   /* =============footer css starts here ============= */
@@ -184,13 +232,54 @@ section.banner-slider {
   padding: 3rem 0;
 }
 
-.right-banner {
-  padding-top: 3.5rem;
-  margin-top: 1.5rem;
-}
-
 /* Medium Devices (Tablets) */
 @media only screen and (min-width: 600px) and (max-width: 991px) {
+  .food-bg-cap img {
+    width: 150px;
+    top: 15%;
+    rotate: -40deg;
+}
+
+.cap-down img {
+    width: 150px;
+    bottom: 9%;
+    right: 6%;
+    rotate: 135deg;
+}
+
+.move-mouse img:nth-child(2) {
+    top: 8%;
+    width: 55px;
+}
+
+.move-mouse img:nth-child(3) {
+    width: 50px;
+}
+.right-banner {
+  padding: 3.5rem 0;
+  margin-top: 1.5rem;
+}
+  .web-tittle {
+    font-size: 35px;
+    margin: 0;
+}
+
+.small-heading {
+    font-size: 12px;
+    padding: 10px 0;
+}
+
+p {
+    padding: 10px 0;
+    /* line-height: 1.3; */
+}
+  section.book-table{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .header-top .container {
+    justify-content: space-evenly;
+}
   .footer-box {
     /* text-align: center; */
     padding-left: 30px;
@@ -224,4 +313,9 @@ section.banner-slider {
   }
 }
 
-/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+
+/* Adjust width of time input field */
+.time-input {
+  width: 100%;
+}

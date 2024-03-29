@@ -1,45 +1,30 @@
-var $ = jQuery;
-// testimonial owl slider reviews
-$(document).ready(function () {
-  $(".owl-carousel.testimonial-owl").owlCarousel({
-    loop: true,
-    autoplay: true,
-    items: 1,
-    margin: 20,
-    stagePadding: 5,
-    nav: false,
-    center: false,
-    responsive: {
-      0: {
-        items: 1,
-      },
-      800: {
-        items: 3,
-      },
-    },
-  });
-});
+// =========================
+// wow JS
+// =========================
+new WOW().init();
 
-// =========Read more and Read less option
-function myFunction() {
-  var dots = document.getElementById("dots");
-  var moreText = document.getElementById("more");
-  var btnText = document.getElementById("myBtn");
+var $ = jQuery;
+// ==========================
+// Read more and Read less option
+// ==========================
+function myFunction(btn) {
+  var parentDetails = btn.parentNode;
+  var dots = parentDetails.querySelector(".dots");
+  var moreText = parentDetails.querySelector(".more");
 
   if (dots.style.display === "none") {
     dots.style.display = "inline";
-    btnText.innerHTML = "Read more";
     moreText.style.display = "none";
+    btn.innerHTML = "Read more";
   } else {
     dots.style.display = "none";
-    btnText.innerHTML = "Read less";
     moreText.style.display = "inline";
+    btn.innerHTML = "Read less";
   }
 }
 
-
-
-// ============navbar sticky
+// ========================
+// navbar sticky
 // ========================
 (function ($) {
   "use strict";
@@ -193,16 +178,143 @@ function myFunction() {
   });
 })(jQuery);
 
-
-flatpickr('#reservation-date', {
-  minDate: "today"
-
+// ===============================
+// Initialize Flatpickr for date
+// ===============================
+flatpickr("#date", {
+  dateFormat: "Y-m-d", // Date format
+  disableMobile: "true",
 });
 
+// ===============================
+// Initialize Flatpickr for time
+// ==============================
+flatpickr("#time", {
+  enableTime: true, // Enable time picker
+  noCalendar: true, // Hide calendar
+  dateFormat: "H:i", // Time format
+  time_24hr: true, // Use 24-hour format
+  disableMobile: "true",
+});
 
-flatpickr('#time', {
-  enableTime: true,
-    noCalendar: true,
-    dateFormat: "H:i",
+// ================================
+// this is for banner-slider
+// ================================
+$(document).ready(function () {
+  $(".owl-carousel.banner-slider").owlCarousel({
+    loop: true, // Enable loop
+    margin: 20, // Margin between items
+    nav: false, // Disable navigation buttons
+    dots: true, // Enable dots navigation
+    autoplayTimeout: 5000,
+    navSpeed: 4000,
+    smartSpeed: 750,
+    dotsContainer: '#circlebanner',
+    dotsData: true,
+    autoplay: true, // Enable autoplay
+    responsive: {
+      // Responsive breakpoints
+      0: {
+        items: 1, 
+      },
+      768: {
+        items: 1, 
+      },
+      992: {
+        items: 1, 
+      },
+    },
+  });
+  $('#circlebanner .owl-dot').each(function() {
+    var $this = $(this);
+    $this.replaceWith(function() {
+        return $('<button>').append($this.contents());
+    });
+  });
+});
 
+// ============================================
+// this is review or testimonial 
+// ============================================
+$(".owl-carousel.banner-review-carousel").owlCarousel({
+  loop: true, // Enable loop
+  margin: 20, // Margin between items
+  nav: true, // Disable navigation buttons
+  dots: false, // Enable dots navigation
+  autoplay: true, // Enable autoplay
+  autoplayTimeout: 6000, // Autoplay interval in milliseconds
+  responsive: {
+    // Responsive breakpoints
+    0: {
+      items: 1, 
+    },
+    768: {
+      items: 1, 
+    },
+    992: {
+      items: 1, 
+    },
+  },
+});
+
+// ===============================================
+// Scroll top to bottom js starts
+// ===============================================
+// Show the button when the user scrolls down 20px from the top of the document
+window.onscroll = function () {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("scrollToTopBtn").style.display = "block";
+  } else {
+    document.getElementById("scrollToTopBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+document
+  .getElementById("scrollToTopBtn")
+  .addEventListener("click", function () {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  });
+
+
+// ========================================
+// mouse move parallax effect js
+// ========================================
+// Add event listener for desktop views
+document.addEventListener("mousemove", parallax);
+
+// Add event listener for mobile views to disable parallax effect
+window.addEventListener("resize", function() {
+    if (window.innerWidth <= 768) { // Adjust the threshold as needed
+        document.removeEventListener("mousemove", parallax);
+    } else {
+        document.addEventListener("mousemove", parallax);
+    }
+});
+
+function parallax(event) {
+    // Your parallax effect code here
+    this.querySelectorAll(".mouse").forEach((shift) => {
+        const position = shift.getAttribute("value");
+        const x = (window.innerWidth - event.pageX * position) / 90;
+        const y = (window.innerHeight - event.pageY * position) / 90;
+
+        shift.style.transform = `translateX(${x}px) translateY(${y}px)`;
+    });
+}
+
+
+// ===========================
+// lazy loading and optimize images in banner slider of owl carasoul
+// ===========================
+document.addEventListener('DOMContentLoaded', function() {
+  var lazyLoadInstance = new LazyLoad({
+      elements_selector: ".item img",
+      // Configuration options for lazy loading
+  });
 });
