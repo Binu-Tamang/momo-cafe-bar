@@ -22,10 +22,10 @@
         </div><!-- /.header-logo -->
         <div class="header-menu-wrap" style="display: none;">
           <ul class="slider-menu">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="about-us.php">About Us</a></li>
             <li><a href="#">Menu</a></li>
-            <li><a href="#">Gallery</a></li>
+            <li><a href="gallery.php">Gallery</a></li>
             <li><a href="#">Contact Us</a></li>
           </ul>
         </div><!-- /.header-menu-wrap -->

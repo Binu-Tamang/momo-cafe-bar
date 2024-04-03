@@ -1153,4 +1153,704 @@ section.guest-review .mouse_move.objects img:nth-child(02) {
   min-width: 200px;
   max-width: 100%;
 }
+/* ==========================================
+about parallax mouse moving effects css starts 
+============================================= */
 
+/* =====================================
+Page Loader css starts 
+======================================== */
+/* Styles for Loader */
+/* 20. preloader */
+.preloader {
+  background-color: #f7f7f7;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999999;
+  -webkit-transition: .6s;
+  -o-transition: .6s;
+  transition: .6s;
+  margin: 0 auto;
+}
+
+.preloader .preloader-circle {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  border-style: solid;
+  border-width: 1px;
+  /* border-top-color:$theme-color; */
+  border-top-color: var(--maincolor);
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  z-index: 10;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 1px 5px 0 rgba(35, 181, 185, 0.15);
+  box-shadow: 0 1px 5px 0 rgba(35, 181, 185, 0.15);
+  background-color: #fff;
+  -webkit-animation: zoom 2000ms infinite ease;
+  animation: zoom 2000ms infinite ease;
+  -webkit-transition: .6s;
+  -o-transition: .6s;
+  transition: .6s;
+}
+
+.preloader .preloader-circle2 {
+  border-top-color: #0078ff;
+}
+
+.preloader .preloader-img {
+  position: absolute;
+  top: 50%;
+  z-index: 200;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  text-align: center;
+  display: inline-block;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  padding-top: 6px;
+  -webkit-transition: .6s;
+  -o-transition: .6s;
+  transition: .6s;
+}
+
+.preloader .preloader-img img {
+  max-width: 55px;
+}
+
+.preloader .pere-text strong{
+  font-weight: 800;
+  color: #dca73a;
+  text-transform: uppercase;
+}
+
+@-webkit-keyframes zoom {
+  0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+      -webkit-transition: .6s;
+      -o-transition: .6s;
+      transition: .6s;
+  }
+
+  100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+      -webkit-transition: .6s;
+      -o-transition: .6s;
+      transition: .6s;
+  }
+}
+
+@keyframes zoom {
+  0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+      -webkit-transition: .6s;
+      -o-transition: .6s;
+      transition: .6s;
+  }
+
+  100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+      -webkit-transition: .6s;
+      -o-transition: .6s;
+      transition: .6s;
+  }
+}
+
+/* =====================================
+Page Loader css starts 
+======================================== */
+
+/* ====================================
+web banner  breadcrumb
+======================================= */
+.page-header {
+  background: linear-gradient(#ffffff66, #ffffff66), url(../img/food-video.png);
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  z-index: -7;
+  position: relative;
+}
+ol.breadcrumb.justify-content-center.text-uppercase a {
+  color: var(--maincolor);
+  text-decoration: none;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  font-size: 18px;
+  margin: 0;
+}
+.web-banner-wrapper {
+  padding: 6rem;
+  /* background: #ffffff94; */
+  /* margin: 0 5rem; */
+  /* backdrop-filter: blur(5px); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+strong.typing-text.headlight-h {
+  font-family: "Alex Brush", cursive;
+  color: #fff;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  color: var(--maincolor);
+}
+li.breadcrumb-item a {
+  color: var(--maincolor);
+  font-weight: 600;
+}
+.breadcrumb_wrap {
+  display: flex;
+  align-items: center;
+  background: transparent;
+  position: relative;
+  z-index: 30;
+}
+.web-banner-wrapper strong {
+  color: var(--maincolor);
+  font-size: 30px;
+}
+/* ====================================
+web banner css breadcrumb
+======================================= */
+
+/* ====================================
+ABOUT US CSS STARTS
+======================================= */
+.bg-shape.grey {
+  background-image: url(../img/shape-banner.png);
+  position: absolute;
+  top: -14px;
+  z-index: 18;
+  width: 100%;
+  height: 100%;
+  background-repeat: repeat-x;
+  /* background-position: bottom center; */
+}
+.wrapper-breadcrumb {
+  position: relative;
+  background: #faf7f2;
+}
+
+/* ====================================
+ABOUT US CSS STARTS
+======================================= */
+section.about-page {
+  background: #faf7f2;
+  position: relative;
+  padding: 2rem 0;
+}
+.philosophy p {
+  text-align: center;
+}
+
+
+.separator{
+  position:relative;
+  width: 100%;
+  margin-top:16px !important;
+}
+
+.separator:before{
+  position:absolute;
+  content:'';
+  left: 51%;
+  top:0px;
+  width: 20px;
+  height: 2px;
+  background-color:var(--maincolor);
+}
+
+.separator:after{
+  position:absolute;
+  content:'';
+  right: 51%;
+  top:0px;
+  width: 20px;
+  height:2px;
+  background-color:var(--maincolor);
+}
+
+.separator span{
+  position:absolute;
+  left:50%;
+  top:-2px;
+  width:10px;
+  height:5px;
+  margin-left:-5px;
+  display:inline-block;
+  background-color: #09b724;
+}
+
+/* ==============================
+OUR TEAN
+================================= */
+section.our-team {
+  padding: 2rem 0;
+}
+.title{
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--maincolor);
+  margin: 10px 0;
+  position: relative;
+}
+
+.title::after{
+  content: "";
+  position: absolute;
+  width: 20%; height: 2px;
+  background-image: linear-gradient(to left, transparent 5%, var(--maincolor));
+  bottom: -10px; left: 50%;
+  transform: translate(-50%);
+}
+
+.team-row{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 40px 0;
+}
+
+.member{
+  flex: 1 1 250px;
+  margin: 20px;
+  text-align: center;
+  padding: 20px 10px;
+  cursor: pointer;
+  max-width: 300px;
+  transition: all 0.3s;
+}
+
+.member:hover{
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  transform: translateY(-20px);
+}
+
+.member img{
+  display: block;
+  width: 150px; height: 150px;
+  object-fit: cover;
+  border:4px solid var(--maincolor);
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.member strong{
+  text-transform: uppercase;
+  font-size: 24px;
+  color: var(--maincolor);
+  margin: 15px 0;
+}
+
+.member p{
+  font-size: 15px;
+  color: #838383;
+  line-height: 1.6;
+}
+.team-card-social {
+  display: flex;
+  justify-content: center;
+}
+
+.team-card-social-link {
+  margin: 0 5px;
+  font-size: 20px;
+  color: #000; 
+  transition: color 0.3s ease;
+}
+
+.team-card-social-link:hover {
+  color: var(--maincolor); 
+}
+
+/* ============counter css starts================ */
+.counter-box span {
+  font-size: 40px;
+  color: var(--maincolor);
+  font-weight: 700;
+  padding: 1rem 0;
+  display: block;
+  letter-spacing: 1px;
+}
+
+.counter-box strong {
+  color: var(--secondcolor);
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 1px;
+}
+.counter-box {
+  text-align: center;
+}
+/* ============counter css ends================ */
+
+/* ==========================video play css animation==================== */
+.add-video {
+  position: relative;
+  background: url(../img/banner_main.jpg);
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  /* z-index: -7; */
+  height: 300px;
+}
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.video-main {
+  position: relative;
+}
+
+.video {
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 100%;
+  background: #fff;
+  color: #222;
+  z-index: 999;
+  display: block;
+}
+
+@keyframes waves {
+  0% {
+    transform: scale(0.2);
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.9;
+  }
+  100% {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+}
+
+.fa-play:before {
+  content: "\f04b";
+}
+
+.waves {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background: var(--maincolor);
+  opacity: 0;
+  border-radius: 100%;
+  right: -50px;
+  bottom: -50px;
+  z-index: -1;
+  animation: waves 3s ease-in-out infinite;
+}
+
+.wave-1 {
+  animation-delay: 0s;
+}
+
+.wave-2 {
+  animation-delay: 1s;
+}
+
+.wave-3 {
+  animation-delay: 2s;
+}
+
+.counter-sec {
+  padding: 2rem 0;
+}
+
+/* ===========================
+GALLERY PAGE CSS STARTS 
+============================== */
+a:hover {
+  text-decoration: none;
+}
+
+.tm-page-cols-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.tm-page-col-left {
+  width: 28.56%;
+  max-width: 400px;
+}
+
+.tm-page-col-right {
+  width: 70%;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+@media (max-width: 991px) {
+  .tm-page-cols-container {
+    flex-direction: column;
+  }
+  .tm-page-col-left {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .tm-page-col-right {
+    width: 100%;
+  }
+}
+
+.tm-gallery {
+  margin: -20px -20px 0;
+  max-width: 960px;
+}
+
+.tm-gallery-item {
+  width: 29%;
+  margin: 2%;
+}
+
+.filters-button-group {
+  padding-right: 15px;
+}
+
+.tabs {
+  list-style: none;
+}
+
+.tabs > li > a {
+  border: 1px solid #cfd0d1;
+  color: #999a9b;
+  padding: 20px 25px;
+  display: block;
+  max-width: 300px;
+  margin: 0 auto 30px;
+}
+
+.tm-tab-icon {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-color: transparent;
+  vertical-align: middle;
+  margin-right: 20px;
+  transition: all 0.3s ease;
+}
+
+.tabs > li > a.active .tm-tab-icon,
+.tabs > li > a:hover .tm-tab-icon {
+  background-color: #669999;
+}
+
+/* 
+  Gallery Item Hover Effect
+  https://tympanus.net/codrops/2014/06/19/ideas-for-subtle-hover-effects/
+*/
+
+/* Common style */
+.tm-gallery-item figure {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin-bottom: 0;
+  background: #3085a3;
+  text-align: center;
+  cursor: pointer;
+}
+
+.tm-gallery-item figure img {
+  position: relative;
+  display: block;
+  min-height: 100%;
+  max-width: 100%;
+  opacity: 0.8;
+}
+
+.tm-gallery-item figure figcaption {
+  padding: 1em;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.tm-gallery-item figure figcaption::before,
+.tm-gallery-item figure figcaption::after {
+  pointer-events: none;
+}
+
+.tm-gallery-item figure figcaption,
+.tm-gallery-item figure figcaption > a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.tm-gallery-item figure figcaption > a {
+  z-index: 1000;
+  text-indent: 200%;
+  white-space: nowrap;
+  font-size: 0;
+  opacity: 0;
+}
+
+.tm-gallery-item figure h2 {
+  word-spacing: -0.15em;
+  font-weight: 300;
+}
+
+.tm-gallery-item figure h2 span {
+  font-weight: 800;
+}
+
+.tm-gallery-item figure h2,
+.tm-gallery-item figure p {
+  margin: 0;
+}
+
+.tm-gallery-item figure p {
+  letter-spacing: 1px;
+  font-size: 68.5%;
+}
+
+/*---------------*/
+/***** Bubba *****/
+/*---------------*/
+
+figure.effect-bubba {
+  background: #9e5406;
+}
+
+figure.effect-bubba img {
+  opacity: 1;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+}
+
+figure.effect-bubba:hover img {
+  opacity: 0.4;
+}
+
+figure.effect-bubba figcaption::before,
+figure.effect-bubba figcaption::after {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  bottom: 15px;
+  left: 15px;
+  content: "";
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.effect-bubba figcaption::before {
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: scale(0, 1);
+  transform: scale(0, 1);
+}
+
+figure.effect-bubba figcaption::after {
+  border-right: 1px solid #fff;
+  border-left: 1px solid #fff;
+  -webkit-transform: scale(1, 0);
+  transform: scale(1, 0);
+}
+
+figure.effect-bubba h2 {
+  font-size: 1.5rem;
+  padding-top: 20%;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0, -20px, 0);
+  transform: translate3d(0, -20px, 0);
+}
+
+figure.effect-bubba p {
+  width: 100%;
+  padding: 10px;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0, 20px, 0);
+  transform: translate3d(0, 20px, 0);
+}
+
+figure.effect-bubba:hover figcaption::before,
+figure.effect-bubba:hover figcaption::after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+figure.effect-bubba:hover h2,
+figure.effect-bubba:hover p {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+@media (max-width: 767px) {
+  .tm-gallery {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .tm-gallery-item {
+    width: 46%;
+  }
+
+  .filters-button-group {
+    padding-right: 0;
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 400px) {
+  .tm-gallery {
+    max-width: 280px;
+  }
+
+  .tm-gallery-item {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

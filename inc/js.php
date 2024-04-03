@@ -19,6 +19,12 @@
 <!-- js lightbox js CDN -->
 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js"></script>
 
+<!-- js isotopes -->
+<script src="https://cdn.jsdelivr.net/npm/isotope-layout@4.3.0/dist/isotope.pkgd.min.js"></script>
+
 <!-- custom js -->
 <script defer src="assets/js/custom.js"></script>
+
+<!-- magnific popup js-->
+<script defer src="assets/js/magnific-popup.js"></script>
 <!-- <script defer src="assets\js\banner-silder.js"></script> -->

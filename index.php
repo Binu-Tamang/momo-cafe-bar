@@ -9,11 +9,28 @@
 
     <title>The Momo Cafe Bar </title>
 </head>
+
+<body>
+<!-- ==================Page Loader======================= -->
+<!-- Loader -->
+<!--? Preloader Start -->
+<div id="preloader-active">
+    <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="preloader-inner position-relative">
+            <div class="preloader-circle"></div>
+            <div class="preloader-img pere-text">
+                <img src="assets/img/momo_logo.png" alt="logo">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Preloader End -->
+
 <!-- header parts start -->
 <?php include ('inc/header.php') ?>
 <!-- header part ends -->
-<!-- ==================food menu ======================== -->
 
+<!-- ==================banner slider ======================== -->
 <section class="banner-slider">
     <div class="container">
         <div class="mouse_move objects">
@@ -34,7 +51,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-7 col-sm-12" style="height: 400px;">
+            <div class="col-md-7 col-sm-12">
                 <div class="right-banner">
                     <div class="owl-carousel owl-theme banner-slider">
                         <div class="item" data-dot='<img src="assets/img/b-1.png" alt="food-slider">'>
@@ -81,8 +98,8 @@
 <!-- ========three box html starts--------------------- -->
 <section class="food-box">
     <div class="mouse_move second-objects">
-        <img class="mouse lazyload" value="1.8" src="assets/img/ob-1.png" alt="food fly">
-        <img class="mouse lazyload" value="1.8" src="assets/img/ob-1.png" alt="food fly">
+        <img loading="lazy" class="mouse" value="1.8" src="assets/img/ob-1.png" alt="food fly">
+        <img loading="lazy" class="mouse" value="1.8" src="assets/img/ob-1.png" alt="food fly">
     </div>
     <div class="container">
         <div class="row">
@@ -116,10 +133,10 @@
     <div class="container">
         <div id="main" class="bg-img">
             <div id="parallax mouse_move" class="bg-img-top">
-                <img class="mouse lazyload" value="1.8" src="assets/img/tomo-bg.png" alt="background food">
+                <img loading="lazy" class="mouse" value="1.8" src="assets/img/tomo-bg.png" alt="background food">
             </div>
             <div id="parallax mouse_move" class="bg-img-down">
-                <img class="mouse lazyload" value="1.8" src="assets/img/tomo-bg.png" alt="background food">
+                <img loading="lazy" class="mouse" value="1.8" src="assets/img/tomo-bg.png" alt="background food">
             </div>
         </div>
 
@@ -171,10 +188,10 @@
 <!-- ==================food menu ======================== -->
 <section class="food-menu">
     <div class="mouse_move objects">
-        <img class="mouse lazyload" value="1.8" src="assets/img/ob-1.png" alt="food fly">
-        <img class="mouse lazyload" value="1.8" src="assets/img/ob-2.png" alt="food fly">
-        <img class="mouse lazyload" value="1.8" src="assets/img/ob-3.png" alt="food fly">
-        <img class="mouse lazyload" value="1.8" src="assets/img/ob-1.png" alt="food fly">
+        <img loading="lazy" class="mouse" value="1.8" src="assets/img/ob-1.png" alt="food fly">
+        <img loading="lazy" class="mouse" value="1.8" src="assets/img/ob-2.png" alt="food fly">
+        <img loading="lazy" class="mouse" value="1.8" src="assets/img/ob-3.png" alt="food fly">
+        <img loading="lazy" class="mouse" value="1.8" src="assets/img/ob-1.png" alt="food fly">
     </div>
     <div class="container">
         <span class="small-heading text-center">Menu</span>
@@ -266,7 +283,8 @@
                         <div class="col-md-4 col-sm-12">
                             <div class="food-offer-wrap">
                                 <div class="food-bg-cap mouse_move">
-                                    <img class="mouse lazyload" value="0.9" src="assets/img/capcicum.png" alt="food">
+                                    <img loading="lazy" class="mouse" value="0.9" src="assets/img/capcicum.png"
+                                        alt="food">
                                 </div>
                                 <div class="food-menu-offer-img">
                                     <img loading="lazy" src="assets/img/dish-2.png" alt="food">
@@ -275,7 +293,8 @@
                                     <img loading="lazy" src="assets/img/offer-rate.png" alt="offer pamplet">
                                 </div>
                                 <div class="cap-down mouse_move">
-                                    <img class="mouse lazyload" value="0.9" src="assets/img/capcicum.png" alt="food">
+                                    <img loading="lazy" class="mouse" value="0.9" src="assets/img/capcicum.png"
+                                        alt="food">
                                 </div>
                             </div>
                         </div>
@@ -389,7 +408,8 @@
                         <div class="col-md-4 col-sm-12">
                             <div class="food-offer-wrap">
                                 <div class="food-bg-cap mouse_move">
-                                    <img class="mouse lazyload" value="0.9" src="assets/img/capcicum.png" alt="food">
+                                    <img loading="lazy" class="mouse" value="0.9" src="assets/img/capcicum.png"
+                                        alt="food">
                                 </div>
                                 <div class="food-menu-offer-img">
                                     <img loading="lazy" src="assets/img/menu-se(2).png" alt="food">
@@ -398,7 +418,8 @@
                                     <img loading="lazy" src="assets/img/offer-rate.png" alt="offer pamplet">
                                 </div>
                                 <div class="cap-down mouse_move">
-                                    <img class="mouse lazyload" value="0.9" src="assets/img/capcicum.png" alt="food">
+                                    <img loading="lazy" class="mouse" value="0.9" src="assets/img/capcicum.png"
+                                        alt="food">
                                 </div>
                             </div>
                         </div>
@@ -512,7 +533,8 @@
                         <div class="col-md-4 col-sm-12">
                             <div class="food-offer-wrap">
                                 <div class="food-bg-cap mouse_move">
-                                    <img class="mouse lazyload" value="0.9" src="assets/img/capcicum.png" alt="food">
+                                    <img loading="lazy" class="mouse" value="0.9" src="assets/img/capcicum.png"
+                                        alt="food">
                                 </div>
                                 <div class="food-menu-offer-img">
                                     <img loading="lazy" src="assets/img/menu-se(1).png" alt="food">
@@ -521,7 +543,8 @@
                                     <img loading="lazy" src="assets/img/offer-rate.png" alt="offer pamplet">
                                 </div>
                                 <div class="cap-down mouse_move">
-                                    <img class="mouse lazyload" value="0.9" src="assets/img/capcicum.png" alt="food">
+                                    <img loading="lazy" class="mouse" value="0.9" src="assets/img/capcicum.png"
+                                        alt="food">
                                 </div>
                             </div>
                         </div>
@@ -635,7 +658,8 @@
                         <div class="col-md-4 col-sm-12">
                             <div class="food-offer-wrap">
                                 <div class="food-bg-cap mouse_move">
-                                    <img class="mouse lazyload" value="0.9" src="assets/img/capcicum.png" alt="food">
+                                    <img loading="lazy" class="mouse" value="0.9" src="assets/img/capcicum.png"
+                                        alt="food">
                                 </div>
                                 <div class="food-menu-offer-img">
                                     <img loading="lazy" src="assets/img/dish-2.png" alt="food">
@@ -644,7 +668,8 @@
                                     <img loading="lazy" src="assets/img/offer-rate.png" alt="offer pamplet">
                                 </div>
                                 <div class="cap-down mouse_move">
-                                    <img class="mouse lazyload" value="0.9" src="assets/img/capcicum.png" alt="food">
+                                    <img loading="lazy" class="mouse" value="0.9" src="assets/img/capcicum.png"
+                                        alt="food">
                                 </div>
                             </div>
                         </div>
@@ -758,7 +783,8 @@
                         <div class="col-md-4 col-sm-12">
                             <div class="food-offer-wrap">
                                 <div class="food-bg-cap mouse_move">
-                                    <img class="mouse lazyload" value="0.9" src="assets/img/capcicum.png" alt="food">
+                                    <img loading="lazy" class="mouse" value="0.9" src="assets/img/capcicum.png"
+                                        alt="food">
                                 </div>
                                 <div class="food-menu-offer-img">
                                     <img loading="lazy" src="assets/img/menu-se(3).png" alt="food">
@@ -767,7 +793,8 @@
                                     <img loading="lazy" src="assets/img/offer-rate.png" alt="offer pamplet">
                                 </div>
                                 <div class="cap-down mouse_move">
-                                    <img class="mouse lazyload" value="0.9" src="assets/img/capcicum.png" alt="food">
+                                    <img loading="lazy" class="mouse" value="0.9" src="assets/img/capcicum.png"
+                                        alt="food">
                                 </div>
                             </div>
                         </div>
@@ -881,7 +908,8 @@
                         <div class="col-md-4 col-sm-12">
                             <div class="food-offer-wrap">
                                 <div class="food-bg-cap mouse_move">
-                                    <img class="mouse lazyload" value="0.9" src="assets/img/capcicum.png" alt="food">
+                                    <img loading="lazy" class="mouse" value="0.9" src="assets/img/capcicum.png"
+                                        alt="food">
                                 </div>
                                 <div class="food-menu-offer-img">
                                     <img loading="lazy" src="assets/img/menu(2).png" alt="food">
@@ -890,7 +918,8 @@
                                     <img loading="lazy" src="assets/img/offer-rate.png" alt="offer pamplet">
                                 </div>
                                 <div class="cap-down mouse_move">
-                                    <img class="mouse lazyload" value="0.9" src="assets/img/capcicum.png" alt="food">
+                                    <img loading="lazy" class="mouse" value="0.9" src="assets/img/capcicum.png"
+                                        alt="food">
                                 </div>
                             </div>
                         </div>
@@ -1044,10 +1073,10 @@
 <!-- ===========testimonial html starts--------------------- -->
 <section class="guest-review">
     <div class="mouse_move objects">
-        <img class="mouse lazyload" value="1.8" src="assets/img/ob-1.png" alt="food fly">
-        <img class="mouse lazyload" value="1.8" src="assets/img/ob-2.png" alt="food fly">
-        <img class="mouse lazyload" value="1.8" src="assets/img/ob-3.png" alt="food fly">
-        <img class="mouse lazyload" value="1.8" src="assets/img/ob-1.png" alt="food fly">
+        <img loading="lazy" class="mouse" value="1.8" src="assets/img/ob-1.png" alt="food fly">
+        <img loading="lazy" class="mouse" value="1.8" src="assets/img/ob-2.png" alt="food fly">
+        <img loading="lazy" class="mouse" value="1.8" src="assets/img/ob-3.png" alt="food fly">
+        <img loading="lazy" class="mouse" value="1.8" src="assets/img/ob-1.png" alt="food fly">
     </div>
     <div class="container">
         <div class="row">
@@ -1140,13 +1169,13 @@
             <div class="col-md-6 col-sm-12 col-lg-6">
                 <div class="circle-animated-box">
                     <div class="move-mouse mouse_move" id="main">
-                        <img class="mouse lazyload" value="1.5" src="assets/img/capcicum.png" alt="food" id="bg-1"
+                        <img loading="lazy" class="mouse" value="1.5" src="assets/img/capcicum.png" alt="food" id="bg-1"
                             data-depth="30">
-                        <img class="mouse lazyload" value="0.8" src="assets/img/cherry-tomato.png" alt="food" id="bg-2"
-                            data-depth="40">
-                        <img class="mouse lazyload" value="1.5" src="assets/img/leaf-3.png" alt="food" id="bg-3"
+                        <img loading="lazy" class="mouse" value="0.8" src="assets/img/cherry-tomato.png" alt="food"
+                            id="bg-2" data-depth="40">
+                        <img loading="lazy" class="mouse" value="1.5" src="assets/img/leaf-3.png" alt="food" id="bg-3"
                             data-depth="20">
-                        <img class="mouse lazyload" value="1.5" src="assets/img/capcicum.png" alt="food" id="bg-4"
+                        <img loading="lazy" class="mouse" value="1.5" src="assets/img/capcicum.png" alt="food" id="bg-4"
                             data-depth="25">
                     </div>
 
@@ -1167,8 +1196,6 @@
     </div>
 </section>
 <!-- ===========testimonial html starts--------------------- -->
-
-<body>
 
     <!-- ---------------------------footer starts--------------------- -->
     <?php
