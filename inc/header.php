@@ -15,7 +15,7 @@
     <div class="container">
       <div class="primary-header-inner">
         <div class="header-logo">
-          <a href="https://www.batuwacorner.com">
+          <a href="index.php">
             <img class="light" src="assets/img/momo_logo.png" alt="the-momo-cafe-bar-logo">
             <img class="dark" src="assets/img/momo_logo.png" alt="Logo">
           </a>

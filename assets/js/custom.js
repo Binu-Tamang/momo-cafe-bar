@@ -34,7 +34,7 @@ function myFunction(btn) {
     $(".header").after('<div class="sticky-header"></div>');
     $(".sticky-header").html(headerClone);
     var headerSelector = document.querySelector(".sticky-header");
-    var triggerPoint = $(".header").height();
+    var triggerPoint = $(".header").height()-40;
     var yOffset = 0;
 
     $(window).on("scroll", function () {
