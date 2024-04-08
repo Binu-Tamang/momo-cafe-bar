@@ -22,7 +22,7 @@
                         <ul class="imp-link">
                             <li><a href="index.php"> Home</a></li>
                             <li><a href="about-us.php"> About Us</a></li>
-                            <li><a href="#"> Menu</a></li>
+                            <li><a href="menu.php"> Menu</a></li>
                             <li><a href="gallery.php"> Gallery</a></li>
                             <li><a href="contact-us.php"> Contact Us</a></li>
                         </ul>

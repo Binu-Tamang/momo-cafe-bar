@@ -1,10 +1,11 @@
 /* Small Devices (Smartphones) */
 @media only screen and (max-width: 599px) {
-  .header-menu-wrap ul li > a:hover::after, .header-menu-wrap ul li > a:hover::before {
+  .header-menu-wrap ul li > a:hover::after,
+  .header-menu-wrap ul li > a:hover::before {
     opacity: 1;
     transform: translateX(0);
     bottom: 10%;
- }
+  }
   .food-bg-cap img {
     width: 150px;
     top: 15%;
@@ -234,61 +235,74 @@
   }
   /* ===============about us page ========================= */
   .web-banner-wrapper strong {
-    font-size: 20px;
-}
+    font-size: 30px;
+  }
 
-.center-logo img, .abt-us-img img,.story-box-img img {
+  .center-logo img,
+  .abt-us-img img,
+  .story-box-img img {
     max-width: 300px;
     width: 100%;
     padding: 0;
-}
+  }
 
-.abt-us-img {
+  .abt-us-img {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+  }
 
-.story-box-img {
+  .story-box-img {
     display: flex;
     justify-content: center;
-}
+  }
 
-.counter-box span {
+  .counter-box span {
     font-size: 30px;
     padding-right: 1rem;
-}
+  }
 
-.counter-box strong {
-    display:block;
+  .counter-box strong {
+    display: block;
     padding-bottom: 1.5rem;
     padding-top: 1rem;
-}
+  }
 
-.work-box strong {
+  .work-box strong {
     font-size: 20px;
-}
+  }
 
-.work-box p {
+  .work-box p {
     font-size: 14px;
-}
-.filters-button-group {
-  display: flex;
-  flex-wrap: wrap;
-}
+  }
+  .filters-button-group {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
-.tabs > li > a {
-  padding: 10px;
-  font-size: 15px;
-  margin: 0 5px 15px;
-  display: flex;
-  align-items: center;
-}
+  .tabs > li > a {
+    padding: 10px;
+    font-size: 15px;
+    margin: 0 5px 15px;
+    display: flex;
+    align-items: center;
+  }
 
-.tm-tab-icon {
-  width: 15px;
-  height: 15px;
-  margin-right: 10px;
+  .tm-tab-icon {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+  }
+  .sticky {
+    top: 0;
+    padding: 10px;
+    padding-top: 20px;
+}
+.tm-gallery-item figure img {
+  max-width: 200px;
+}
+.div-two.abt-list {
+  padding: 20px;
 }
 }
 
@@ -298,11 +312,12 @@ section.banner-slider {
 
 /* Medium Devices (Tablets) */
 @media only screen and (min-width: 600px) and (max-width: 991px) {
-  .header-menu-wrap ul li > a:hover::after, .header-menu-wrap ul li > a:hover::before {
+  .header-menu-wrap ul li > a:hover::after,
+  .header-menu-wrap ul li > a:hover::before {
     opacity: 1;
     transform: translateX(0);
     bottom: 10%;
- }
+  }
   .food-bg-cap img {
     width: 150px;
     top: 15%;
@@ -362,63 +377,76 @@ section.banner-slider {
   .nav-link.nav-tab-btn {
     margin-bottom: 10px;
   }
- /* ===============about us page ========================= */
- .web-banner-wrapper strong {
-  font-size: 20px;
-}
+  /* ===============about us page ========================= */
+  .web-banner-wrapper strong {
+    font-size: 30px;
+  }
 
-.center-logo img, .abt-us-img img,.story-box-img img {
-  max-width: 300px;
-  width: 100%;
-  padding: 0;
-}
+  .center-logo img,
+  .abt-us-img img,
+  .story-box-img img {
+    max-width: 300px;
+    width: 100%;
+    padding: 0;
+  }
 
-.abt-us-img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+  .abt-us-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-.story-box-img {
-  display: flex;
-  justify-content: center;
-}
+  .story-box-img {
+    display: flex;
+    justify-content: center;
+  }
 
-.counter-box span {
-  font-size: 30px;
-  padding-right: 1rem;
-}
+  .counter-box span {
+    font-size: 30px;
+    padding-right: 1rem;
+  }
 
-.counter-box strong {
-  display:block;
-  padding-bottom: 1.5rem;
-  padding-top: 1rem;
-}
+  .counter-box strong {
+    display: block;
+    padding-bottom: 1.5rem;
+    padding-top: 1rem;
+  }
 
-.work-box strong {
-  font-size: 20px;
-}
+  .work-box strong {
+    font-size: 20px;
+  }
 
-.work-box p {
-  font-size: 14px;
-}
-.filters-button-group {
-  display: flex;
-  flex-wrap: wrap;
-}
+  .work-box p {
+    font-size: 14px;
+  }
+  .filters-button-group {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
-.tabs > li > a {
-  padding: 10px;
-  font-size: 15px;
-  margin: 0 5px 15px;
-  display: flex;
-  align-items: center;
-}
+  .tabs > li > a {
+    padding: 10px;
+    font-size: 15px;
+    margin: 0 5px 15px;
+    display: flex;
+    align-items: center;
+  }
 
-.tm-tab-icon {
-  width: 15px;
-  height: 15px;
-  margin-right: 10px;
+  .tm-tab-icon {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+  }
+  .sticky {
+    top: 0;
+    padding: 10px;
+    padding-top: 20px;
+}
+.tm-gallery-item figure img {
+  max-width: 200px;
+}
+.div-two.abt-list {
+  padding: 20px;
 }
 }
 

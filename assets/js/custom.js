@@ -407,7 +407,6 @@ var $gallery = $('.gallery').isotope({
   layoutMode: 'fitRows'
 });
 
-
 // ====================================
 // GALLERY OWL CAROUSEL
 // ====================================
@@ -429,3 +428,38 @@ $('.owl-carousel.gallery-carousel').owlCarousel({
       }
   }
 })
+
+// ========================================
+// menu list owl owlCarousel
+// ========================================
+$(document).ready(function() {
+  $('.owl-carousel.food-menu-slider').owlCarousel({
+      loop: false,
+      margin: 10,
+      autoWidth:true,
+      nav: true,
+      autoplay: false,
+      dots: false,
+      navText: ["<i class='fas fa-chevron-left'></i>", "<i class='fas fa-chevron-right'></i>"], // Custom navigation icons
+      responsive: {
+          0: {
+              items: 2
+          },
+          600: {
+              items: 4
+          },
+          1000: {
+              items: 6
+          }
+      }
+  });
+});
+
+
+// =========================================
+// MAIN MENU JS 
+// =========================================
+$('.open-popup-link').magnificPopup({
+  type:'inline',
+  midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
+});

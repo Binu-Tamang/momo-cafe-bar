@@ -32,7 +32,7 @@
         <div class="container">
             <div class="philosophy">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6 order-2 order-md-1">
                         <div class="abt-box-wrap">
                             <div class="move-mouse mouse_move abt-move" id="main">
                                 <img loading="lazy" class="mouse" value="1.5" src="assets/img/capcicum.png" alt="food" id="bg-1" data-depth="30" style="transform: translateX(12.7444px) translateY(-46.9278px);">
@@ -47,7 +47,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 order-1 order-md-2">
                         <span class="small-heading text-left">About Us</span>
                         <h1 class="web-tittle text-left">New Ground with Dishes to be Enjoyed</h1>
                         <!-- <div class="separator"><span></span></div> -->
@@ -60,37 +60,36 @@
                             necessitatibus sapiente vero molestiae repellat, odio magnam error non dicta sit illum in
                             tempore
                         </p>
-                        <div class="video-box">
-                            <div class="add-video">
-                                <div class="wrapper">
-                                    <div class="video-main">
-                                        <div class="promo-video">
-                                            <div class="waves-block">
-                                                <div class="waves wave-1"></div>
-                                                <div class="waves wave-2"></div>
-                                                <div class="waves wave-3"></div>
+                        <div class="text-left pt-3">
+                                <a href="#" class="default-btn"> Explore Menu <span></span><i class="fa-solid fa-arrow-right-long"></i></a>
+                            </div>
+                        <!-- <div class="video-box">
+                            <div class="row">
+                                <div class="col-md-6 order-2 order-md-1">
+                                    <div class="add-video ">
+                                        <div class="wrapper">
+                                            <div class="video-main">
+                                                <div class="promo-video">
+                                                    <div class="waves-block">
+                                                        <div class="waves wave-1"></div>
+                                                        <div class="waves wave-2"></div>
+                                                        <div class="waves wave-3"></div>
+                                                    </div>
+                                                </div>
+                                                <a href="https://www.youtube.com/watch?v=P9MiZsXpgxA" class="video video-popup mfp-iframe" data-lity><i class="fa fa-play"></i></a>
                                             </div>
                                         </div>
-                                        <a href="#" class="video video-popup mfp-iframe" data-lity><i class="fa fa-play"></i></a>
                                     </div>
                                 </div>
+                                
                             </div>
-                            <div class="div-two abt-list">
-                                <ul>
-                                    <li><i class="fa-regular fa-circle-check"></i><span>Food Items management</span>
-                                    </li>
-                                    <li><i class="fa-regular fa-circle-check"></i><span>Customer feedback portal</span>
-                                    </li>
-                                    <li><i class="fa-regular fa-circle-check"></i><span>Table reservation</span></li>
-                                    <li><i class="fa-regular fa-circle-check"></i><span>Location-based services</span>
-                                    </li>
-                                    <li><i class="fa-regular fa-circle-check"></i><span>Customer feedback portal</span>
-                                    </li>
-                                    <li><i class="fa-regular fa-circle-check"></i><span>Table reservation</span></li>
-                                </ul>
+                            <div id="test-popup" class="white-popup mfp-hide">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/P9MiZsXpgxA?si=S9Y4yKWSSWDFmLQI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
+                </div>
+                <div class="row">
                     <div class="col-md-6">
                         <div class="story-box-wrap">
                             <span class="small-heading text-left">Discover Our Story</span>
