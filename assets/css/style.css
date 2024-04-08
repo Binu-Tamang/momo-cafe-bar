@@ -499,17 +499,20 @@ section.banner_slider img {
 .div-two li {
   list-style: none;
   margin-right: 25px;
+  display: flex;
 }
 
 .div-two i {
   color: var(--maincolor);
   margin-right: 10px;
+  margin-top: 4px;
 }
 
 .div-two span {
   color: #010f1c;
   font-size: 15px;
   letter-spacing: 1px;
+  margin-bottom: 4px;
 }
 /* ==================================
 about us css end 
@@ -649,7 +652,7 @@ circular animated css
   content: "";
   position: absolute;
   inset: 0;
-  border: 3px dotted #4950578f;
+  border: 3px dotted #495057;
   opacity: 0.2;
   border-radius: 50%;
   pointer-events: none;
@@ -953,6 +956,25 @@ top to button scroll css starts
   border-radius: 100%;
   padding: 12px 20px;
   cursor: pointer;
+}
+
+#scrollToTopBtn::before {
+  border: 3px dotted #495057;
+  border-radius: 100%;
+  pointer-events: none;
+  animation: Rotate 20s linear infinite;
+  -webkit-animation: Rotate 20s linear infinite;
+  display: block;
+  padding: 30px;
+  content: "";
+  position: absolute;
+  top: -7px;
+  /* right: -7px; */
+  /* bottom: -7px; */
+  left: -5px;
+  border-width: 1px;
+  border-style: dashed;
+  /* inset: 0; */
 }
 
 #scrollToTopBtn:hover {
@@ -1678,11 +1700,12 @@ a:hover {
 
 .tabs > li > a {
   border: 1px solid #cfd0d1;
-  color: #999a9b;
+  color: #222;
   padding: 20px 25px;
   display: block;
   max-width: 300px;
   margin: 0 auto 30px;
+  font-weight: 600;
 }
 
 .tm-tab-icon {
@@ -1697,12 +1720,11 @@ a:hover {
 
 .tabs > li > a.active .tm-tab-icon,
 .tabs > li > a:hover .tm-tab-icon {
-  background-color: #669999;
+  background-color: var(--maincolor);
 }
 
 /* 
   Gallery Item Hover Effect
-  https://tympanus.net/codrops/2014/06/19/ideas-for-subtle-hover-effects/
 */
 
 /* Common style */
@@ -1719,8 +1741,8 @@ a:hover {
 .tm-gallery-item figure img {
   position: relative;
   display: block;
-  min-height: 100%;
-  max-width: 100%;
+  min-height: 380px;
+  max-width: 280px;
   opacity: 0.8;
 }
 
@@ -1769,7 +1791,14 @@ a:hover {
 .tm-gallery-item figure h2,
 .tm-gallery-item figure p {
   margin: 0;
+  opacity: 0;
+  transition: opacity 300ms ease;
 }
+.tm-gallery-item:hover figure h2,.tm-gallery-item:hover figure p{
+  opacity: 1;
+
+}
+
 
 .tm-gallery-item figure p {
   letter-spacing: 1px;
@@ -1788,6 +1817,8 @@ figure.effect-bubba img {
   opacity: 1;
   -webkit-transition: opacity 0.35s;
   transition: opacity 0.35s;
+  width: 280px;
+  height: 380px;
 }
 
 figure.effect-bubba:hover img {
@@ -1954,6 +1985,7 @@ section.how-work {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .order-img {
@@ -2116,4 +2148,196 @@ section.how-work {
       -webkit-transform: translateX(0);
       transform: translateX(0)
   }
+}
+/* =============================
+GALLERY OWL CAROUSEL
+================================ */
+section.gallery-carousel-wrap {
+  padding: 2rem;
+}
+.gallery-carousel-wrap img {
+  width: 200px;
+  height: 200px;
+}
+.img-box {
+  position: relative;
+}
+.img-g {
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.middle-reflect {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.img-box:hover .img-g {
+  opacity: 0.6;
+}
+.img-box:hover .middle-reflect {
+  opacity: 1;
+}
+.text-icon i {
+  background-color: var(--maincolor); 
+  color: white;
+  font-size: 18px;
+  padding: 10px 20px;
+}
+section.how-work::before {
+  background: var(--maincolor);
+  height: 100%;
+  border-radius: 50% 0 0 50%;
+  content: "";
+  width: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.order-img {
+  position: relative;
+  height: 100%;
+}
+
+.banner-fly-object.mouse_move span {
+  font-size: 22px;
+  position: absolute;
+  bottom: 30%;
+  right: 23%;
+  z-index: 3;
+  rotate: -34deg;
+  color: #fff;
+  letter-spacing: 2px;
+}
+/* =================================
+offered rate banner
+==================================== */
+.item.banner-box {
+  position: relative;
+}
+
+.offer-rate-banner {
+  position: absolute;
+  bottom: -15%;
+  right: 45%;
+  rotate: 85deg;
+}
+
+.img-offer-wrap {
+  position: relative;
+}
+
+.img-offer-wrap img {
+  width: 300px !important;
+  /* rotate: 86deg; */
+}
+
+.img-offer-wrap span {
+  color: #fff;
+  position: absolute;
+  top: 42%;
+  right: 25%;
+  rotate: -24deg;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: cursive;
+}
+/* =====menu offered rate ======= */
+.img-offer-wrap.menu-offer {
+  position: absolute;
+  bottom: 5%;
+  rotate: -4deg;
+  right: -16%;
+}
+/* =================================
+offered rate banner
+==================================== */
+
+/* =================================
+Contact us form css starts
+==================================== */
+section.main-contact-box {
+  padding-top: 1rem;
+}
+.contact-form form {
+  max-width: 450px;
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #e8cb9a5c;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+  text-align: center;
+}
+
+.contact-form label {
+  font-weight: bold;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="tel"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 6px 0 20px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea {
+  border: 1px solid #ccc !important; /* Border for textarea */
+}
+
+/* Responsive design for smaller screens */
+@media screen and (max-width: 600px) {
+  form {
+      width: 90%;
+  }
+}
+
+/* ===============workibg hours of contact page================ */
+.contact-information-layout1 ul li {
+  border-bottom: 1px dashed #495057;
+  padding: 10px 0;
+}
+.box {
+  margin-top: 2rem;
+}
+.box-wrap a {
+  color: var(--maincolor);
+}
+.cafe-map {
+  padding-top: 4rem;
+}
+
+.cafe-map iframe {
+  width: 100%;
+}
+.contact-information-layout1 p {
+  padding: 10px 0;
+  /* line-height: 1; */
+}
+.box i {
+  color: var(--maincolor);
+  margin-right: 10px;
+  font-size: 18px;
+}
+input:focus-visible,
+textarea:focus-visible {
+    outline: none;
+    border-color: #09b724  !important; 
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5) !important; 
 }

@@ -20,11 +20,11 @@
                     <div class="footer-box">
                         <h5 class="footer-h">Quicks Links</h5>
                         <ul class="imp-link">
-                            <li><a href="#"> Home</a></li>
-                            <li><a href="#"> About Us</a></li>
+                            <li><a href="index.php"> Home</a></li>
+                            <li><a href="about-us.php"> About Us</a></li>
                             <li><a href="#"> Menu</a></li>
-                            <li><a href="#"> Gallery</a></li>
-                            <li><a href="#"> Contact Us</a></li>
+                            <li><a href="gallery.php"> Gallery</a></li>
+                            <li><a href="contact-us.php"> Contact Us</a></li>
                         </ul>
                     </div>
                 </div>

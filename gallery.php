@@ -30,25 +30,37 @@
                             <li>
                                 <a href="#" class="active" data-filter="*">
                                     <div class="tm-tab-icon"></div>
-                                    All Types
+                                    All Category
                                 </a>
                             </li>
                             <li>
                                 <a href="#" class="" data-filter=".category-1">
                                     <div class="tm-tab-icon"></div>
-                                    First Category
+                                    Food Category
                                 </a>
                             </li>
                             <li>
                                 <a href="#" class="" data-filter=".category-2">
                                     <div class="tm-tab-icon"></div>
-                                    Second Type
+                                    Ambiance
                                 </a>
                             </li>
                             <li>
                                 <a href="#" class="" data-filter=".category-3">
                                     <div class="tm-tab-icon"></div>
-                                    Third Category
+                                    Events and Occasions
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="" data-filter=".category-2">
+                                    <div class="tm-tab-icon"></div>
+                                    Cuisine Types
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="" data-filter=".category-1">
+                                    <div class="tm-tab-icon"></div>
+                                    Staff and Customers
                                 </a>
                             </li>
                         </ul>
@@ -57,157 +69,145 @@
                         <div class="tm-gallery" id="tmGallery">
                             <div class="tm-gallery-item category-1">
                                 <figure class="effect-bubba">
-                                    <img src="https://concept-43-new-level.netlify.com/img/gallery/gallery-item-01.jpg"
+                                    <img src="assets/Photos/banner-1.jpg"
                                         alt="Gallery item" class="img-fluid" />
                                     <figcaption>
-                                        <h2>Fresh <span>Bubba</span></h2>
-                                        <p>Bubba likes to appear out of thin air.</p>
+                                        <h2>French <span>Fries</span></h2>
+                                        <!-- <p>Bubba likes to appear out of thin air.</p> -->
                                         <a
-                                            href="https://concept-43-new-level.netlify.com/img/gallery/gallery-item-01.jpg">View
-                                            more</a>
+                                            href="assets/Photos/banner-1.jpg"></a>
                                     </figcaption>
                                 </figure>
                             </div>
                             <div class="tm-gallery-item category-2">
                                 <figure class="effect-bubba">
-                                    <img src="https://concept-43-new-level.netlify.com/img/gallery/gallery-item-02.jpg"
+                                    <img src="assets/Photos/banner-2.jpg"
                                         alt="Gallery item" class="img-fluid" />
                                     <figcaption>
-                                        <h2>Fresh <span>Bubba</span></h2>
-                                        <p>Bubba likes to appear out of thin air.</p>
+                                        <h2>Interior <span>Decor</span></h2>
+                                        <!-- <p>Bubba likes to appear out of thin air.</p> -->
                                         <a
-                                            href="https://concept-43-new-level.netlify.com/img/gallery/gallery-item-02.jpg">View
-                                            more</a>
+                                            href="assets/Photos/banner-2.jpg"></a>
                                     </figcaption>
                                 </figure>
                             </div>
                             <div class="tm-gallery-item category-1">
                                 <figure class="effect-bubba">
-                                    <img src="https://concept-43-new-level.netlify.com/img/gallery/gallery-item-03.jpg"
+                                    <img src="assets/Photos/banner-3.jpg"
                                         alt="Gallery item" class="img-fluid" />
                                     <figcaption>
                                         <h2>Fresh <span>Bubba</span></h2>
-                                        <p>Bubba likes to appear out of thin air.</p>
+                                        <!-- <p>Bubba likes to appear out of thin air.</p> -->
                                         <a
-                                            href="https://concept-43-new-level.netlify.com/img/gallery/gallery-item-03.jpg">View
-                                            more</a>
+                                            href="assets/Photos/banner-3.jpg"></a>
                                     </figcaption>
                                 </figure>
                             </div>
                             <div class="tm-gallery-item category-3">
                                 <figure class="effect-bubba">
-                                    <img src="https://concept-43-new-level.netlify.com/img/gallery/gallery-item-04.jpg"
+                                    <img src="assets/Photos/wa12.jpg"
                                         alt="Gallery item" class="img-fluid" />
                                     <figcaption>
-                                        <h2>Fresh <span>Bubba</span></h2>
-                                        <p>Bubba likes to appear out of thin air.</p>
+                                        <h2>Interior <span>Bubba</span></h2>
+                                        <!-- <p>Bubba likes to appear out of thin air.</p> -->
                                         <a
-                                            href="https://concept-43-new-level.netlify.com/img/gallery/gallery-item-04.jpg">View
-                                            more</a>
+                                            href="assets/Photos/wa12.jpg"></a>
                                     </figcaption>
                                 </figure>
                             </div>
                             <div class="tm-gallery-item category-2">
                                 <figure class="effect-bubba">
-                                    <img src="https://concept-43-new-level.netlify.com/img/gallery/gallery-item-05.jpg"
+                                    <img src="assets/Photos/wa9.jpg"
                                         alt="Gallery item" class="img-fluid" />
                                     <figcaption>
-                                        <h2>Fresh <span>Bubba</span></h2>
-                                        <p>Bubba likes to appear out of thin air.</p>
+                                        <h2>Outdoor <span>Seating</span></h2>
+                                        <!-- <p>Bubba likes to appear out of thin air.</p> -->
                                         <a
-                                            href="https://concept-43-new-level.netlify.com/img/gallery/gallery-item-05.jpg">View
-                                            more</a>
+                                            href="assets/Photos/wa9.jpg"></a>
                                     </figcaption>
                                 </figure>
                             </div>
                             <div class="tm-gallery-item category-3">
                                 <figure class="effect-bubba">
-                                    <img src="https://concept-43-new-level.netlify.com/img/gallery/gallery-item-06.jpg"
+                                    <img src="assets/Photos/wa3.jpg"
                                         alt="Gallery item" class="img-fluid" />
                                     <figcaption>
                                         <h2>Fresh <span>Bubba</span></h2>
-                                        <p>Bubba likes to appear out of thin air.</p>
+                                        <!-- <p>Bubba likes to appear out of thin air.</p> -->
                                         <a
-                                            href="https://concept-43-new-level.netlify.com/img/gallery/gallery-item-06.jpg">View
-                                            more</a>
+                                            href="assets/Photos/wa3.jpg"></a>
                                     </figcaption>
                                 </figure>
                             </div>
                             <div class="tm-gallery-item category-3">
                                 <figure class="effect-bubba">
-                                    <img src="https://concept-43-new-level.netlify.com/img/gallery/gallery-item-07.jpg"
+                                    <img src="assets/Photos/wa4.jpg"
                                         alt="Gallery item" class="img-fluid" />
                                     <figcaption>
                                         <h2>Fresh <span>Bubba</span></h2>
-                                        <p>Bubba likes to appear out of thin air.</p>
+                                        <!-- <p>Bubba likes to appear out of thin air.</p> -->
                                         <a
-                                            href="https://concept-43-new-level.netlify.com/img/gallery/gallery-item-07.jpg">View
-                                            more</a>
+                                            href="assets/Photos/wa4.jpg"></a>
                                     </figcaption>
                                 </figure>
                             </div>
                             <div class="tm-gallery-item category-1">
                                 <figure class="effect-bubba">
-                                    <img src="https://concept-43-new-level.netlify.com/img/gallery/gallery-item-08.jpg"
+                                    <img src="assets/Photos/wa5.jpg"
                                         alt="Gallery item" class="img-fluid" />
                                     <figcaption>
                                         <h2>Fresh <span>Bubba</span></h2>
-                                        <p>Bubba likes to appear out of thin air.</p>
+                                        <!-- <p>Bubba likes to appear out of thin air.</p> -->
                                         <a
-                                            href="https://concept-43-new-level.netlify.com/img/gallery/gallery-item-08.jpg">View
-                                            more</a>
+                                            href="assets/Photos/wa5.jpg"></a>
                                     </figcaption>
                                 </figure>
                             </div>
                             <div class="tm-gallery-item category-2">
                                 <figure class="effect-bubba">
-                                    <img src="https://concept-43-new-level.netlify.com/img/gallery/gallery-item-09.jpg"
+                                    <img src="assets/Photos/wa6.jpg"
                                         alt="Gallery item" class="img-fluid" />
                                     <figcaption>
-                                        <h2>Fresh <span>Bubba</span></h2>
-                                        <p>Bubba likes to appear out of thin air.</p>
+                                        <h2>Dining <span>Area</span></h2>
+                                        <!-- <p>Bubba likes to appear out of thin air.</p> -->
                                         <a
-                                            href="https://concept-43-new-level.netlify.com/img/gallery/gallery-item-09.jpg">View
-                                            more</a>
+                                            href="assets/Photos/wa6.jpg"></a>
                                     </figcaption>
                                 </figure>
                             </div>
                             <div class="tm-gallery-item category-3">
                                 <figure class="effect-bubba">
-                                    <img src="https://concept-43-new-level.netlify.com/img/gallery/gallery-item-10.jpg"
+                                    <img src="assets/Photos/wa7.jpg"
                                         alt="Gallery item" class="img-fluid" />
                                     <figcaption>
                                         <h2>Fresh <span>Bubba</span></h2>
-                                        <p>Bubba likes to appear out of thin air.</p>
+                                        <!-- <p>Bubba likes to appear out of thin air.</p> -->
                                         <a
-                                            href="https://concept-43-new-level.netlify.com/img/gallery/gallery-item-10.jpg">View
-                                            more</a>
+                                            href="assets/Photos/wa7.jpg"></a>
                                     </figcaption>
                                 </figure>
                             </div>
                             <div class="tm-gallery-item category-2">
                                 <figure class="effect-bubba">
-                                    <img src="https://concept-43-new-level.netlify.com/img/gallery/gallery-item-11.jpg"
+                                    <img src="assets/Photos/wa13.jpg"
                                         alt="Gallery item" class="img-fluid" />
                                     <figcaption>
-                                        <h2>Fresh <span>Bubba</span></h2>
-                                        <p>Bubba likes to appear out of thin air.</p>
+                                        <h2>Bar <span>Area</span></h2>
+                                        <!-- <p>Bubba likes to appear out of thin air.</p> -->
                                         <a
-                                            href="https://concept-43-new-level.netlify.com/img/gallery/gallery-item-11.jpg">View
-                                            more</a>
+                                            href="assets/Photos/wa13.jpg"></a>
                                     </figcaption>
                                 </figure>
                             </div>
                             <div class="tm-gallery-item category-1">
                                 <figure class="effect-bubba">
-                                    <img src="https://concept-43-new-level.netlify.com/img/gallery/gallery-item-12.jpg"
+                                    <img src="assets/Photos/wa9.jpg"
                                         alt="Gallery item" class="img-fluid" />
                                     <figcaption>
                                         <h2>Fresh <span>Bubba</span></h2>
-                                        <p>Bubba likes to appear out of thin air.</p>
+                                        <!-- <p>Bubba likes to appear out of thin air.</p> -->
                                         <a
-                                            href="https://concept-43-new-level.netlify.com/img/gallery/gallery-item-12.jpg">View
-                                            more</a>
+                                            href="assets/Photos/wa9.jpg"></a>
                                     </figcaption>
                                 </figure>
                             </div>

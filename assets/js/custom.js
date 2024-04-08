@@ -167,14 +167,6 @@ function myFunction(btn) {
         },
       },
     };
-    // Venobox Active
-    new VenoBox({
-      selector: ".video-popup, .img-popup",
-      bgcolor: "transparent",
-      numeration: true,
-      infinigall: true,
-      spinner: "plane",
-    });
   });
 })(jQuery);
 
@@ -308,17 +300,6 @@ function parallax(event) {
     });
 }
 
-
-// ===========================
-// lazy loading and optimize images in banner slider of owl carasoul
-// ===========================
-document.addEventListener('DOMContentLoaded', function() {
-  var lazyLoadInstance = new LazyLoad({
-      elements_selector: ".item img",
-      // Configuration options for lazy loading
-  });
-});
-
 // ===============================
 // Page Loader JS starts 
 // ===============================
@@ -421,3 +402,30 @@ $(function() {
 		  gallery: { enabled: true }
 		});
 });
+var $gallery = $('.gallery').isotope({
+  itemSelector: '.gallery-item',
+  layoutMode: 'fitRows'
+});
+
+
+// ====================================
+// GALLERY OWL CAROUSEL
+// ====================================
+$('.owl-carousel.gallery-carousel').owlCarousel({
+  loop:true,
+  margin:10,
+  nav:false,
+  dots:false,
+  autoplay: true,
+  responsive:{
+      0:{
+          items:1
+      },
+      600:{
+          items:3
+      },
+      1000:{
+          items:5
+      }
+  }
+})

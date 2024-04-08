@@ -141,7 +141,7 @@
   color: #0e1318;
 }
 .header-menu-wrap ul li:hover > a {
-  color: var(--bs-batuwa-primary);
+  color: #e9831d;
 }
 .header-menu-wrap li ul {
   background-color: #fff;
@@ -365,7 +365,7 @@
 }
 .header-right a.header-btn {
   display: inline-block;
-  background: var(--bs-batuwa-primary);
+  background: #e9831d;
   color: #fff;
   font-family: "Rubik", sans-serif;
   font-size: 14px;
@@ -858,4 +858,36 @@
 
 .cart {
   position: relative;
+}
+
+/* ==================a hover effects ===================== */
+.header-menu-wrap ul li > a::after,
+.header-menu-wrap ul li > a::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 30%;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #09b724;
+  transition: 0.3s ease-in-out;
+  opacity: 0;
+  margin-left: 28px;
+  transform: translateX(-20px);
+}
+
+.header-menu-wrap ul li > a:hover::after,
+.header-menu-wrap ul li > a:hover::before {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.header-menu-wrap ul li > a::after {
+  margin-left: 15px; /* Adjust the spacing between the dots */
+}
+.header-menu-wrap ul li > a:active::after,
+.header-menu-wrap ul li > a:active::before {
+    opacity: 1;
+    transform: translateX(0);
 }

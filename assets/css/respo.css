@@ -1,61 +1,66 @@
 /* Small Devices (Smartphones) */
 @media only screen and (max-width: 599px) {
+  .header-menu-wrap ul li > a:hover::after, .header-menu-wrap ul li > a:hover::before {
+    opacity: 1;
+    transform: translateX(0);
+    bottom: 10%;
+ }
   .food-bg-cap img {
     width: 150px;
     top: 15%;
     rotate: -40deg;
-}
+  }
 
-.cap-down img {
+  .cap-down img {
     width: 150px;
     bottom: 9%;
     right: 6%;
     rotate: 135deg;
-}
+  }
 
-.move-mouse img:nth-child(2) {
+  .move-mouse img:nth-child(2) {
     top: 8%;
     width: 55px;
-}
+  }
 
-.move-mouse img:nth-child(3) {
+  .move-mouse img:nth-child(3) {
     width: 50px;
-}
+  }
   .web-tittle {
     font-size: 35px;
     margin: 0;
-}
+  }
 
-.small-heading {
+  .small-heading {
     font-size: 12px;
     padding: 10px 0;
-}
+  }
 
-p {
+  p {
     padding: 10px 0;
     /* line-height: 1.3; */
-}
-  section.book-table{
+  }
+  section.book-table {
     padding-left: 10px;
     padding-right: 10px;
   }
   .header-top .container {
     justify-content: space-evenly;
-}
+  }
   .footer-box {
     /* text-align: center; */
     padding-left: 30px;
-}
+  }
   .footer-h {
     margin: 0;
     margin-top: 30px;
-}
+  }
   /* Styles for small devices */
-  
-.right-banner {
-  padding: 3.5rem 0;
-  margin-top: 1.5rem;
-}
+
+  .right-banner {
+    padding: 3.5rem 0;
+    margin-top: 1.5rem;
+  }
   .header-contact-detail span,
   .header-contact-detail span a {
     font-size: 12px;
@@ -172,52 +177,53 @@ p {
     top: 250px;
     right: 0;
   }
-/* ====circle animation==== */
-  
-.center-logo img {
-  width: 280px;
-}
+  /* ====circle animation==== */
 
-.circle {
-  width: 40%;
-  height: 40%;
-  top: 35%;
-  left: 35%;
-}
+  .center-logo img {
+    width: 280px;
+  }
 
-.big-circle {
-  width: 60%;
-  height: 60%;
-  top: 5%;
-  left: 5%;
-}
+  .circle {
+    width: 40%;
+    height: 40%;
+    top: 35%;
+    left: 35%;
+  }
 
-.center-logo {
-  top: 35%;
-  left: 35%;
-}
+  .big-circle {
+    width: 60%;
+    height: 60%;
+    top: 5%;
+    left: 5%;
+  }
 
-.main {
-  margin-top: 0;
-}
+  .center-logo {
+    top: 35%;
+    left: 35%;
+  }
 
-section.welcome-part {
-  padding-bottom: 0 !important;
-}
-.move-mouse img:nth-child(1), .move-mouse img:nth-child(4) {
-  width: 100px;
-}
+  .main {
+    margin-top: 0;
+  }
 
-.move-mouse img:nth-child(1) {
-  /* top: 50%; */
-  left: 14%;
-}
+  section.welcome-part {
+    padding-bottom: 0 !important;
+  }
+  .move-mouse img:nth-child(1),
+  .move-mouse img:nth-child(4) {
+    width: 100px;
+  }
 
-.move-mouse img:nth-child(4) {
-  bottom: 18%;
-  right: 18%;
-}
-/* ==================== */
+  .move-mouse img:nth-child(1) {
+    /* top: 50%; */
+    left: 14%;
+  }
+
+  .move-mouse img:nth-child(4) {
+    bottom: 18%;
+    right: 18%;
+  }
+  /* ==================== */
   /* =============footer css starts here ============= */
   .footer-box.footer-map {
     justify-content: start;
@@ -226,6 +232,64 @@ section.welcome-part {
   .footer-box.footer-map iframe {
     width: 100%;
   }
+  /* ===============about us page ========================= */
+  .web-banner-wrapper strong {
+    font-size: 20px;
+}
+
+.center-logo img, .abt-us-img img,.story-box-img img {
+    max-width: 300px;
+    width: 100%;
+    padding: 0;
+}
+
+.abt-us-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.story-box-img {
+    display: flex;
+    justify-content: center;
+}
+
+.counter-box span {
+    font-size: 30px;
+    padding-right: 1rem;
+}
+
+.counter-box strong {
+    display:block;
+    padding-bottom: 1.5rem;
+    padding-top: 1rem;
+}
+
+.work-box strong {
+    font-size: 20px;
+}
+
+.work-box p {
+    font-size: 14px;
+}
+.filters-button-group {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tabs > li > a {
+  padding: 10px;
+  font-size: 15px;
+  margin: 0 5px 15px;
+  display: flex;
+  align-items: center;
+}
+
+.tm-tab-icon {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+}
 }
 
 section.banner-slider {
@@ -234,64 +298,127 @@ section.banner-slider {
 
 /* Medium Devices (Tablets) */
 @media only screen and (min-width: 600px) and (max-width: 991px) {
+  .header-menu-wrap ul li > a:hover::after, .header-menu-wrap ul li > a:hover::before {
+    opacity: 1;
+    transform: translateX(0);
+    bottom: 10%;
+ }
   .food-bg-cap img {
     width: 150px;
     top: 15%;
     rotate: -40deg;
-}
+  }
 
-.cap-down img {
+  .cap-down img {
     width: 150px;
     bottom: 9%;
     right: 6%;
     rotate: 135deg;
-}
+  }
 
-.move-mouse img:nth-child(2) {
+  .move-mouse img:nth-child(2) {
     top: 8%;
     width: 55px;
-}
+  }
 
-.move-mouse img:nth-child(3) {
+  .move-mouse img:nth-child(3) {
     width: 50px;
-}
-.right-banner {
-  padding: 3.5rem 0;
-  margin-top: 1.5rem;
-}
+  }
+  .right-banner {
+    padding: 3.5rem 0;
+    margin-top: 1.5rem;
+  }
   .web-tittle {
     font-size: 35px;
     margin: 0;
-}
+  }
 
-.small-heading {
+  .small-heading {
     font-size: 12px;
     padding: 10px 0;
-}
+  }
 
-p {
+  p {
     padding: 10px 0;
     /* line-height: 1.3; */
-}
-  section.book-table{
+  }
+  section.book-table {
     padding-left: 10px;
     padding-right: 10px;
   }
   .header-top .container {
     justify-content: space-evenly;
-}
+  }
   .footer-box {
     /* text-align: center; */
     padding-left: 30px;
-}
+  }
   .footer-h {
     margin: 0;
     margin-top: 30px;
-}
+  }
   /* Styles for medium devices */
   /* ===========menu css starts here ===================== */
   .nav-link.nav-tab-btn {
     margin-bottom: 10px;
+  }
+ /* ===============about us page ========================= */
+ .web-banner-wrapper strong {
+  font-size: 20px;
+}
+
+.center-logo img, .abt-us-img img,.story-box-img img {
+  max-width: 300px;
+  width: 100%;
+  padding: 0;
+}
+
+.abt-us-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.story-box-img {
+  display: flex;
+  justify-content: center;
+}
+
+.counter-box span {
+  font-size: 30px;
+  padding-right: 1rem;
+}
+
+.counter-box strong {
+  display:block;
+  padding-bottom: 1.5rem;
+  padding-top: 1rem;
+}
+
+.work-box strong {
+  font-size: 20px;
+}
+
+.work-box p {
+  font-size: 14px;
+}
+.filters-button-group {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tabs > li > a {
+  padding: 10px;
+  font-size: 15px;
+  margin: 0 5px 15px;
+  display: flex;
+  align-items: center;
+}
+
+.tm-tab-icon {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
 }
 }
 
@@ -312,8 +439,6 @@ p {
     font-size: 18px;
   }
 }
-
-
 
 /* Adjust width of time input field */
 .time-input {

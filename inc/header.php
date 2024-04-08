@@ -26,7 +26,7 @@
             <li><a href="about-us.php">About Us</a></li>
             <li><a href="#">Menu</a></li>
             <li><a href="gallery.php">Gallery</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="contact-us.php">Contact Us</a></li>
           </ul>
         </div><!-- /.header-menu-wrap -->
         <div class="header-right">
