@@ -5,9 +5,15 @@
         <span><i class="fa-regular fa-clock"></i> 3.00 pm to 01.00 am</span>
         <span><i class="fa-solid fa-phone"></i> <a href="tel:34 686 124 208">+34 686 124 208</a></span>
       </div>
-      <div class="cart">
-        <i class="fa-solid fa-cart-plus"></i>
-        <span>4</span>
+      <div class="wrap-icon">
+        <div class="header-contact-detail">
+          <span><a href="login.php"><i class="fa-solid fa-user"></i> Login</a></span>
+        </div>
+        
+        <div class="cart">
+          <i class="fa-solid fa-cart-plus"></i>
+          <span>4</span>
+        </div>
       </div>
     </div>
   </div>

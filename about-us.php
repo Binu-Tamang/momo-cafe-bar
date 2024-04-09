@@ -61,8 +61,8 @@
                             tempore
                         </p>
                         <div class="text-left pt-3">
-                                <a href="#" class="default-btn"> Explore Menu <span></span><i class="fa-solid fa-arrow-right-long"></i></a>
-                            </div>
+                            <a href="#" class="default-btn"> Explore Menu <span></span><i class="fa-solid fa-arrow-right-long"></i></a>
+                        </div>
                         <!-- <div class="video-box">
                             <div class="row">
                                 <div class="col-md-6 order-2 order-md-1">
@@ -145,7 +145,7 @@
     <!-- =============================
 HOW WE WORK
 ================================== -->
-    <section class="how-work">
+    <!-- <section class="how-work">
         <div class="container">
             <div class="row">
                 <div class="col-md-8">
@@ -178,10 +178,15 @@ HOW WE WORK
                     <div class="order-img">
                         <img src="assets/img/menu-se(1).png" alt="burger">
                     </div>
+                    <div class="col-lg-5 text-center pt-lg-0 pt-5">
+                    <div class="facebook-link fb-responsive">
+                        <iframe loading="lazy" title="Facebook Page" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fthemomscafebar&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="400" height="400" style="border: none; overflow: hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                    </div>
+                </div>
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- =============================
 HOW WE WORK
 ================================== -->
@@ -323,6 +328,28 @@ HOW WE WORK
         </div>
     </section> -->
 
+    <!-- ================================================
+video and facebook feed
+==================================================== -->
+    <section class="social-media-wrap">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="VideoContent text-center">
+                        <iframe id="ytplayer" title="Youtube Video" loading="lazy" type="text/html" width="540" height="320" src="https://www.youtube.com/embed/LrAyijNjSfE?si=FvdcASK_QBr7IRUx" frameborder="0"></iframe>
+                    </div>
+                </div>
+                <div class="col-lg-5 text-center pt-lg-0 pt-5">
+                    <div class="facebook-link fb-responsive">
+                        <iframe loading="lazy" title="Facebook Page" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fthemomscafebar&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="400" height="400" style="border: none; overflow: hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ================================================
+video and facebook feed
+==================================================== -->
     <!-- ---------------------------footer starts--------------------- -->
     <?php
 
