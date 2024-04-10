@@ -181,13 +181,13 @@ flatpickr("#date", {
 // ===============================
 // Initialize Flatpickr for time
 // ==============================
-flatpickr("#time", {
-  enableTime: true, // Enable time picker
-  noCalendar: true, // Hide calendar
-  dateFormat: "H:i", // Time format
-  time_24hr: true, // Use 24-hour format
-  disableMobile: "true",
-});
+// flatpickr("#time", {
+//   enableTime: true, // Enable time picker
+//   noCalendar: true, // Hide calendar
+//   dateFormat: "H:i ", // Time format
+//   time_24hr: false, // Use 24-hour format
+//   disableMobile: "true",
+// });
 
 // ================================
 // this is for banner-slider

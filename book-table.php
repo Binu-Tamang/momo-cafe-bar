@@ -38,26 +38,31 @@
                 <div class="login-hero-header">
                     <h1 class="heading web-tittle">Book A Table</h1>
                 </div>
-                <form class="cnct-form" id="contactForm" action="php/contact-form.php" method="post">
+                <form class="cnct-form" id="contactForm" action="php/reservation-form.php" method="post">
                     <div class="row g-3">
                         <div class="col-md-6 col-sm-12">
                             <div class="input-group">
-                                <input type="text" id="name" name="name" class="form-control border-2" required="" placeholder="Name" aria-label="Name" aria-describedby="nameError" style="height: 40px;">
+                                <input type="text" id="name" value="<?php if (isset($_POST['name'])) {
+                                                                                                            echo $_POST['name'];
+                                                                                                        } ?>"  name="name" class="form-control border-2" required="" placeholder="Name" aria-label="Name" aria-describedby="nameError" style="height: 40px;">
                                 <span class="input-group-text"><i class="fa fa-user" aria-hidden="true"></i></span>
                             </div>
-                            <small id="nameError" class="form-text text-danger"></small>
                         </div>
 
                         <div class="col-md-6 col-sm-12">
                             <div class="input-group">
-                                <input type="email" id="email" name="email" class="form-control border-2" required="" placeholder="Email Address" aria-label="Email Address" style="height: 40px;">
+                                <input type="email" id="email" name="email" value="<?php if (isset($_POST['email'])) {
+                                                                                                            echo $_POST['email'];
+                                                                                                        } ?>"  class="form-control border-2" required="" placeholder="Email Address" aria-label="Email Address" style="height: 40px;">
                                 <span class="input-group-text"><i class="fa fa-envelope" aria-hidden="true"></i></span>
                             </div>
                         </div>
 
                         <div class="col-md-6 col-sm-12">
                             <div class="input-group flatpickr">
-                                <input type="text" id="time" name="time" class="form-control border-2 time-input flatpickr-input" required="" placeholder="Time" style="height: 40px;" data-input="" readonly="readonly">
+                                <input type="text" id="time" name="time"  value="<?php if (isset($_POST['time'])) {
+                                                                                                            echo $_POST['time'];
+                                                                                                        } ?>" class="form-control border-2 time-input flatpickr-input" required="" placeholder="Time" style="height: 40px;" data-input="" readonly="readonly">
                                 <a class="input-button" title="toggle" data-toggle="">
                                     <i class="fa-regular fa-clock"></i>
                                 </a>
@@ -66,14 +71,18 @@
 
                         <div class="col-md-6 col-sm-12">
                             <div class="input-group">
-                                <input type="tel" id="phone" name="phone" pattern="^\(?\d{3}\)?[-.\s]?\d{3}[-.\s]?\d{4}$" class="form-control border-2" required="" placeholder="Mobile No." aria-label="Mobile No." style="height: 40px;">
+                                <input type="tel" id="phone" name="phone" value="<?php if (isset($_POST['phone'])) {
+                                                                                                            echo $_POST['phone'];
+                                                                                                        } ?>"  pattern="^\(?\d{3}\)?[-.\s]?\d{3}[-.\s]?\d{4}$" class="form-control border-2" required="" placeholder="Mobile No." aria-label="Mobile No." style="height: 40px;">
                                 <span class="input-group-text"><i class="fa fa-phone" aria-hidden="true"></i></span>
                             </div>
                         </div>
 
                         <div class="col-md-6 col-sm-12">
                             <div class="input-group flatpickr">
-                                <input type="text" id="date" name="date" class="form-control border-2 flatpickr-input" required="" placeholder="Date" style="height: 40px;" data-input="" readonly="readonly">
+                                <input type="text" id="date" name="date" value="<?php if (isset($_POST['date'])) {
+                                                                                                            echo $_POST['date'];
+                                                                                                        } ?>"  class="form-control border-2 flatpickr-input" required="" placeholder="Date" style="height: 40px;" data-input="" readonly="readonly">
                                 <a class="input-button" title="toggle" data-toggle="">
                                     <i class="fa-solid fa-calendar-days"></i>
                                 </a>
@@ -82,14 +91,18 @@
 
                         <div class="col-md-6 col-sm-12">
                             <div class="input-group custom-select">
-                                <input type="number" id="number-guest" name="number_guest" class="form-control border-2" required="" placeholder="Number of Guests" aria-label="Numbe of Guests" style="height: 40px;">
+                                <input type="number" id="number-guest" min="1" name="number_guest" value="<?php if (isset($_POST['number_guest'])) {
+                                                                                                            echo $_POST['number_guest'];
+                                                                                                        } ?>"  class="form-control border-2" required="" placeholder="Number of Guests" aria-label="Numbe of Guests" style="height: 40px;">
                             </div>
                         </div>
 
                         <div class="col-12">
                             <div class="form-group">
                                 <label class="text-left" for="message">Message</label>
-                                <textarea class="form-control" id="message" name="message" rows="4" placeholder="Your message here..."></textarea>
+                                <textarea class="form-control" id="message" name="message"  rows="4" placeholder="Your message here..."><?php if (isset($_POST['message'])) {
+                                                                                                            echo $_POST['message'];
+                                                                                                        } ?></textarea>
                             </div>
                         </div>
 

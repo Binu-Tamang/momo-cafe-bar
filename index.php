@@ -43,8 +43,8 @@
                 <div class="col-md-5 col-sm-12">
                     <div class="left-banner">
                         <strong>An <span>Ambient</span> <br> Dining Journey</strong>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui vel optio magni quo esse </p>
-                        <a href="#" class="default-btn"> Explore Menu<span></span><i class="fa-solid fa-arrow-right-long"></i></a>
+                        <p>The Momos Cafe Bar, where we're breaking new ground with an exciting array of dishes to be enjoyed.</p>
+                        <a href="menu.php" class="default-btn"> Explore Menu<span></span><i class="fa-solid fa-arrow-right-long"></i></a>
                         <div id="circlebanner">
 
                         </div>
@@ -122,21 +122,21 @@
                     <div class="food-box-wrap">
                         <img loading="lazy" src="assets/img/ficon.png" alt="icon images" width="80px" height="80px">
                         <strong>Healthy Food</strong>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla sapiente fugiat digniss
+                        We maintain the quality and standard of our food that gets delevired to our customers.
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
                     <div class="food-box-wrap">
                         <img loading="lazy" src="assets/img/ficon3.png" alt="icon images" width="80px" height="80px">
                         <strong>Fast Delivery</strong>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla sapiente fugiat digniss
+                       We make sure that our customers received there order on time.
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
                     <div class="food-box-wrap">
                         <img loading="lazy" src="assets/img/ficon2.png" alt="icon images" width="80px" height="80px">
                         <strong>Event & Party</strong>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla sapiente fugiat digniss
+                        We organized event and party at our restaurant.
                     </div>
                 </div>
             </div>
@@ -156,7 +156,8 @@
             </div>
 
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-6">
+                <div class="col-xs-12 col-sm-12 col-md-6" style="display: flex;justify-content: center;
+    align-items: center;">
                     <div class="abt-food-img">
                         <div class="food_1">
                             <img loading="lazy" src="assets/img/two-pasta.jpg" alt="food">
@@ -173,11 +174,8 @@
                     <div class="abt-food-cntent">
                         <span class="small-heading">the momo’s cafe bar</span>
                         <h1 class="web-tittle">Nothing brings people together like a good Food</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi doloremque consequuntur
-                            corrupti
-                            mollitia odit ullam ipsam enim, molestias sunt nulla aut autem tenetur sapiente
-                            reprehenderit,
-                            suscipit modi a. Facere, possimus.</p>
+                        <p>
+                            Welcome to The Momos Café Bar in Teulada, Alicante - where good food brings people together! We're thrilled to have you join us in our cozy and welcoming café bar, where we strive to create a warm and inviting atmosphere for our guests. Whether you're a local or just passing through, our menu offers a delightful selection of momos and other delectable dishes that are sure to satisfy your cravings. Our team is dedicated to providing top-notch service and ensuring that your dining experience is nothing short of fantastic. So, come on in, grab a seat, and get ready to enjoy some delicious food and great company at The Momos Café Bar!</p>
                         <div class="div-two">
                             <ul>
                                 <li><i class="fa-solid fa-check"></i><span>Food Items management</span></li>
@@ -189,7 +187,7 @@
                             </ul>
                         </div>
                         <div class="text-left">
-                            <a href="#" class="yellow_btn"> About Us <span></span><i class="fa-solid fa-arrow-right-long"></i></a>
+                            <a href="about-us.php" class="yellow_btn"> About Us <span></span><i class="fa-solid fa-arrow-right-long"></i></a>
                         </div>
                     </div>
                 </div>
@@ -214,7 +212,7 @@
                     <button class="nav-link nav-tab-btn active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Breakfast</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link nav-tab-btn" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Lunch</button>
+                    <button class="nav-link nav-tab-btn" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Meats</button>
                 </li>
                 <li class="nav-item" role="presentation">
                     <button class="nav-link nav-tab-btn" id="salads-tab" data-bs-toggle="pill" data-bs-target="#salads" type="button" role="tab" aria-controls="salads" aria-selected="false">Salads</button>
@@ -237,14 +235,13 @@
                                 <div class="menu-list">
                                     <img loading="lazy" src="assets/Photos/banner-2.jpg" alt="food">
                                     <div class="menu-list-details">
-                                        <strong>Desayuno</strong>
-                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                enim ligula venenatis dolor.</span>
-                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        <strong>English Breakfast Small</strong>
+                                        <p>1 bacon, 1 sausage, 1 egg, 1 toast, tomato and beans</span>
+                                            <!-- <button onclick="myFunction(this)" class="myBtn">Read more</button> -->
                                         </p>
                                         <div class="food-review">
                                             <!-- <span><i class="fa-solid fa-star"></i> 4K Reviews </span> -->
-                                            <strong>4,50 €</strong>
+                                            <strong>5,50 €</strong>
                                         </div>
                                     </div>
                                 </div>
@@ -252,14 +249,13 @@
                                 <div class="menu-list">
                                     <img loading="lazy" src="assets/Photos/banner-3.jpg" alt="food">
                                     <div class="menu-list-details">
-                                        <strong>Desayuno</strong>
-                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                enim ligula venenatis dolor.</span>
-                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        <strong>Vegan Toast</strong>
+                                        <p>Tomato, avocado</span>
+                                            <!-- <button onclick="myFunction(this)" class="myBtn">Read more</button> -->
                                         </p>
                                         <div class="food-review">
                                             <!-- <span><i class="fa-solid fa-star"></i> 4K Reviews </span> -->
-                                            <strong>4,50 €</strong>
+                                            <strong>4,00 €</strong>
                                         </div>
                                     </div>
                                 </div>
@@ -267,14 +263,13 @@
                                 <div class="menu-list">
                                     <img loading="lazy" src="assets/Photos/banner-1.jpg" alt="food">
                                     <div class="menu-list-details">
-                                        <strong>Desayuno</strong>
-                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                enim ligula venenatis dolor.</span>
-                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        <strong>Tomato Toast</strong>
+                                        <p>Toast with Tomato</span>
+                                            <!-- <button onclick="myFunction(this)" class="myBtn">Read more</button> -->
                                         </p>
                                         <div class="food-review">
                                             <!-- <span><i class="fa-solid fa-star"></i> 4K Reviews </span> -->
-                                            <strong>4,50 €</strong>
+                                            <strong>1,90 €</strong>
                                         </div>
                                     </div>
                                 </div>
@@ -302,14 +297,15 @@
                                 <div class="menu-list">
                                     <img loading="lazy" src="assets/Photos/banner-1.jpg" alt="food">
                                     <div class="menu-list-details">
-                                        <strong>Desayuno</strong>
-                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                enim ligula venenatis dolor.</span>
-                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        <strong>Butter and Jam Toast</strong>
+                                        <p>Toast with butter and jam
+                                            +Jam or butter extra 0,50€
+                                            </span>
+                                            <!-- <button onclick="myFunction(this)" class="myBtn">Read more</button> -->
                                         </p>
                                         <div class="food-review">
                                             <!-- <span><i class="fa-solid fa-star"></i> 4K Reviews </span> -->
-                                            <strong>4,50 €</strong>
+                                            <strong>1,90 €</strong>
                                         </div>
                                     </div>
                                 </div>
@@ -317,14 +313,13 @@
                                 <div class="menu-list">
                                     <img loading="lazy" src="assets/Photos/banner-3.jpg" alt="food">
                                     <div class="menu-list-details">
-                                        <strong>Desayuno</strong>
-                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                enim ligula venenatis dolor.</span>
-                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        <strong>Tostada De Aceite </strong>
+                                        <p>Toasted bread with olive oil</span>
+                                            <!-- <button onclick="myFunction(this)" class="myBtn">Read more</button> -->
                                         </p>
                                         <div class="food-review">
                                             <!-- <span><i class="fa-solid fa-star"></i> 4K Reviews </span> -->
-                                            <strong>4,50 €</strong>
+                                            <strong>1,50 €</strong>
                                         </div>
                                     </div>
                                 </div>
@@ -332,14 +327,13 @@
                                 <div class="menu-list">
                                     <img loading="lazy" src="assets/Photos/banner-2.jpg" alt="food">
                                     <div class="menu-list-details">
-                                        <strong>Desayuno</strong>
-                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                enim ligula venenatis dolor.</span>
-                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        <strong>Natural Breakfast</strong>
+                                        <p>Muesli, Yogurt, Fruta, Tosta</span>
+                                            <!-- <button onclick="myFunction(this)" class="myBtn">Read more</button> -->
                                         </p>
                                         <div class="food-review">
                                             <!-- <span><i class="fa-solid fa-star"></i> 4K Reviews </span> -->
-                                            <strong>4,50 €</strong>
+                                            <strong>8,95 €</strong>
                                         </div>
                                     </div>
                                 </div>
@@ -348,6 +342,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
                     <div class="menu-box">
                         <div class="row">
@@ -355,14 +350,13 @@
                                 <div class="menu-list">
                                     <img loading="lazy" src="assets/Photos/banner-2.jpg" alt="food">
                                     <div class="menu-list-details">
-                                        <strong>Desayuno</strong>
-                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                enim ligula venenatis dolor.</span>
-                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        <strong>Pechuga De Pllo</strong>
+                                        <p>Chicken Breast</span>
+                                            <!-- <button onclick="myFunction(this)" class="myBtn">Read more</button> -->
                                         </p>
                                         <div class="food-review">
                                             <!-- <span><i class="fa-solid fa-star"></i> 4K Reviews </span> -->
-                                            <strong>4,50 €</strong>
+                                            <strong> 9,95€</strong>
                                         </div>
                                     </div>
                                 </div>
@@ -370,14 +364,13 @@
                                 <div class="menu-list">
                                     <img loading="lazy" src="assets/Photos/banner-3.jpg" alt="food">
                                     <div class="menu-list-details">
-                                        <strong>Desayuno</strong>
-                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                enim ligula venenatis dolor.</span>
-                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        <strong>Escalope De Pollo</strong>
+                                        <p>Chicken Escalope</span>
+                                            <!-- <button onclick="myFunction(this)" class="myBtn">Read more</button> -->
                                         </p>
                                         <div class="food-review">
                                             <!-- <span><i class="fa-solid fa-star"></i> 4K Reviews </span> -->
-                                            <strong>4,50 €</strong>
+                                            <strong>10,95€</strong>
                                         </div>
                                     </div>
                                 </div>
@@ -385,14 +378,13 @@
                                 <div class="menu-list">
                                     <img loading="lazy" src="assets/Photos/banner-1.jpg" alt="food">
                                     <div class="menu-list-details">
-                                        <strong>Desayuno</strong>
-                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                enim ligula venenatis dolor.</span>
-                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        <strong>Lomo De Cerdo Con Patatas Y Ensalada</strong>
+                                        <p>Pork Loin With Potatoes And Salad</span>
+                                            <!-- <button onclick="myFunction(this)" class="myBtn">Read more</button> -->
                                         </p>
                                         <div class="food-review">
                                             <!-- <span><i class="fa-solid fa-star"></i> 4K Reviews </span> -->
-                                            <strong>4,50 €</strong>
+                                            <strong>12,00€</strong>
                                         </div>
                                     </div>
                                 </div>
@@ -420,14 +412,13 @@
                                 <div class="menu-list">
                                     <img loading="lazy" src="assets/Photos/banner-1.jpg" alt="food">
                                     <div class="menu-list-details">
-                                        <strong>Desayuno</strong>
-                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                enim ligula venenatis dolor.</span>
-                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        <strong>Entrecotte</strong>
+                                        <p>Ribeye Steak</span>
+                                            <!-- <button onclick="myFunction(this)" class="myBtn">Read more</button> -->
                                         </p>
                                         <div class="food-review">
                                             <!-- <span><i class="fa-solid fa-star"></i> 4K Reviews </span> -->
-                                            <strong>4,50 €</strong>
+                                            <strong>19,95€</strong>
                                         </div>
                                     </div>
                                 </div>
@@ -435,14 +426,13 @@
                                 <div class="menu-list">
                                     <img loading="lazy" src="assets/Photos/banner-3.jpg" alt="food">
                                     <div class="menu-list-details">
-                                        <strong>Desayuno</strong>
-                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                enim ligula venenatis dolor.</span>
-                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        <strong>Costilla Barbacoa</strong>
+                                        <p>Barbecue Ribs</span>
+                                            <!-- <button onclick="myFunction(this)" class="myBtn">Read more</button> -->
                                         </p>
                                         <div class="food-review">
                                             <!-- <span><i class="fa-solid fa-star"></i> 4K Reviews </span> -->
-                                            <strong>4,50 €</strong>
+                                            <strong>17,95€</strong>
                                         </div>
                                     </div>
                                 </div>
@@ -450,14 +440,13 @@
                                 <div class="menu-list">
                                     <img loading="lazy" src="assets/Photos/banner-2.jpg" alt="food">
                                     <div class="menu-list-details">
-                                        <strong>Desayuno</strong>
-                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                enim ligula venenatis dolor.</span>
-                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        <strong>Chuleta Cordero</strong>
+                                        <p>Lamb Chop</span>
+                                            <!-- <button onclick="myFunction(this)" class="myBtn">Read more</button> -->
                                         </p>
                                         <div class="food-review">
                                             <!-- <span><i class="fa-solid fa-star"></i> 4K Reviews </span> -->
-                                            <strong>4,50 €</strong>
+                                            <strong>19,95€</strong>
                                         </div>
                                     </div>
                                 </div>
@@ -473,14 +462,13 @@
                                 <div class="menu-list">
                                     <img loading="lazy" src="assets/Photos/banner-2.jpg" alt="food">
                                     <div class="menu-list-details">
-                                        <strong>Desayuno</strong>
-                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                enim ligula venenatis dolor.</span>
-                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        <strong>Ensalada mixta</strong>
+                                        <p>Lechuga, tomate, cebolla pepino, aceitunas y mozzarella</span>
+                                            <!-- <button onclick="myFunction(this)" class="myBtn">Read more</button> -->
                                         </p>
                                         <div class="food-review">
                                             <!-- <span><i class="fa-solid fa-star"></i> 4K Reviews </span> -->
-                                            <strong>4,50 €</strong>
+                                            <strong>6,95 €</strong>
                                         </div>
                                     </div>
                                 </div>
@@ -488,29 +476,13 @@
                                 <div class="menu-list">
                                     <img loading="lazy" src="assets/Photos/banner-3.jpg" alt="food">
                                     <div class="menu-list-details">
-                                        <strong>Desayuno</strong>
-                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                enim ligula venenatis dolor.</span>
-                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        <strong>Ensalada César 10,95€</strong>
+                                        <p>Lettuce, chicken, cherry tomato, croutons, crispy onion and Caesar sauce</span>
+                                            <!-- <button onclick="myFunction(this)" class="myBtn">Read more</button> -->
                                         </p>
                                         <div class="food-review">
                                             <!-- <span><i class="fa-solid fa-star"></i> 4K Reviews </span> -->
-                                            <strong>4,50 €</strong>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="menu-list">
-                                    <img loading="lazy" src="assets/Photos/banner-1.jpg" alt="food">
-                                    <div class="menu-list-details">
-                                        <strong>Desayuno</strong>
-                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                enim ligula venenatis dolor.</span>
-                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
-                                        </p>
-                                        <div class="food-review">
-                                            <!-- <span><i class="fa-solid fa-star"></i> 4K Reviews </span> -->
-                                            <strong>4,50 €</strong>
+                                            <strong>10,95 €</strong>
                                         </div>
                                     </div>
                                 </div>
@@ -538,82 +510,13 @@
                                 <div class="menu-list">
                                     <img loading="lazy" src="assets/Photos/banner-1.jpg" alt="food">
                                     <div class="menu-list-details">
-                                        <strong>Desayuno</strong>
-                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                enim ligula venenatis dolor.</span>
-                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        <strong>Ensalada Caprese</strong>
+                                        <p>Tomato, mozzarella cheese and oregano</span>
+                                            <!-- <button onclick="myFunction(this)" class="myBtn">Read more</button> -->
                                         </p>
                                         <div class="food-review">
                                             <!-- <span><i class="fa-solid fa-star"></i> 4K Reviews </span> -->
-                                            <strong>4,50 €</strong>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="menu-list">
-                                    <img loading="lazy" src="assets/Photos/banner-3.jpg" alt="food">
-                                    <div class="menu-list-details">
-                                        <strong>Desayuno</strong>
-                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                enim ligula venenatis dolor.</span>
-                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
-                                        </p>
-                                        <div class="food-review">
-                                            <!-- <span><i class="fa-solid fa-star"></i> 4K Reviews </span> -->
-                                            <strong>4,50 €</strong>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="menu-list">
-                                    <img loading="lazy" src="assets/Photos/banner-2.jpg" alt="food">
-                                    <div class="menu-list-details">
-                                        <strong>Desayuno</strong>
-                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                enim ligula venenatis dolor.</span>
-                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
-                                        </p>
-                                        <div class="food-review">
-                                            <!-- <span><i class="fa-solid fa-star"></i> 4K Reviews </span> -->
-                                            <strong>4,50 €</strong>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="tab-pane fade" id="pasta" role="tabpanel" aria-labelledby="pasta-tab">
-                    <div class="menu-box">
-                        <div class="row">
-                            <div class="col-md-4 col-sm-12">
-                                <div class="menu-list">
-                                    <img loading="lazy" src="assets/Photos/banner-2.jpg" alt="food">
-                                    <div class="menu-list-details">
-                                        <strong>Desayuno</strong>
-                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                enim ligula venenatis dolor.</span>
-                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
-                                        </p>
-                                        <div class="food-review">
-                                            <!-- <span><i class="fa-solid fa-star"></i> 4K Reviews </span> -->
-                                            <strong>4,50 €</strong>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="menu-list">
-                                    <img loading="lazy" src="assets/Photos/banner-3.jpg" alt="food">
-                                    <div class="menu-list-details">
-                                        <strong>Desayuno</strong>
-                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                enim ligula venenatis dolor.</span>
-                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
-                                        </p>
-                                        <div class="food-review">
-                                            <!-- <span><i class="fa-solid fa-star"></i> 4K Reviews </span> -->
-                                            <strong>4,50 €</strong>
+                                            <strong>7,95 €</strong>
                                         </div>
                                     </div>
                                 </div>
@@ -621,17 +524,53 @@
                                 <div class="menu-list">
                                     <img loading="lazy" src="assets/Photos/banner-1.jpg" alt="food">
                                     <div class="menu-list-details">
-                                        <strong>Desayuno</strong>
-                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                enim ligula venenatis dolor.</span>
-                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        <strong>Ensalada gambas</strong>
+                                        <p>Lettuce, tomato, onion, avocado, shrimp and pink sauce</span>
+                                            <!-- <button onclick="myFunction(this)" class="myBtn">Read more</button> -->
                                         </p>
                                         <div class="food-review">
                                             <!-- <span><i class="fa-solid fa-star"></i> 4K Reviews </span> -->
-                                            <strong>4,50 €</strong>
+                                            <strong>10,95 €</strong>
                                         </div>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="pasta" role="tabpanel" aria-labelledby="pasta-tab">
+                    <div class="menu-box">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-12">
+                                <div class="menu-list">
+                                    <img loading="lazy" src="assets/Photos/banner-2.jpg" alt="food">
+                                    <div class="menu-list-details">
+                                        <strong>SPAGUETTI BOLOGNESA</strong>
+                                        <p>Spaghetti or macaroni Bolognese</span>
+                                            <!-- <button onclick="myFunction(this)" class="myBtn">Read more</button> -->
+                                        </p>
+                                        <div class="food-review">
+                                            <!-- <span><i class="fa-solid fa-star"></i> 4K Reviews </span> -->
+                                            <strong>8,95€</strong>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="menu-list">
+                                    <img loading="lazy" src="assets/Photos/banner-3.jpg" alt="food">
+                                    <div class="menu-list-details">
+                                        <strong>SPAGUETTI CARBONARA</strong>
+                                        <p>Spaghetti or macaroni carbonara</span>
+                                            <!-- <button onclick="myFunction(this)" class="myBtn">Read more</button> -->
+                                        </p>
+                                        <div class="food-review">
+                                            <!-- <span><i class="fa-solid fa-star"></i> 4K Reviews </span> -->
+                                            <strong>9,95€</strong>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
 
                             <div class="col-md-4 col-sm-12">
@@ -656,14 +595,13 @@
                                 <div class="menu-list">
                                     <img loading="lazy" src="assets/Photos/banner-1.jpg" alt="food">
                                     <div class="menu-list-details">
-                                        <strong>Desayuno</strong>
-                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                enim ligula venenatis dolor.</span>
-                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        <strong>LASAÑA BOLOÑESA </strong>
+                                        <p>Lasagna Bolognese</span>
+                                            <!-- <button onclick="myFunction(this)" class="myBtn">Read more</button> -->
                                         </p>
                                         <div class="food-review">
                                             <!-- <span><i class="fa-solid fa-star"></i> 4K Reviews </span> -->
-                                            <strong>4,50 €</strong>
+                                            <strong>10,95€</strong>
                                         </div>
                                     </div>
                                 </div>
@@ -671,37 +609,22 @@
                                 <div class="menu-list">
                                     <img loading="lazy" src="assets/Photos/banner-3.jpg" alt="food">
                                     <div class="menu-list-details">
-                                        <strong>Desayuno</strong>
-                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                enim ligula venenatis dolor.</span>
-                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        <strong>LASAÑA VEGETAL </strong>
+                                        <p>Vegetable Lasagna</span>
+                                            <!-- <button onclick="myFunction(this)" class="myBtn">Read more</button> -->
                                         </p>
                                         <div class="food-review">
                                             <!-- <span><i class="fa-solid fa-star"></i> 4K Reviews </span> -->
-                                            <strong>4,50 €</strong>
+                                            <strong>9,90€</strong>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="menu-list">
-                                    <img loading="lazy" src="assets/Photos/banner-2.jpg" alt="food">
-                                    <div class="menu-list-details">
-                                        <strong>Desayuno</strong>
-                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                enim ligula venenatis dolor.</span>
-                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
-                                        </p>
-                                        <div class="food-review">
-                                            <!-- <span><i class="fa-solid fa-star"></i> 4K Reviews </span> -->
-                                            <strong>4,50 €</strong>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
+
                 <div class="tab-pane fade" id="pizza" role="tabpanel" aria-labelledby="pizza-tab">
                     <div class="menu-box">
                         <div class="row">
@@ -709,14 +632,13 @@
                                 <div class="menu-list">
                                     <img loading="lazy" src="assets/Photos/banner-2.jpg" alt="food">
                                     <div class="menu-list-details">
-                                        <strong>Desayuno</strong>
-                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                enim ligula venenatis dolor.</span>
-                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        <strong>Margarita </strong>
+                                        <p>Tomato, cheese, oregano</span>
+                                            <!-- <button onclick="myFunction(this)" class="myBtn">Read more</button> -->
                                         </p>
                                         <div class="food-review">
                                             <!-- <span><i class="fa-solid fa-star"></i> 4K Reviews </span> -->
-                                            <strong>4,50 €</strong>
+                                            <strong>7,95€</strong>
                                         </div>
                                     </div>
                                 </div>
@@ -724,14 +646,13 @@
                                 <div class="menu-list">
                                     <img loading="lazy" src="assets/Photos/banner-3.jpg" alt="food">
                                     <div class="menu-list-details">
-                                        <strong>Desayuno</strong>
-                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                enim ligula venenatis dolor.</span>
-                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        <strong>Atun/Tuna </strong>
+                                        <p>Tomato, cheese, tuna & onion</span>
+                                            <!-- <button onclick="myFunction(this)" class="myBtn">Read more</button> -->
                                         </p>
                                         <div class="food-review">
                                             <!-- <span><i class="fa-solid fa-star"></i> 4K Reviews </span> -->
-                                            <strong>4,50 €</strong>
+                                            <strong>8,95€</strong>
                                         </div>
                                     </div>
                                 </div>
@@ -739,14 +660,13 @@
                                 <div class="menu-list">
                                     <img loading="lazy" src="assets/Photos/banner-1.jpg" alt="food">
                                     <div class="menu-list-details">
-                                        <strong>Desayuno</strong>
-                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                enim ligula venenatis dolor.</span>
-                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        <strong>Hawai</strong>
+                                        <p>Tomato, cheese, ham & pineapple</span>
+                                            <!-- <button onclick="myFunction(this)" class="myBtn">Read more</button> -->
                                         </p>
                                         <div class="food-review">
                                             <!-- <span><i class="fa-solid fa-star"></i> 4K Reviews </span> -->
-                                            <strong>4,50 €</strong>
+                                            <strong>8,95€</strong>
                                         </div>
                                     </div>
                                 </div>
@@ -774,14 +694,13 @@
                                 <div class="menu-list">
                                     <img loading="lazy" src="assets/Photos/banner-1.jpg" alt="food">
                                     <div class="menu-list-details">
-                                        <strong>Desayuno</strong>
-                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                enim ligula venenatis dolor.</span>
-                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        <strong>Caprichosa</strong>
+                                        <p>Tomato, cheese, ham & mushrooms</span>
+                                            <!-- <button onclick="myFunction(this)" class="myBtn">Read more</button> -->
                                         </p>
                                         <div class="food-review">
                                             <!-- <span><i class="fa-solid fa-star"></i> 4K Reviews </span> -->
-                                            <strong>4,50 €</strong>
+                                            <strong>9,95€</strong>
                                         </div>
                                     </div>
                                 </div>
@@ -789,34 +708,18 @@
                                 <div class="menu-list">
                                     <img loading="lazy" src="assets/Photos/banner-3.jpg" alt="food">
                                     <div class="menu-list-details">
-                                        <strong>Desayuno</strong>
-                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                enim ligula venenatis dolor.</span>
-                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        <strong>Vegetariana</strong>
+                                        <p>Fresh mix vegetable</span>
+                                            <!-- <button onclick="myFunction(this)" class="myBtn">Read more</button> -->
                                         </p>
                                         <div class="food-review">
                                             <!-- <span><i class="fa-solid fa-star"></i> 4K Reviews </span> -->
-                                            <strong>4,50 €</strong>
+                                            <strong>8,50€</strong>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="menu-list">
-                                    <img loading="lazy" src="assets/Photos/banner-2.jpg" alt="food">
-                                    <div class="menu-list-details">
-                                        <strong>Desayuno</strong>
-                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                enim ligula venenatis dolor.</span>
-                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
-                                        </p>
-                                        <div class="food-review">
-                                            <!-- <span><i class="fa-solid fa-star"></i> 4K Reviews </span> -->
-                                            <strong>4,50 €</strong>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
@@ -827,14 +730,13 @@
                                 <div class="menu-list">
                                     <img loading="lazy" src="assets/Photos/banner-2.jpg" alt="food">
                                     <div class="menu-list-details">
-                                        <strong>Desayuno</strong>
-                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                enim ligula venenatis dolor.</span>
-                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        <strong>Espaghetti Bolognese </strong>
+                                        <p>Spaghetti Bolognese
+                                            <!-- <button onclick="myFunction(this)" class="myBtn">Read more</button> -->
                                         </p>
                                         <div class="food-review">
                                             <!-- <span><i class="fa-solid fa-star"></i> 4K Reviews </span> -->
-                                            <strong>4,50 €</strong>
+                                            <strong>5,00 €</strong>
                                         </div>
                                     </div>
                                 </div>
@@ -842,32 +744,17 @@
                                 <div class="menu-list">
                                     <img loading="lazy" src="assets/Photos/banner-3.jpg" alt="food">
                                     <div class="menu-list-details">
-                                        <strong>Desayuno</strong>
-                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                enim ligula venenatis dolor.</span>
-                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        <strong>Hamburguesa pequeña con patatas fritas</strong>
+                                        <p>Mini hamburger with chips
+                                            <!-- <button onclick="myFunction(this)" class="myBtn">Read more</button> -->
                                         </p>
                                         <div class="food-review">
                                             <!-- <span><i class="fa-solid fa-star"></i> 4K Reviews </span> -->
-                                            <strong>4,50 €</strong>
+                                            <strong>6,50 €</strong>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="menu-list">
-                                    <img loading="lazy" src="assets/Photos/banner-1.jpg" alt="food">
-                                    <div class="menu-list-details">
-                                        <strong>Desayuno</strong>
-                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                enim ligula venenatis dolor.</span>
-                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
-                                        </p>
-                                        <div class="food-review">
-                                            <!-- <span><i class="fa-solid fa-star"></i> 4K Reviews </span> -->
-                                            <strong>4,50 €</strong>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
 
                             <div class="col-md-4 col-sm-12">
@@ -892,55 +779,25 @@
                                 <div class="menu-list">
                                     <img loading="lazy" src="assets/Photos/banner-1.jpg" alt="food">
                                     <div class="menu-list-details">
-                                        <strong>Desayuno</strong>
-                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                enim ligula venenatis dolor.</span>
-                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        <strong>Chicken nuggets with french fries</strong>
+                                        <p>Nuggets de pollo con patatas fritas</span>
+                                            <!-- <button onclick="myFunction(this)" class="myBtn">Read more</button> -->
                                         </p>
                                         <div class="food-review">
                                             <!-- <span><i class="fa-solid fa-star"></i> 4K Reviews </span> -->
-                                            <strong>4,50 €</strong>
+                                            <strong>5,50 €</strong>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="menu-list">
-                                    <img loading="lazy" src="assets/Photos/banner-3.jpg" alt="food">
-                                    <div class="menu-list-details">
-                                        <strong>Desayuno</strong>
-                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                enim ligula venenatis dolor.</span>
-                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
-                                        </p>
-                                        <div class="food-review">
-                                            <!-- <span><i class="fa-solid fa-star"></i> 4K Reviews </span> -->
-                                            <strong>4,50 €</strong>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="menu-list">
-                                    <img loading="lazy" src="assets/Photos/banner-2.jpg" alt="food">
-                                    <div class="menu-list-details">
-                                        <strong>Desayuno</strong>
-                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                enim ligula venenatis dolor.</span>
-                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
-                                        </p>
-                                        <div class="food-review">
-                                            <!-- <span><i class="fa-solid fa-star"></i> 4K Reviews </span> -->
-                                            <strong>4,50 €</strong>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="text-center pt-5 two-btn">
-                <a href="#" class="default-btn"> Order Online<span></span><i class="fa-solid fa-arrow-right-long"></i></a>
-                <a href="#" class="yellow_btn mx-4"> View Our Menu <span></span><i class="fa-solid fa-arrow-right-long"></i></a>
+                <a href="order2.php" class="default-btn"> Order Online<span></span><i class="fa-solid fa-arrow-right-long"></i></a>
+                <a href="menu.php" class="yellow_btn mx-4"> View Our Menu <span></span><i class="fa-solid fa-arrow-right-long"></i></a>
             </div>
         </div>
     </section>
@@ -953,11 +810,11 @@
                 <div class="col-md-5 col-sm-12">
                     <span class="small-heading">Reservations</span>
                     <h2 class="web-tittle text-white">Book Your Table Now !</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet doloremque magni pariatur veniam</p>
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet doloremque magni pariatur veniam</p> -->
                 </div>
                 <div class="col-md-7 col-sm-12">
                     <div class="form-box-wrap">
-                        <form class="cnct-form" id="contactForm" action="php/contact-form.php" method="post">
+                        <form class="cnct-form" id="contactForm" action="book-table.php" method="POST">
                             <div class="row g-3">
                                 <div class="col-md-4 col-sm-6">
                                     <div class="input-group">
@@ -1002,13 +859,13 @@
 
                                 <div class="col-md-4 col-sm-6">
                                     <div class="input-group custom-select">
-                                        <input type="number" id="number-guest" name="number_guest" class="form-control border-2" required placeholder="Number of Guests" aria-label="Numbe of Guests" style="height: 40px;">
+                                        <input type="number" id="number-guest" min="1" max="50" name="number_guest" class="form-control border-2" required placeholder="Number of Guests" aria-label="Numbe of Guests" style="height: 40px;">
                                         <!-- <span class="input-group-text"><i class="fa-solid fa-angle-down"></i></span> -->
                                     </div>
                                 </div>
                             </div>
                             <div class="text-left pt-3">
-                                <button type="submit" class="default-btn">Book Now <span></span><i class="fa-solid fa-arrow-right-long"></i></button>
+                                <button class="default-btn">Book Now <span></span><i class="fa-solid fa-arrow-right-long"></i></button>
                             </div>
                         </form>
 
@@ -1148,6 +1005,12 @@
     include('inc/footer.php');
     include('inc/js.php')
     ?>
+    <script>
+        const navItems = document.querySelectorAll('.header-menu-wrap ul li > a ');
+        if (navItems.length >= 1) {
+            navItems[0].classList.add("active");
+        }
+    </script>
 </body>
 
 </html>

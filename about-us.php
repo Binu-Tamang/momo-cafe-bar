@@ -51,14 +51,8 @@
                         <span class="small-heading text-left">About Us</span>
                         <h1 class="web-tittle text-left">New Ground with Dishes to be Enjoyed</h1>
                         <!-- <div class="separator"><span></span></div> -->
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At repellat non deleniti nisi sequi
-                            nemo
-                            iusto
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa a deserunt incidunt
-                            obcaecati,
-                            quisquam
-                            necessitatibus sapiente vero molestiae repellat, odio magnam error non dicta sit illum in
-                            tempore
+                        <p>The Momos Cafe Bar, where we're breaking new ground with an exciting array of dishes to be enjoyed. Our menu is filled with delightful surprises that will tantalize your taste buds and leave you craving for more. </p>
+                        <p>From delectable momos in a variety of flavors to innovative fusion dishes that marry different culinary traditions, there's something for everyone to savor. Whether you're a foodie looking for a new adventure or simply craving some comfort food with a twist, our friendly staff is here to guide you through an unforgettable dining experience. Come join us and embark on a culinary journey that will leave you coming back for more.
                         </p>
                         <div class="text-left pt-3">
                             <a href="#" class="default-btn"> Explore Menu <span></span><i class="fa-solid fa-arrow-right-long"></i></a>
@@ -94,11 +88,8 @@
                         <div class="story-box-wrap">
                             <span class="small-heading text-left">Discover Our Story</span>
                             <h1 class="web-tittle text-left">Enjoy Delicious Food at Our Restaurant</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt nostrum asperiores odio
-                                possimus atque quos minima repellat quidem? Enim mollitia adipisci nihil eaque
-                                reiciendis suscipit quidem quis dolores nostrum doloremque! Lorem</p>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum fugiat, aliquid nulla
-                                aperiam est delectus perferendis sequi? Veritatis voluptas molestiae</p>
+                            <p>The Momos Cafe Bar, where delicious food and warm hospitality await you! Our restaurant is the perfect place to savor mouthwatering dishes in a cozy and inviting atmosphere. From our signature momos to a variety of delectable cuisines, there's something to please every palate.</p>
+                            <p> Whether you're joining us for a casual meal with friends or a special celebration, our friendly staff is dedicated to ensuring you have a memorable dining experience. Come indulge in the flavors of our kitchen and create unforgettable moments at The Momos Cafe Bar.</p>
                             <div class="text-left pt-3">
                                 <a href="#" class="yellow_btn"> Explore Menu <span></span><i class="fa-solid fa-arrow-right-long"></i></a>
                             </div>
@@ -356,6 +347,12 @@ video and facebook feed
     include('inc/footer.php');
     include('inc/js.php')
     ?>
+    <script>
+        const navItems = document.querySelectorAll('.header-menu-wrap ul li > a ');
+        if (navItems.length >= 2) {
+            navItems[1].classList.add("active");
+        }
+    </script>
 </body>
 
 </html>

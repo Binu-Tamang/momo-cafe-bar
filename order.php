@@ -16,7 +16,7 @@
     <?php include('inc/header.php') ?>
     <!-- header part ends -->
 
-        <!-- <div class="mouse_move objects">
+    <!-- <div class="mouse_move objects">
             <img class="mouse" value="1.8" src="assets/img/ob-1.png" alt="food fly" style="transform: translateX(-0.202222px) translateY(1.56222px);">
             <img class="mouse" value="1.8" src="assets/img/ob-2.png" alt="food fly" style="transform: translateX(-0.202222px) translateY(1.56222px);">
             <img class="mouse" value="1.8" src="assets/img/ob-3.png" alt="food fly" style="transform: translateX(-0.202222px) translateY(1.56222px);">
@@ -26,12 +26,12 @@
             <img class="mouse" value="1.8" src="assets/img/mint.png" alt="food" style="transform: translateX(0.877778px) translateY(-4.07778px); left:10%; bottom:20%;">
             <img loading="lazy" class="mouse" value="0.8" src="assets/img/cherry-tomato.png" alt="food" id="bg-2" data-depth="40" style="transform: translateX(10.9378px) translateY(-25.2067px); bottom:15%; right:10%; rotate:190deg;">
         </div> -->
-        <div class="sitewrapper">
-    <!-- banner and headre page  -->
-    <?php $page_title = 'Food Order ' ?>
-    <?php $page_name = 'Food Order' ?>
-    <?php include('inc/breadcrumb.php') ?>
-    <!-- banner and header page -->
+    <div class="sitewrapper">
+        <!-- banner and headre page  -->
+        <?php $page_title = 'Food Order ' ?>
+        <?php $page_name = 'Food Order' ?>
+        <?php include('inc/breadcrumb.php') ?>
+        <!-- banner and header page -->
 
         <div class="sitecontent">
 
@@ -131,10 +131,8 @@
                                                             <div class="order-item-box-cont">
                                                                 <h4 class="order-item-box-title">Papadom</h4>
                                                                 <div class="order-item-box-icons">
-                                                                    <span><img src="images/menu-icons/celery.png"
-                                                                            alt=""></span>
-                                                                    <span><img src="images/menu-icons/eggs.png"
-                                                                            alt=""></span>
+                                                                    <span><img src="images/menu-icons/celery.png" alt=""></span>
+                                                                    <span><img src="images/menu-icons/eggs.png" alt=""></span>
                                                                 </div>
                                                                 <p class="order-item-box-para">Fried plain crispy
                                                                     lentils wafer.</p>
@@ -168,10 +166,8 @@
                                                             <div class="order-item-box-cont">
                                                                 <h4 class="order-item-box-title">Tomato Soup</h4>
                                                                 <div class="order-item-box-icons">
-                                                                    <span><img src="images/menu-icons/fish.png"
-                                                                            alt=""></span>
-                                                                    <span><img src="images/menu-icons/lupins.png"
-                                                                            alt=""></span>
+                                                                    <span><img src="images/menu-icons/fish.png" alt=""></span>
+                                                                    <span><img src="images/menu-icons/lupins.png" alt=""></span>
                                                                 </div>
                                                                 <p class="order-item-box-para">Prepared with fresh
                                                                     tomato, fresh cream and spices.</p>
@@ -219,10 +215,8 @@
                                                             <div class="order-item-box-cont">
                                                                 <h4 class="order-item-box-title">Chicken Soup</h4>
                                                                 <div class="order-item-box-icons">
-                                                                    <span><img src="images/menu-icons/gluten.png"
-                                                                            alt=""></span>
-                                                                    <span><img src="images/menu-icons/shellfish.png"
-                                                                            alt=""></span>
+                                                                    <span><img src="images/menu-icons/gluten.png" alt=""></span>
+                                                                    <span><img src="images/menu-icons/shellfish.png" alt=""></span>
                                                                 </div>
                                                                 <p class="order-item-box-para">Prepared with chicken,
                                                                     fresh cream and spices.</p>
@@ -271,12 +265,9 @@
                                                             <div class="order-item-box-cont">
                                                                 <h4 class="order-item-box-title">Mix Raita</h4>
                                                                 <div class="order-item-box-icons">
-                                                                    <span><img src="images/menu-icons/sesame.png"
-                                                                            alt=""></span>
-                                                                    <span><img src="images/menu-icons/eggs.png"
-                                                                            alt=""></span>
-                                                                    <span><img src="images/menu-icons/mustard.png"
-                                                                            alt=""></span>
+                                                                    <span><img src="images/menu-icons/sesame.png" alt=""></span>
+                                                                    <span><img src="images/menu-icons/eggs.png" alt=""></span>
+                                                                    <span><img src="images/menu-icons/mustard.png" alt=""></span>
                                                                 </div>
                                                                 <p class="order-item-box-para">Prepared with yoghurt,
                                                                     cucumber, tomato, onion and fresh coriander.</p>
@@ -300,10 +291,8 @@
                                                             <div class="order-item-box-cont">
                                                                 <h4 class="order-item-box-title">Papadom</h4>
                                                                 <div class="order-item-box-icons">
-                                                                    <span><img src="images/menu-icons/celery.png"
-                                                                            alt=""></span>
-                                                                    <span><img src="images/menu-icons/eggs.png"
-                                                                            alt=""></span>
+                                                                    <span><img src="images/menu-icons/celery.png" alt=""></span>
+                                                                    <span><img src="images/menu-icons/eggs.png" alt=""></span>
                                                                 </div>
                                                                 <p class="order-item-box-para">Fried plain crispy
                                                                     lentils wafer.</p>
@@ -337,10 +326,8 @@
                                                             <div class="order-item-box-cont">
                                                                 <h4 class="order-item-box-title">Tomato Soup</h4>
                                                                 <div class="order-item-box-icons">
-                                                                    <span><img src="images/menu-icons/fish.png"
-                                                                            alt=""></span>
-                                                                    <span><img src="images/menu-icons/lupins.png"
-                                                                            alt=""></span>
+                                                                    <span><img src="images/menu-icons/fish.png" alt=""></span>
+                                                                    <span><img src="images/menu-icons/lupins.png" alt=""></span>
                                                                 </div>
                                                                 <p class="order-item-box-para">Prepared with fresh
                                                                     tomato, fresh cream and spices.</p>
@@ -391,10 +378,8 @@
                                                             <div class="order-item-box-cont">
                                                                 <h4 class="order-item-box-title">Chicken Soup</h4>
                                                                 <div class="order-item-box-icons">
-                                                                    <span><img src="images/menu-icons/gluten.png"
-                                                                            alt=""></span>
-                                                                    <span><img src="images/menu-icons/shellfish.png"
-                                                                            alt=""></span>
+                                                                    <span><img src="images/menu-icons/gluten.png" alt=""></span>
+                                                                    <span><img src="images/menu-icons/shellfish.png" alt=""></span>
                                                                 </div>
                                                                 <p class="order-item-box-para">Prepared with chicken,
                                                                     fresh cream and spices.</p>
@@ -443,12 +428,9 @@
                                                             <div class="order-item-box-cont">
                                                                 <h4 class="order-item-box-title">Mix Raita</h4>
                                                                 <div class="order-item-box-icons">
-                                                                    <span><img src="images/menu-icons/sesame.png"
-                                                                            alt=""></span>
-                                                                    <span><img src="images/menu-icons/eggs.png"
-                                                                            alt=""></span>
-                                                                    <span><img src="images/menu-icons/mustard.png"
-                                                                            alt=""></span>
+                                                                    <span><img src="images/menu-icons/sesame.png" alt=""></span>
+                                                                    <span><img src="images/menu-icons/eggs.png" alt=""></span>
+                                                                    <span><img src="images/menu-icons/mustard.png" alt=""></span>
                                                                 </div>
                                                                 <p class="order-item-box-para">Prepared with yoghurt,
                                                                     cucumber, tomato, onion and fresh coriander.</p>
@@ -471,10 +453,8 @@
                                                             <div class="order-item-box-cont">
                                                                 <h4 class="order-item-box-title">Papadom</h4>
                                                                 <div class="order-item-box-icons">
-                                                                    <span><img src="images/menu-icons/celery.png"
-                                                                            alt=""></span>
-                                                                    <span><img src="images/menu-icons/eggs.png"
-                                                                            alt=""></span>
+                                                                    <span><img src="images/menu-icons/celery.png" alt=""></span>
+                                                                    <span><img src="images/menu-icons/eggs.png" alt=""></span>
                                                                 </div>
                                                                 <p class="order-item-box-para">Fried plain crispy
                                                                     lentils wafer.</p>
@@ -508,10 +488,8 @@
                                                             <div class="order-item-box-cont">
                                                                 <h4 class="order-item-box-title">Tomato Soup</h4>
                                                                 <div class="order-item-box-icons">
-                                                                    <span><img src="images/menu-icons/fish.png"
-                                                                            alt=""></span>
-                                                                    <span><img src="images/menu-icons/lupins.png"
-                                                                            alt=""></span>
+                                                                    <span><img src="images/menu-icons/fish.png" alt=""></span>
+                                                                    <span><img src="images/menu-icons/lupins.png" alt=""></span>
                                                                 </div>
                                                                 <p class="order-item-box-para">Prepared with fresh
                                                                     tomato, fresh cream and spices.</p>
@@ -559,10 +537,8 @@
                                                             <div class="order-item-box-cont">
                                                                 <h4 class="order-item-box-title">Chicken Soup</h4>
                                                                 <div class="order-item-box-icons">
-                                                                    <span><img src="images/menu-icons/gluten.png"
-                                                                            alt=""></span>
-                                                                    <span><img src="images/menu-icons/shellfish.png"
-                                                                            alt=""></span>
+                                                                    <span><img src="images/menu-icons/gluten.png" alt=""></span>
+                                                                    <span><img src="images/menu-icons/shellfish.png" alt=""></span>
                                                                 </div>
                                                                 <p class="order-item-box-para">Prepared with chicken,
                                                                     fresh cream and spices.</p>
@@ -611,12 +587,9 @@
                                                             <div class="order-item-box-cont">
                                                                 <h4 class="order-item-box-title">Mix Raita</h4>
                                                                 <div class="order-item-box-icons">
-                                                                    <span><img src="images/menu-icons/sesame.png"
-                                                                            alt=""></span>
-                                                                    <span><img src="images/menu-icons/eggs.png"
-                                                                            alt=""></span>
-                                                                    <span><img src="images/menu-icons/mustard.png"
-                                                                            alt=""></span>
+                                                                    <span><img src="images/menu-icons/sesame.png" alt=""></span>
+                                                                    <span><img src="images/menu-icons/eggs.png" alt=""></span>
+                                                                    <span><img src="images/menu-icons/mustard.png" alt=""></span>
                                                                 </div>
                                                                 <p class="order-item-box-para">Prepared with yoghurt,
                                                                     cucumber, tomato, onion and fresh coriander.</p>
@@ -639,10 +612,8 @@
                                                             <div class="order-item-box-cont">
                                                                 <h4 class="order-item-box-title">Papadom</h4>
                                                                 <div class="order-item-box-icons">
-                                                                    <span><img src="images/menu-icons/celery.png"
-                                                                            alt=""></span>
-                                                                    <span><img src="images/menu-icons/eggs.png"
-                                                                            alt=""></span>
+                                                                    <span><img src="images/menu-icons/celery.png" alt=""></span>
+                                                                    <span><img src="images/menu-icons/eggs.png" alt=""></span>
                                                                 </div>
                                                                 <p class="order-item-box-para">Fried plain crispy
                                                                     lentils wafer.</p>
@@ -676,10 +647,8 @@
                                                             <div class="order-item-box-cont">
                                                                 <h4 class="order-item-box-title">Tomato Soup</h4>
                                                                 <div class="order-item-box-icons">
-                                                                    <span><img src="images/menu-icons/fish.png"
-                                                                            alt=""></span>
-                                                                    <span><img src="images/menu-icons/lupins.png"
-                                                                            alt=""></span>
+                                                                    <span><img src="images/menu-icons/fish.png" alt=""></span>
+                                                                    <span><img src="images/menu-icons/lupins.png" alt=""></span>
                                                                 </div>
                                                                 <p class="order-item-box-para">Prepared with fresh
                                                                     tomato, fresh cream and spices.</p>
@@ -727,10 +696,8 @@
                                                             <div class="order-item-box-cont">
                                                                 <h4 class="order-item-box-title">Chicken Soup</h4>
                                                                 <div class="order-item-box-icons">
-                                                                    <span><img src="images/menu-icons/gluten.png"
-                                                                            alt=""></span>
-                                                                    <span><img src="images/menu-icons/shellfish.png"
-                                                                            alt=""></span>
+                                                                    <span><img src="images/menu-icons/gluten.png" alt=""></span>
+                                                                    <span><img src="images/menu-icons/shellfish.png" alt=""></span>
                                                                 </div>
                                                                 <p class="order-item-box-para">Prepared with chicken,
                                                                     fresh cream and spices.</p>
@@ -779,12 +746,9 @@
                                                             <div class="order-item-box-cont">
                                                                 <h4 class="order-item-box-title">Mix Raita</h4>
                                                                 <div class="order-item-box-icons">
-                                                                    <span><img src="images/menu-icons/sesame.png"
-                                                                            alt=""></span>
-                                                                    <span><img src="images/menu-icons/eggs.png"
-                                                                            alt=""></span>
-                                                                    <span><img src="images/menu-icons/mustard.png"
-                                                                            alt=""></span>
+                                                                    <span><img src="images/menu-icons/sesame.png" alt=""></span>
+                                                                    <span><img src="images/menu-icons/eggs.png" alt=""></span>
+                                                                    <span><img src="images/menu-icons/mustard.png" alt=""></span>
                                                                 </div>
                                                                 <p class="order-item-box-para">Prepared with yoghurt,
                                                                     cucumber, tomato, onion and fresh coriander.</p>
@@ -807,10 +771,8 @@
                                                             <div class="order-item-box-cont">
                                                                 <h4 class="order-item-box-title">Papadom</h4>
                                                                 <div class="order-item-box-icons">
-                                                                    <span><img src="images/menu-icons/celery.png"
-                                                                            alt=""></span>
-                                                                    <span><img src="images/menu-icons/eggs.png"
-                                                                            alt=""></span>
+                                                                    <span><img src="images/menu-icons/celery.png" alt=""></span>
+                                                                    <span><img src="images/menu-icons/eggs.png" alt=""></span>
                                                                 </div>
                                                                 <p class="order-item-box-para">Fried plain crispy
                                                                     lentils wafer.</p>
@@ -844,10 +806,8 @@
                                                             <div class="order-item-box-cont">
                                                                 <h4 class="order-item-box-title">Tomato Soup</h4>
                                                                 <div class="order-item-box-icons">
-                                                                    <span><img src="images/menu-icons/fish.png"
-                                                                            alt=""></span>
-                                                                    <span><img src="images/menu-icons/lupins.png"
-                                                                            alt=""></span>
+                                                                    <span><img src="images/menu-icons/fish.png" alt=""></span>
+                                                                    <span><img src="images/menu-icons/lupins.png" alt=""></span>
                                                                 </div>
                                                                 <p class="order-item-box-para">Prepared with fresh
                                                                     tomato, fresh cream and spices.</p>
@@ -895,10 +855,8 @@
                                                             <div class="order-item-box-cont">
                                                                 <h4 class="order-item-box-title">Chicken Soup</h4>
                                                                 <div class="order-item-box-icons">
-                                                                    <span><img src="images/menu-icons/gluten.png"
-                                                                            alt=""></span>
-                                                                    <span><img src="images/menu-icons/shellfish.png"
-                                                                            alt=""></span>
+                                                                    <span><img src="images/menu-icons/gluten.png" alt=""></span>
+                                                                    <span><img src="images/menu-icons/shellfish.png" alt=""></span>
                                                                 </div>
                                                                 <p class="order-item-box-para">Prepared with chicken,
                                                                     fresh cream and spices.</p>
@@ -947,12 +905,9 @@
                                                             <div class="order-item-box-cont">
                                                                 <h4 class="order-item-box-title">Mix Raita</h4>
                                                                 <div class="order-item-box-icons">
-                                                                    <span><img src="images/menu-icons/sesame.png"
-                                                                            alt=""></span>
-                                                                    <span><img src="images/menu-icons/eggs.png"
-                                                                            alt=""></span>
-                                                                    <span><img src="images/menu-icons/mustard.png"
-                                                                            alt=""></span>
+                                                                    <span><img src="images/menu-icons/sesame.png" alt=""></span>
+                                                                    <span><img src="images/menu-icons/eggs.png" alt=""></span>
+                                                                    <span><img src="images/menu-icons/mustard.png" alt=""></span>
                                                                 </div>
                                                                 <p class="order-item-box-para">Prepared with yoghurt,
                                                                     cucumber, tomato, onion and fresh coriander.</p>
@@ -975,10 +930,8 @@
                                                             <div class="order-item-box-cont">
                                                                 <h4 class="order-item-box-title">Papadom</h4>
                                                                 <div class="order-item-box-icons">
-                                                                    <span><img src="images/menu-icons/celery.png"
-                                                                            alt=""></span>
-                                                                    <span><img src="images/menu-icons/eggs.png"
-                                                                            alt=""></span>
+                                                                    <span><img src="images/menu-icons/celery.png" alt=""></span>
+                                                                    <span><img src="images/menu-icons/eggs.png" alt=""></span>
                                                                 </div>
                                                                 <p class="order-item-box-para">Fried plain crispy
                                                                     lentils wafer.</p>
@@ -1012,10 +965,8 @@
                                                             <div class="order-item-box-cont">
                                                                 <h4 class="order-item-box-title">Tomato Soup</h4>
                                                                 <div class="order-item-box-icons">
-                                                                    <span><img src="images/menu-icons/fish.png"
-                                                                            alt=""></span>
-                                                                    <span><img src="images/menu-icons/lupins.png"
-                                                                            alt=""></span>
+                                                                    <span><img src="images/menu-icons/fish.png" alt=""></span>
+                                                                    <span><img src="images/menu-icons/lupins.png" alt=""></span>
                                                                 </div>
                                                                 <p class="order-item-box-para">Prepared with fresh
                                                                     tomato, fresh cream and spices.</p>
@@ -1063,10 +1014,8 @@
                                                             <div class="order-item-box-cont">
                                                                 <h4 class="order-item-box-title">Chicken Soup</h4>
                                                                 <div class="order-item-box-icons">
-                                                                    <span><img src="images/menu-icons/gluten.png"
-                                                                            alt=""></span>
-                                                                    <span><img src="images/menu-icons/shellfish.png"
-                                                                            alt=""></span>
+                                                                    <span><img src="images/menu-icons/gluten.png" alt=""></span>
+                                                                    <span><img src="images/menu-icons/shellfish.png" alt=""></span>
                                                                 </div>
                                                                 <p class="order-item-box-para">Prepared with chicken,
                                                                     fresh cream and spices.</p>
@@ -1115,12 +1064,9 @@
                                                             <div class="order-item-box-cont">
                                                                 <h4 class="order-item-box-title">Mix Raita</h4>
                                                                 <div class="order-item-box-icons">
-                                                                    <span><img src="images/menu-icons/sesame.png"
-                                                                            alt=""></span>
-                                                                    <span><img src="images/menu-icons/eggs.png"
-                                                                            alt=""></span>
-                                                                    <span><img src="images/menu-icons/mustard.png"
-                                                                            alt=""></span>
+                                                                    <span><img src="images/menu-icons/sesame.png" alt=""></span>
+                                                                    <span><img src="images/menu-icons/eggs.png" alt=""></span>
+                                                                    <span><img src="images/menu-icons/mustard.png" alt=""></span>
                                                                 </div>
                                                                 <p class="order-item-box-para">Prepared with yoghurt,
                                                                     cucumber, tomato, onion and fresh coriander.</p>
@@ -1143,10 +1089,8 @@
                                                             <div class="order-item-box-cont">
                                                                 <h4 class="order-item-box-title">Papadom</h4>
                                                                 <div class="order-item-box-icons">
-                                                                    <span><img src="images/menu-icons/celery.png"
-                                                                            alt=""></span>
-                                                                    <span><img src="images/menu-icons/eggs.png"
-                                                                            alt=""></span>
+                                                                    <span><img src="images/menu-icons/celery.png" alt=""></span>
+                                                                    <span><img src="images/menu-icons/eggs.png" alt=""></span>
                                                                 </div>
                                                                 <p class="order-item-box-para">Fried plain crispy
                                                                     lentils wafer.</p>
@@ -1180,10 +1124,8 @@
                                                             <div class="order-item-box-cont">
                                                                 <h4 class="order-item-box-title">Tomato Soup</h4>
                                                                 <div class="order-item-box-icons">
-                                                                    <span><img src="images/menu-icons/fish.png"
-                                                                            alt=""></span>
-                                                                    <span><img src="images/menu-icons/lupins.png"
-                                                                            alt=""></span>
+                                                                    <span><img src="images/menu-icons/fish.png" alt=""></span>
+                                                                    <span><img src="images/menu-icons/lupins.png" alt=""></span>
                                                                 </div>
                                                                 <p class="order-item-box-para">Prepared with fresh
                                                                     tomato, fresh cream and spices.</p>
@@ -1231,10 +1173,8 @@
                                                             <div class="order-item-box-cont">
                                                                 <h4 class="order-item-box-title">Chicken Soup</h4>
                                                                 <div class="order-item-box-icons">
-                                                                    <span><img src="images/menu-icons/gluten.png"
-                                                                            alt=""></span>
-                                                                    <span><img src="images/menu-icons/shellfish.png"
-                                                                            alt=""></span>
+                                                                    <span><img src="images/menu-icons/gluten.png" alt=""></span>
+                                                                    <span><img src="images/menu-icons/shellfish.png" alt=""></span>
                                                                 </div>
                                                                 <p class="order-item-box-para">Prepared with chicken,
                                                                     fresh cream and spices.</p>
@@ -1283,12 +1223,9 @@
                                                             <div class="order-item-box-cont">
                                                                 <h4 class="order-item-box-title">Mix Raita</h4>
                                                                 <div class="order-item-box-icons">
-                                                                    <span><img src="images/menu-icons/sesame.png"
-                                                                            alt=""></span>
-                                                                    <span><img src="images/menu-icons/eggs.png"
-                                                                            alt=""></span>
-                                                                    <span><img src="images/menu-icons/mustard.png"
-                                                                            alt=""></span>
+                                                                    <span><img src="images/menu-icons/sesame.png" alt=""></span>
+                                                                    <span><img src="images/menu-icons/eggs.png" alt=""></span>
+                                                                    <span><img src="images/menu-icons/mustard.png" alt=""></span>
                                                                 </div>
                                                                 <p class="order-item-box-para">Prepared with yoghurt,
                                                                     cucumber, tomato, onion and fresh coriander.</p>
@@ -1323,13 +1260,11 @@
                                                     <h4>Food For:</h4>
                                                 </div>
                                                 <div class="order-type-field">
-                                                    <input id="orderTypeDelivery" name="order-type" type="radio"
-                                                        value="Delivery" checked>
+                                                    <input id="orderTypeDelivery" name="order-type" type="radio" value="Delivery" checked>
                                                     <label for="orderTypeDelivery">Delivery</label>
                                                 </div>
                                                 <div class="order-type-field">
-                                                    <input id="orderTypePickup" name="order-type" type="radio"
-                                                        value="Pickup">
+                                                    <input id="orderTypePickup" name="order-type" type="radio" value="Pickup">
                                                     <label for="orderTypePickup">Pickup</label>
                                                 </div>
                                             </div>
@@ -1347,12 +1282,10 @@
                                                         <td class="order-cart-item-cell order-cart-item-quantity">
                                                             <span class="order-cart-item-num">2</span>
                                                             <div class="order-cart-item-num-toggle">
-                                                                <span
-                                                                    class="order-cart-item-num-toggler order-cart-item-num-minus">
+                                                                <span class="order-cart-item-num-toggler order-cart-item-num-minus">
                                                                     <i class="fa fa-minus"></i>
                                                                 </span>
-                                                                <span
-                                                                    class="order-cart-item-num-toggler order-cart-item-num-plus">
+                                                                <span class="order-cart-item-num-toggler order-cart-item-num-plus">
                                                                     <i class="fa fa-plus"></i>
                                                                 </span>
                                                             </div>
@@ -1367,8 +1300,7 @@
                                                         <td class="order-cart-item-cell order-cart-item-value">
                                                             <span class="order-cart-item-price">9,50​ €</span>
                                                             <div class="order-cart-item-remove">
-                                                                <span
-                                                                    class="order-cart-item-remove-toggler fa fa-times"></span>
+                                                                <span class="order-cart-item-remove-toggler fa fa-times"></span>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -1376,12 +1308,10 @@
                                                         <td class="order-cart-item-cell order-cart-item-quantity">
                                                             <span class="order-cart-item-num">1</span>
                                                             <div class="order-cart-item-num-toggle">
-                                                                <span
-                                                                    class="order-cart-item-num-toggler order-cart-item-num-minus">
+                                                                <span class="order-cart-item-num-toggler order-cart-item-num-minus">
                                                                     <i class="fa fa-minus"></i>
                                                                 </span>
-                                                                <span
-                                                                    class="order-cart-item-num-toggler order-cart-item-num-plus">
+                                                                <span class="order-cart-item-num-toggler order-cart-item-num-plus">
                                                                     <i class="fa fa-plus"></i>
                                                                 </span>
                                                             </div>
@@ -1394,8 +1324,7 @@
                                                         <td class="order-cart-item-cell order-cart-item-value">
                                                             <span class="order-cart-item-price">3,50 ​€</span>
                                                             <div class="order-cart-item-remove">
-                                                                <span
-                                                                    class="order-cart-item-remove-toggler fa fa-times"></span>
+                                                                <span class="order-cart-item-remove-toggler fa fa-times"></span>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -1403,12 +1332,10 @@
                                                         <td class="order-cart-item-cell order-cart-item-quantity">
                                                             <span class="order-cart-item-num">3</span>
                                                             <div class="order-cart-item-num-toggle">
-                                                                <span
-                                                                    class="order-cart-item-num-toggler order-cart-item-num-minus">
+                                                                <span class="order-cart-item-num-toggler order-cart-item-num-minus">
                                                                     <i class="fa fa-minus"></i>
                                                                 </span>
-                                                                <span
-                                                                    class="order-cart-item-num-toggler order-cart-item-num-plus">
+                                                                <span class="order-cart-item-num-toggler order-cart-item-num-plus">
                                                                     <i class="fa fa-plus"></i>
                                                                 </span>
                                                             </div>
@@ -1421,8 +1348,7 @@
                                                         <td class="order-cart-item-cell order-cart-item-value">
                                                             <span class="order-cart-item-price">4,00 €</span>
                                                             <div class="order-cart-item-remove">
-                                                                <span
-                                                                    class="order-cart-item-remove-toggler fa fa-times"></span>
+                                                                <span class="order-cart-item-remove-toggler fa fa-times"></span>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -1462,7 +1388,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    
+
                                 </div>
                             </div>
                         </div>
@@ -1528,22 +1454,22 @@
         </div>
     </div> -->
     <div class="modal fade" id="orderModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
 
     <!-- ---------------------------footer starts--------------------- -->
     <?php

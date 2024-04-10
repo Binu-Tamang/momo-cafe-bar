@@ -6,9 +6,9 @@
         <span><i class="fa-solid fa-phone"></i> <a href="tel:34 686 124 208">+34 686 124 208</a></span>
       </div>
       <div class="wrap-icon">
-        <div class="header-contact-detail">
+        <!-- <div class="header-contact-detail">
           <span><a href="login.php"><i class="fa-solid fa-user"></i> Login</a></span>
-        </div>
+        </div> -->
         
         <div class="cart">
           <i class="fa-solid fa-cart-plus"></i>
@@ -37,7 +37,7 @@
         </div><!-- /.header-menu-wrap -->
         <div class="header-right">
           <div class="search-icon dl-search-icon" style="visibility: hidden;"><i class="las la-search"></i></div>
-          <a href="#" class="default-btn"> Order Online<span></span><i class="fa-solid fa-arrow-right-long"></i></a>
+          <a href="order2.php" class="default-btn"> Order Online<span></span><i class="fa-solid fa-arrow-right-long"></i></a>
           <!-- Burger menu -->
           <div class="mobile-menu-icon">
             <div class="burger-menu">

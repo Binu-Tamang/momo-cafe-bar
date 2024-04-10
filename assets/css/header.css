@@ -886,10 +886,15 @@
 .header-menu-wrap ul li > a::after {
   margin-left: 15px; /* Adjust the spacing between the dots */
 }
-.header-menu-wrap ul li > a:active::after,
-.header-menu-wrap ul li > a:active::before {
-    opacity: 1;
-    transform: translateX(0);
+
+.header-menu-wrap ul li > a.active::after,
+.header-menu-wrap ul li > a.active::before {
+  opacity: 1;
+  transform: translateX(0);
+  background: #09b724;
+}
+.header-menu-wrap ul li > a.active{
+  color: var(--maincolor);
 }
 .wrap-icon {
   display: flex;

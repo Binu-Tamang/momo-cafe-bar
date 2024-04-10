@@ -61,10 +61,10 @@
         </div>
         <div class="footer-social-icon text-center">
             <ul class="footer-social-links">
-                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
+                <li><a href="https://www.facebook.com/themomscafebar" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/themomoscafebar/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fa-brands fa-pinterest"></i></a></li>
             </ul>
         </div>
         <div class="footer-down">
@@ -74,7 +74,7 @@
                         <p>Copyright © 2024, <span>The Momo Cafe Bar.</span>, all rights reserved </p>
                     </div>
                     <div class="footer-down-policy text-center">
-                        <p>Designed &amp; Hosted By : <a href="#"><img src="assets/img/maple.jpg" alt="maple logo"></a>
+                        <p>Designed &amp; Hosted By : <a href="#"><img src="assets/img/maple.jpg" width="300" height="100" alt="maple logo"></a>
                         </p>
                     </div>
                 </div>

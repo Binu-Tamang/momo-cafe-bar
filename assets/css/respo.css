@@ -217,12 +217,12 @@
 
   .move-mouse img:nth-child(1) {
     /* top: 50%; */
-    left: 14%;
+    left: 35%;
   }
 
   .move-mouse img:nth-child(4) {
-    bottom: 18%;
-    right: 18%;
+    bottom: 30%;
+    right: 35%;
   }
   /* ==================== */
   /* =============footer css starts here ============= */
@@ -303,6 +303,10 @@
 }
 .div-two.abt-list {
   padding: 20px;
+}
+
+.img-offer-wrap.menu-offer {
+  right: 0;
 }
 }
 
@@ -447,6 +451,10 @@ section.banner-slider {
 }
 .div-two.abt-list {
   padding: 20px;
+}
+
+.img-offer-wrap.menu-offer {
+  right: 0;
 }
 }
 
