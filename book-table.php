@@ -123,7 +123,14 @@
 
     include('inc/footer.php');
     include('inc/js.php')
+
     ?>
+      <script>
+        const navItems = document.querySelectorAll('.header-menu-wrap ul li > a ');
+        if (navItems.length >= 6) {
+            navItems[5].classList.add("active");
+        }
+    </script>
 </body>
 
 </html>

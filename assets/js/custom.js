@@ -175,6 +175,7 @@ function myFunction(btn) {
 // ===============================
 flatpickr("#date", {
   dateFormat: "Y-m-d", // Date format
+  minDate: "today",
   disableMobile: "true",
 });
 
@@ -195,7 +196,7 @@ flatpickr("#date", {
 $(document).ready(function () {
   $(".owl-carousel.banner-slider").owlCarousel({
     loop: true, // Enable loop
-    margin: 20, // Margin between items
+    margin: 50, // Margin between items
     nav: false, // Disable navigation buttons
     dots: true, // Enable dots navigation
     autoplayTimeout: 5000,
@@ -364,8 +365,11 @@ $(function() {
   });
 
   $(".filters-button-group").on("click", "a", function() {
+    $('#load-more').hide();
+    $('#tmGallery').addClass('show');
     var filterValue = $(this).attr("data-filter");
     $gallery.isotope({ filter: filterValue });
+   
     console.log("Filter value: " + filterValue);
   });
 
@@ -626,3 +630,34 @@ if ($('.order-header')[0]) {
     orderHeaderSticky();
   }
 }
+if($('#load-more')){
+    $('#load-more').on('click',function(){
+      $('#tmGallery').addClass('show');
+      $(this).hide();
+      
+      var data = $('.filters-button-group a.active').first();
+      var dataFilter = $(data).attr("data-filter");
+      $(".tm-gallery").isotope({
+        itemSelector: ".tm-gallery-item",
+        layoutMode: "fitRows",
+        filter: dataFilter,
+      });
+    });
+}
+
+// ==================================================================================
+// the delivery toggle js starts here 
+// ==================================================================================
+$(document).ready(function() {
+  $('#deliverAddToggle').change(function() {
+      if ($(this).is(':checked')) {
+          $('#deliveryDetails').slideDown(); // Show delivery details section
+      } else {
+          $('#deliveryDetails').slideUp(); // Hide delivery details section
+      }
+  });
+});
+
+// ==================================================================================
+// the delivery toggle js starts here 
+// ==================================================================================

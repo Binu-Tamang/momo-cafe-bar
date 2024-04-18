@@ -2,18 +2,15 @@
   <div class="header-top">
     <div class="container">
       <div class="header-contact-detail">
-        <span><i class="fa-regular fa-clock"></i> 3.00 pm to 01.00 am</span>
-        <span><i class="fa-solid fa-phone"></i> <a href="tel:34 686 124 208">+34 686 124 208</a></span>
+        <span><i class="fa-regular fa-clock"></i>  9 AM - 11 PM</span>
+        <span><i class="fa-solid fa-phone"></i> <a href="tel:686124203">+34 686 12 42 03</a></span>
       </div>
       <div class="wrap-icon">
-        <!-- <div class="header-contact-detail">
-          <span><a href="login.php"><i class="fa-solid fa-user"></i> Login</a></span>
-        </div> -->
         
-        <div class="cart">
+        <!-- <div class="cart">
           <i class="fa-solid fa-cart-plus"></i>
           <span>4</span>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
@@ -32,6 +29,8 @@
             <li><a href="about-us.php">About Us</a></li>
             <li><a href="menu.php">Menu</a></li>
             <li><a href="gallery.php">Gallery</a></li>
+            <li><a href="events.php">Events</a></li>
+            <li><a href="book-table.php">Book a Table</a></li>
             <li><a href="contact-us.php">Contact Us</a></li>
           </ul>
         </div><!-- /.header-menu-wrap -->

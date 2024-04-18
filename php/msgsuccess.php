@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <title>Message Successful</title>
 <script>
-    setTimeout(function(){location.href="../"} , 6000);
+    setTimeout(function(){location.href="../"} , 2000);
 </script>
 </head>
 <style>

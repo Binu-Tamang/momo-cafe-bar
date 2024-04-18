@@ -637,6 +637,17 @@ section.food-menu {
   width: 300px;
   right: -10%;
 }
+ul.food-list-menu .nav-link.nav-tab-btn {
+  border: 1px solid #e8cb9a;
+  padding: 6px 8px;
+  text-align: center;
+  /* color: #222; */
+  font-weight: 600;
+  font-size: 14px;
+}
+section.food-menu.main-menu-list {
+  padding: 2rem 0;
+}
 /*===================================*
    END MENU STYLE
 *===================================*/
@@ -908,7 +919,7 @@ section.guest-review {
 
 .user-name strong {
   display: flex;
-  margin-left: 20px;
+  /* margin-left: 20px; */
   align-items: center;
   color: var(--maincolor);
   margin-top: 1.5rem;
@@ -1338,8 +1349,9 @@ ol.breadcrumb.justify-content-center.text-uppercase a {
   font-size: 18px;
   margin: 0;
 }
+
 .web-banner-wrapper {
-  padding: 6rem;
+  padding:  6rem 0;
   /* background: #ffffff94; */
   /* margin: 0 5rem; */
   /* backdrop-filter: blur(5px); */
@@ -1700,10 +1712,7 @@ a:hover {
   max-width: 960px;
 }
 
-.tm-gallery-item {
-  width: 29%;
-  margin: 2%;
-}
+
 
 .filters-button-group {
   padding-right: 15px;
@@ -1745,7 +1754,7 @@ a:hover {
 /* Common style */
 .tm-gallery-item figure {
   position: relative;
-  float: left;
+  width: 100%;
   overflow: hidden;
   margin-bottom: 0;
   background: #3085a3;
@@ -1756,8 +1765,9 @@ a:hover {
 .tm-gallery-item figure img {
   position: relative;
   display: block;
-  min-height: 380px;
-  max-width: 280px;
+  object-fit: cover;
+  height: 380px;
+  /* max-width: 280px; */
   opacity: 0.8;
 }
 
@@ -1831,8 +1841,8 @@ figure.effect-bubba img {
   opacity: 1;
   -webkit-transition: opacity 0.35s;
   transition: opacity 0.35s;
-  width: 280px;
-  height: 380px;
+  /* width: 280px; */
+  /* height: 380px; */
 }
 
 figure.effect-bubba:hover img {
@@ -1900,14 +1910,6 @@ figure.effect-bubba:hover p {
 }
 
 @media (max-width: 767px) {
-  .tm-gallery {
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .tm-gallery-item {
-    width: 46%;
-  }
 
   .filters-button-group {
     padding-right: 0;
@@ -1915,17 +1917,7 @@ figure.effect-bubba:hover p {
   }
 }
 
-@media (max-width: 400px) {
-  .tm-gallery {
-    max-width: 280px;
-  }
 
-  .tm-gallery-item {
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
-  }
-}
 
 /* ============================
 HOW WE WORK CSS STARTS HERE 
@@ -2058,6 +2050,7 @@ section.how-work {
   -webkit-transition: 0.4s;
   transition: 0.4s;
   padding-bottom: 6px;
+  z-index: 4;
 }
 
 .order-btn .font-style {
@@ -2284,7 +2277,7 @@ section.main-contact-box {
 }
 .contact-form form {
   max-width: 450px;
-  margin: 20px 0;
+  margin: 20px auto;
   padding: 20px;
   background-color: #e8cb9a5c;
   border-radius: 8px;
@@ -2315,12 +2308,6 @@ textarea {
   border: 1px solid #ccc !important; /* Border for textarea */
 }
 
-/* Responsive design for smaller screens */
-@media screen and (max-width: 600px) {
-  form {
-    width: 90%;
-  }
-}
 
 /* ===============workibg hours of contact page================ */
 .contact-information-layout1 ul li {
@@ -2645,7 +2632,9 @@ section.section-login {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-
+.order-item-box-cont p {
+  padding: 0;
+}
 .login-hero-remember input:checked + label::after {
   -webkit-transform: translateY(-50%) scale(1);
   transform: translateY(-50%) scale(1);
@@ -2739,8 +2728,8 @@ section.section-login {
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   left: 0;
-  width: 2rem;
-  height: 2rem;
+  width: 20px;
+  height: 20px;
   display: inline-block;
   background-color: #fff;
   -webkit-box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.15);
@@ -2757,8 +2746,8 @@ section.section-login {
   -webkit-transform: translateY(-50%) scale(0);
   transform: translateY(-50%) scale(0);
   left: 0;
-  width: 2rem;
-  height: 2rem;
+  width: 20px;
+  height: 20px;
   background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMzcyLjA5IDM3Mi4wOSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMzcyLjA5IDM3Mi4wOTsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPGc+DQoJCTxwb2x5Z29uIHBvaW50cz0iMzM5LjcxOSwyNy44NTUgMTIwLjkyMiwyODIuNjY2IDI5LjE0MywxOTYuODM4IDAsMjI4LjAwMSAxMjQuMjkzLDM0NC4yMzUgMzcyLjA5LDU1LjY1IAkJIi8+DQoJPC9nPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo=);
   background-size: 60% auto;
   background-repeat: no-repeat;
@@ -2770,7 +2759,7 @@ section.section-login {
 }
 
 .input-toggle input:checked + label::before {
-  background-color: #d53730;
+  background-color: var(--maincolor);
   -webkit-box-shadow: none;
   box-shadow: none;
 }
@@ -2907,7 +2896,7 @@ FOOD ORDER CSS STARTS
 .booking-form select:focus,
 .booking-form textarea:focus {
   border-width: 0 0 2px !important;
-  border-color: #d53730 !important;
+  border-color: var(--maincolor) !important;
   outline: 0;
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
@@ -3003,7 +2992,7 @@ FOOD ORDER CSS STARTS
 }
 
 .menu-cat-tab-list li:hover h3 {
-  color: #d53730;
+  color: var(--maincolor);
 }
 
 .menu-header {
@@ -3081,10 +3070,23 @@ FOOD ORDER CSS STARTS
 }
 
 .menu-body-links .nav-link.active {
-  border-bottom-color: #d53730;
+  border-bottom-color: var(--maincolor);
   background-color: #fff;
 }
+.nav-link {
+  color: #222;
+  background: transparent;
+  border: 1px solid #e8cb9a;
+}
 
+.nav-pills .nav-link.active {
+  background: var(--maincolor);
+  /* color: #222; */
+}
+
+.nav-link:focus, .nav-link:hover {
+  color: var(--maincolor);
+}
 .menu-body-title {
   text-align: center;
   margin: 1rem 0 2rem;
@@ -3262,12 +3264,12 @@ FOOD ORDER CSS STARTS
 }
 
 .order-side-title {
-  font-size: 1.6rem;
+  font-size: 20px;
   font-weight: 500;
   padding: 1rem;
   color: #fff;
-  background-color: #d53730;
-  margin-bottom: 1rem;
+  background-color: var(--maincolor);
+  /* margin-bottom: 1rem; */
 }
 
 .order-side-list {
@@ -3281,14 +3283,15 @@ FOOD ORDER CSS STARTS
 
 .order-side-list li a {
   font-family: Quicksand, sans-serif;
-  font-size: 1.6rem;
+  font-size: 16px;
   display: block;
   padding: 1rem;
   border-right: 0.3rem solid transparent;
+  color: #222;
 }
 
 .order-side-list li a.active {
-  color: #d53730;
+  color: var(--maincolor);
   font-weight: 500;
   background: -webkit-gradient(
     linear,
@@ -3298,12 +3301,12 @@ FOOD ORDER CSS STARTS
     to(rgba(213, 55, 48, 0.2))
   );
   background: linear-gradient(to right, transparent, rgba(213, 55, 48, 0.2));
-  border-right-color: #d53730;
+  border-right-color: var(--maincolor);
 }
 
 .order-side-list-select {
   width: 100%;
-  height: 4rem;
+  height: 3rem;
   padding: 0 0.5rem;
   margin-bottom: 0.5rem;
   background-color: #fff;
@@ -3327,7 +3330,7 @@ FOOD ORDER CSS STARTS
 }
 
 .order-header {
-  margin-bottom: 4rem;
+  margin-bottom: 2.5rem;
 }
 
 .order-header .heading {
@@ -3363,7 +3366,7 @@ FOOD ORDER CSS STARTS
 
 .order-type-title h4 {
   font-family: Quicksand, sans-serif;
-  font-size: 1.2rem;
+  font-size: 15px;
   font-weight: 700;
   margin-bottom: 0;
   text-transform: uppercase;
@@ -3371,7 +3374,7 @@ FOOD ORDER CSS STARTS
 
 .order-type-field {
   display: inline-block;
-  margin-right: 2rem;
+  margin-right: 10px;
 }
 
 .order-type-field input {
@@ -3381,7 +3384,7 @@ FOOD ORDER CSS STARTS
 .order-type-field label {
   position: relative;
   display: inline-block;
-  padding-left: 3rem;
+  padding-left: 29px;
   cursor: pointer;
 }
 
@@ -3392,8 +3395,8 @@ FOOD ORDER CSS STARTS
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   left: 0;
-  width: 2rem;
-  height: 2rem;
+  width: 20px;
+  height: 20px;
   display: inline-block;
   background-color: #fff;
   -webkit-box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.15);
@@ -3410,8 +3413,8 @@ FOOD ORDER CSS STARTS
   -webkit-transform: translateY(-50%) scale(0);
   transform: translateY(-50%) scale(0);
   left: 0;
-  width: 2rem;
-  height: 2rem;
+  width: 20px;
+  height: 20px;
   background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMzcyLjA5IDM3Mi4wOSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMzcyLjA5IDM3Mi4wOTsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPGc+DQoJCTxwb2x5Z29uIHBvaW50cz0iMzM5LjcxOSwyNy44NTUgMTIwLjkyMiwyODIuNjY2IDI5LjE0MywxOTYuODM4IDAsMjI4LjAwMSAxMjQuMjkzLDM0NC4yMzUgMzcyLjA5LDU1LjY1IAkJIi8+DQoJPC9nPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo=);
   background-size: 60% auto;
   background-repeat: no-repeat;
@@ -3423,7 +3426,7 @@ FOOD ORDER CSS STARTS
 }
 
 .order-type-field input:checked + label::before {
-  background-color: #d53730;
+  background-color: var(--maincolor);
   -webkit-box-shadow: none;
   box-shadow: none;
 }
@@ -3439,14 +3442,14 @@ FOOD ORDER CSS STARTS
 
 .order-search-field input {
   width: 100%;
-  padding: 1rem 4rem;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 10px 30px;
+  border: 1px solid rgba(0, 0, 0, 0.2) !important;
   border-radius: 6px;
   outline: 0;
   -webkit-box-shadow: none;
   box-shadow: none;
   font-family: Quicksand, sans-serif;
-  font-size: 1.7rem;
+  font-size: 16px;
 }
 
 .order-search-field input:focus {
@@ -3515,10 +3518,12 @@ FOOD ORDER CSS STARTS
 
 .order-section-title {
   font-family: Quicksand, sans-serif;
-  font-size: 2rem;
+  font-size: 22px;
   padding: 1rem;
-  color: #d53730;
-  background-color: rgba(213, 55, 48, 0.05);
+  color: var(--maincolor);
+  background-color:rgb(228 226 169 / 34%);
+  margin: 0;
+  border-bottom: 1px solid;
 }
 
 .order-section-subtitle {
@@ -3548,11 +3553,11 @@ FOOD ORDER CSS STARTS
 
 .order-item-box-cont {
   width: calc(100% - 12rem);
-  padding-right: 2rem;
+  /* padding-right: 2rem; */
 }
 
 .order-item-box-title {
-  font-size: 1.8rem;
+  font-size: 20px;
   font-weight: 400;
 }
 
@@ -3565,7 +3570,7 @@ FOOD ORDER CSS STARTS
 }
 
 .order-item-box-para {
-  font-size: 1.3rem;
+  font-size: 16px;
   opacity: 0.9;
 }
 
@@ -3594,7 +3599,7 @@ FOOD ORDER CSS STARTS
 }
 
 .order-item-box-btn i {
-  color: #d53730;
+  color: var(--maincolor);
   font-size: 1.2rem;
 }
 
@@ -3609,7 +3614,7 @@ FOOD ORDER CSS STARTS
 }
 
 .order-item:hover .order-item-box-btn {
-  background-color: #d53730;
+  background-color: var(--maincolor);
 }
 
 .order-item:hover .order-item-box-btn svg {
@@ -3624,7 +3629,7 @@ FOOD ORDER CSS STARTS
 @media (min-width: 992px) {
   .order-item-box-cont {
     position: relative;
-    padding-right: 10rem;
+    padding-right: 0;
   }
 
   .order-item-box-icons {
@@ -3637,11 +3642,11 @@ FOOD ORDER CSS STARTS
 }
 
 .order-cart-title {
-  font-size: 1.6rem;
+  font-size: 18px;
   font-weight: 500;
   padding: 1rem;
   color: #fff;
-  background-color: #d53730;
+  background-color: var(--maincolor);
   margin-bottom: 1rem;
 }
 
@@ -3724,16 +3729,17 @@ FOOD ORDER CSS STARTS
 
 .order-cart-item-name {
   display: block;
-  font-size: 1.4rem;
+  font-size: 14px;
   line-height: 1.2;
-  margin-bottom: 0.75rem;
+  margin-bottom: 7px;
 }
 
 .order-cart-item-desc {
-  font-size: 1.2rem;
+  font-size: 14px;
   word-spacing: -1px;
   opacity: 0.7;
   margin-bottom: 0;
+  padding: 0;
 }
 
 .order-cart-item-value {
@@ -3756,7 +3762,7 @@ FOOD ORDER CSS STARTS
   font-size: 1.25rem;
   padding: 0.5rem 0.25rem;
   background-color: #fff;
-  border: 2px solid #d53730;
+  border: 2px solid var(--maincolor);
   cursor: pointer;
 }
 
@@ -3772,7 +3778,7 @@ FOOD ORDER CSS STARTS
 .order-cart-item-remove::before {
   left: 3px;
   border-width: 9px;
-  border-top-color: #d53730;
+  border-top-color: var(--maincolor);
 }
 
 .order-cart-item-remove::after {
@@ -3780,13 +3786,13 @@ FOOD ORDER CSS STARTS
 }
 
 .order-cart-item-remove-toggler {
-  color: #d53730;
+  color: var(--maincolor);
   width: 100%;
 }
 
 .order-cart-item-remove:hover {
   color: #fff;
-  background-color: #d53730;
+  background-color: var(--maincolor);
 }
 
 .order-cart-item-remove:hover .fa {
@@ -3794,7 +3800,7 @@ FOOD ORDER CSS STARTS
 }
 
 .order-cart-item-remove:hover::after {
-  border-top-color: #d53730;
+  border-top-color: var(--maincolor);
 }
 
 .order-cart-item-removedmsg {
@@ -3836,7 +3842,7 @@ FOOD ORDER CSS STARTS
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  font-size: 1.4rem;
+  font-size: 16px;
   margin-bottom: 0.5rem;
   text-transform: uppercase;
 }
@@ -3854,7 +3860,7 @@ FOOD ORDER CSS STARTS
 .order-cart-summary-btn {
   width: 100%;
   color: #fff;
-  background-color: #d53730;
+  background-color: #09b724;
   padding: 0.75rem 1.25rem;
   margin: 1rem 0;
   border: 0;
@@ -3903,6 +3909,42 @@ FOOD ORDER CSS STARTS
 
 .order-cart-fixed-toggle:hover {
   background-color: #00883a;
+}
+.order-cart-summary-list-name {
+  font-weight: bold;
+}
+
+/* Style for discount voucher section */
+.discount-voucher-section {
+  margin: 0;
+  display: flex;
+  height: 40px;
+}
+
+.discount-voucher-section .formfield {
+  margin-bottom: 2px;
+}
+
+.discount-voucher-section input[type="text"] {
+  height: 35px !important;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.discount-voucher-section .apply-voucher-btn {
+  background-color: #09b724;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 12px;
+  height: 35px;
+  margin-left: 10px;
+  padding: 0 10px;
+}
+
+.discount-voucher-section .apply-voucher-btn:hover, .order-cart-summary-btn:hover {
+  background-color: #218838;
 }
 
 @media (min-width: 992px) {
@@ -3993,7 +4035,7 @@ FOOD ORDER CSS STARTS
 }
 
 .order-modal .modal-header .close:hover {
-  color: #d53730;
+  color: var(--maincolor);
 }
 
 .order-modal .modal-title {
@@ -4070,9 +4112,9 @@ FOOD ORDER CSS STARTS
 .order-modal .modal-btn-remove {
   width: 100%;
   padding: 0.5rem 1rem;
-  color: #d53730;
+  color: var(--maincolor);
   background-color: #fff;
-  border: 1px solid #d53730;
+  border: 1px solid var(--maincolor);
   text-transform: uppercase;
   cursor: pointer;
 }
@@ -4152,11 +4194,11 @@ FOOD ORDER CSS STARTS
 }
 
 .checkout-heading {
-  font-size: 2rem;
+  font-size: 22px;
   font-weight: 500;
-  color: #d53730;
+  color: var(--maincolor);
   padding: 1rem 2rem;
-  background-color: #f4f4f6;
+  background-color: rgb(228 226 169 / 34%);
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 
@@ -4167,11 +4209,11 @@ FOOD ORDER CSS STARTS
 
 .checkout-form-section .row {
   margin: 0;
-  padding: 2rem 1rem;
+  padding: 1rem;
 }
 
 .checkout-form label {
-  font-size: 1.5rem;
+  font-size: 15px;
   font-weight: 500;
   margin-bottom: 0.5rem;
 }
@@ -4215,7 +4257,7 @@ FOOD ORDER CSS STARTS
 
 .checkout-form-continue {
   color: #fff;
-  background-color: #d53730;
+  background-color: var(--maincolor);
 }
 
 .checkout-form-continue:hover {
@@ -4277,4 +4319,301 @@ ul.food-list-menu li {
 .VideoContent {
   width: 100%;
   height: 100%;
+}
+.tm-page-col-right .tm-gallery-item {
+  display: none; /* Hide all items by default */
+}
+
+.tm-page-col-right .tm-gallery-item:nth-child(-n+6) {
+  display: block; /* Show the first 5 items */
+}
+
+.tm-page-col-right .show .tm-gallery-item {
+  display: block; /* Show the first 5 items */
+}
+/* ==========================================
+events css starts
+============================================= */
+.events-box {
+  padding: 2rem 0;
+  border-bottom: 1px dashed;
+}
+.events-date span {
+  display: block;
+}
+
+.events-details strong {
+  display: block;
+  font-size: 22px;
+}
+
+.events-details a {
+  color: #09b724;
+  display: block;
+  padding-bottom: 10px;
+}
+.events-details p a {
+  color: #222;
+  text-decoration: underline;
+}
+.events-img img {
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+}
+section.main-events {
+  padding: 2rem 0;
+}
+.events-img {
+  height: 300px;
+}
+section.event-dt {
+  padding: 2rem 0;
+}
+
+.details-evt-img strong, .events-time-box strong {
+  font-size: 22px;
+}
+
+.events-time-box p {
+  padding: 6px 0;
+  display: flex;
+}
+
+.events-time-box {
+  margin-bottom: 2rem;
+  box-shadow: 0 8px 25px rgb(0 0 0 / 15%);
+  padding: 30px;
+}
+
+.events-time-box span {
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.events-time-box a {
+  color: #222;
+}
+
+/* ====================================================
+check out css starts here 
+======================================================= */
+
+.section-order .formfield {
+  margin-bottom: 2rem;
+}
+
+.section-order .formfield label {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.section-order .formfield small {
+  color: var(--maincolor);
+  font-size: 1.5rem;
+  display: block;
+  margin-bottom: .2rem;
+}
+
+.section-order  .formfield[class*=col-] {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.section-order  .formfield input+input {
+  margin-top: 1rem;
+}
+
+.section-order  .formfield>input:not([type=submit]),.formfield>select:not([size]):not([multiple]),.formfield>textarea {
+  font-size: 14px;
+  min-width: 120px;
+  border-radius: 0;
+  background-color: #fff;
+  border: 1px solid #dee2e6 !important;
+}
+
+.section-order .formfield>input:not([type=submit]),.formfield>select:not([size]):not([multiple]) {
+  width: 100%;
+  height: 45px;
+  padding-left: 15px;
+}
+
+.section-order  .formfield>input:not([type=submit]):focus {
+  border: 0;
+  border-bottom: 2px solid #222;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.section-order  .formfield>input[type=checkbox] {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  min-width: 1px;
+  -webkit-transform: translateY(2px);
+  transform: translateY(2px);
+  margin-right: .5rem
+}
+
+.section-order  .formfield>textarea {
+  width: 100%;
+  max-width: 100%;
+  min-height: 10rem;
+  padding-left: 10px;
+}
+
+.section-order  .formfield>textarea:focus {
+  border: 1px solid var(--maincolor);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background-color: transparent;
+}
+
+.section-order  .formfield-submit>input {
+  width: auto;
+  display: inline-block;
+  padding: .8rem 1.7rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #fff;
+  background-color: var(--maincolor);
+  border: 0;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.section-order  .formfield-submit>input:hover {
+  background-color: var(--maincolor)
+}
+
+.form-check {
+  padding-left: 0;
+  margin-bottom: 1rem;
+}
+
+.form-check[class*=col-] {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 0;
+}
+
+.form-check input[type=checkbox],.form-check input[type=radio] {
+  width: auto;
+  display: inline-block;
+  margin-right: .5rem;
+}
+
+.form-check input[type=checkbox]~label,.form-check input[type=radio]~label {
+  margin-bottom: 0;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.customradio input[type=radio] {
+  display: none;
+}
+
+.customradio label {
+  position: relative;
+}
+.input-toggle label {
+  padding-left: 30px;
+}
+.customradio label::before {
+  content: "";
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: #fff;
+  border: .4rem solid #fff;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.customradio input:checked~label::before {
+  border-color: var(--maincolor);
+}
+
+.customcheckbox input[type=checkbox] {
+  display: none;
+}
+
+.customcheckbox label {
+  position: relative;
+}
+
+.customcheckbox label::before {
+  content: "";
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  color: var(--maincolor);
+  background-color: #fff;
+  margin-right: 1rem;
+}
+
+.customcheckbox label::after {
+  opacity: 0;
+  content: "\f00c";
+  font-family: "Font Awesome 5 Free";
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--maincolor);
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transform: scale(2);
+  transform: scale(2);
+  -webkit-transition: .3s all ease;
+  transition: .3s all ease
+}
+
+.customcheckbox input:checked~label::after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1)
+}
+
+.section-order .formfield.formfield-special {
+  position: relative;
+  margin: 1rem 0 2rem;
+}
+
+.section-order .formfield.formfield-special label {
+  font-size: 1.5rem;
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  margin-bottom: 0;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+.section-order .formfield.formfield-special>input:not([type=submit]),.formfield.formfield-special>select:not([size]):not([multiple]),.formfield.formfield-special>textarea {
+  font-size: 1.4rem;
+  min-width: 120px;
+  padding-top: 2rem;
+  height: 5.5rem;
+  border: 1px solid rgba(17,17,17,.5);
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.section-order .formfield.formfield-special input[type=submit] {
+  height: 3rem;
+}
+
+.section-order .formfield.formfield-special.focussed label {
+  font-size: 14px;
+  top: -5px;
+  left: 10px;
+  color: #fff;
+  background-color: var(--maincolor);
+  padding: 5px 2px
+}
+.section-order input::placeholder {
+  color: #222;
 }

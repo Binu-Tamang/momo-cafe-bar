@@ -60,7 +60,7 @@
                                 <div class="offer-rate-banner">
                                     <div class="img-offer-wrap">
                                         <img src="assets/img/offer-banner.png" alt="food">
-                                        <span>20% Off Now</span>
+                                        <span>Call Us Now</span>
                                     </div>
                                 </div>
                             </div>
@@ -71,7 +71,7 @@
                                 <div class="offer-rate-banner">
                                     <div class="img-offer-wrap">
                                         <img src="assets/img/offer-banner.png" alt="food">
-                                        <span>20% Off Now</span>
+                                        <span>Call Us Now</span>
                                     </div>
                                 </div>
                             </div>
@@ -82,7 +82,7 @@
                                 <div class="offer-rate-banner">
                                     <div class="img-offer-wrap">
                                         <img src="assets/img/offer-banner.png" alt="food">
-                                        <span>20% Off Now</span>
+                                        <span>Call Us Now</span>
                                     </div>
                                 </div>
                             </div>
@@ -113,28 +113,28 @@
     <!-- ========three box html starts--------------------- -->
     <section class="food-box">
         <div class="mouse_move second-objects">
-            <img loading="lazy" class="mouse" value="1.8" src="assets/img/ob-1.png" alt="food fly">
-            <img loading="lazy" class="mouse" value="1.8" src="assets/img/ob-1.png" alt="food fly">
+            <img loading="lazy" decoding="async" class="mouse" value="1.8" src="assets/img/ob-1.png" alt="food fly">
+            <img loading="lazy" decoding="async" class="mouse" value="1.8" src="assets/img/ob-1.png" alt="food fly">
         </div>
         <div class="container">
             <div class="row">
                 <div class="col-md-4 col-sm-6">
                     <div class="food-box-wrap">
-                        <img loading="lazy" src="assets/img/ficon.png" alt="icon images" width="80px" height="80px">
+                        <img loading="lazy" decoding="async" src="assets/img/ficon.png" alt="icon images" width="80px" height="80px">
                         <strong>Healthy Food</strong>
                         We maintain the quality and standard of our food that gets delevired to our customers.
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
                     <div class="food-box-wrap">
-                        <img loading="lazy" src="assets/img/ficon3.png" alt="icon images" width="80px" height="80px">
+                        <img loading="lazy" decoding="async" src="assets/img/ficon3.png" alt="icon images" width="80px" height="80px">
                         <strong>Fast Delivery</strong>
-                       We make sure that our customers received there order on time.
+                        We make sure that our customers received there order on time.
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
                     <div class="food-box-wrap">
-                        <img loading="lazy" src="assets/img/ficon2.png" alt="icon images" width="80px" height="80px">
+                        <img loading="lazy" decoding="async" src="assets/img/ficon2.png" alt="icon images" width="80px" height="80px">
                         <strong>Event & Party</strong>
                         We organized event and party at our restaurant.
                     </div>
@@ -148,10 +148,10 @@
         <div class="container">
             <div id="main" class="bg-img">
                 <div id="parallax mouse_move" class="bg-img-top">
-                    <img loading="lazy" class="mouse" value="1.8" src="assets/img/tomo-bg.png" alt="background food">
+                    <img loading="lazy" decoding="async" class="mouse" value="1.8" src="assets/img/tomo-bg.png" alt="background food">
                 </div>
                 <div id="parallax mouse_move" class="bg-img-down">
-                    <img loading="lazy" class="mouse" value="1.8" src="assets/img/tomo-bg.png" alt="background food">
+                    <img loading="lazy" decoding="async" class="mouse" value="1.8" src="assets/img/tomo-bg.png" alt="background food">
                 </div>
             </div>
 
@@ -160,13 +160,13 @@
     align-items: center;">
                     <div class="abt-food-img">
                         <div class="food_1">
-                            <img loading="lazy" src="assets/img/two-pasta.jpg" alt="food">
+                            <img loading="lazy" decoding="async" src="assets/img/two-pasta.jpg" alt="food">
                         </div>
                         <div class="food_2">
-                            <img loading="lazy" src="assets/img/momo.jpg" alt="food">
+                            <img loading="lazy" decoding="async" src="assets/img/momo.jpg" alt="food">
                         </div>
                         <div class="food_3">
-                            <img loading="lazy" src="assets/img/burger.jpg" alt="food">
+                            <img loading="lazy" decoding="async" src="assets/img/burger.jpg" alt="food">
                         </div>
                     </div>
                 </div>
@@ -199,10 +199,10 @@
     <!-- ==================food menu ======================== -->
     <section class="food-menu">
         <div class="mouse_move objects">
-            <img loading="lazy" class="mouse" value="1.8" src="assets/img/ob-1.png" alt="food fly">
-            <img loading="lazy" class="mouse" value="1.8" src="assets/img/ob-2.png" alt="food fly">
-            <img loading="lazy" class="mouse" value="1.8" src="assets/img/ob-3.png" alt="food fly">
-            <img loading="lazy" class="mouse" value="1.8" src="assets/img/ob-1.png" alt="food fly">
+            <img loading="lazy" decoding="async" class="mouse" value="1.8" src="assets/img/ob-1.png" alt="food fly">
+            <img loading="lazy" decoding="async" class="mouse" value="1.8" src="assets/img/ob-2.png" alt="food fly">
+            <img loading="lazy" decoding="async" class="mouse" value="1.8" src="assets/img/ob-3.png" alt="food fly">
+            <img loading="lazy" decoding="async" class="mouse" value="1.8" src="assets/img/ob-1.png" alt="food fly">
         </div>
         <div class="container">
             <span class="small-heading text-center">Menu</span>
@@ -233,7 +233,7 @@
                         <div class="row">
                             <div class="col-md-4 col-sm-12">
                                 <div class="menu-list">
-                                    <img loading="lazy" src="assets/Photos/banner-2.jpg" alt="food">
+                                    <img loading="lazy" decoding="async" src="assets/Photos/wa6.jpg" alt="food">
                                     <div class="menu-list-details">
                                         <strong>English Breakfast Small</strong>
                                         <p>1 bacon, 1 sausage, 1 egg, 1 toast, tomato and beans</span>
@@ -247,7 +247,7 @@
                                 </div>
 
                                 <div class="menu-list">
-                                    <img loading="lazy" src="assets/Photos/banner-3.jpg" alt="food">
+                                    <img loading="lazy" decoding="async" src="assets/Photos/vegan-toast.jpg" alt="food">
                                     <div class="menu-list-details">
                                         <strong>Vegan Toast</strong>
                                         <p>Tomato, avocado</span>
@@ -261,7 +261,7 @@
                                 </div>
 
                                 <div class="menu-list">
-                                    <img loading="lazy" src="assets/Photos/banner-1.jpg" alt="food">
+                                    <img loading="lazy" decoding="async" src="assets/Photos/tomato.jpg" alt="food">
                                     <div class="menu-list-details">
                                         <strong>Tomato Toast</strong>
                                         <p>Toast with Tomato</span>
@@ -278,24 +278,24 @@
                             <div class="col-md-4 col-sm-12">
                                 <div class="food-offer-wrap">
                                     <div class="food-bg-cap mouse_move">
-                                        <img loading="lazy" class="mouse" value="0.9" src="assets/img/capcicum.png" alt="food">
+                                        <img loading="lazy" decoding="async" class="mouse" value="0.9" src="assets/img/capcicum.png" alt="food">
                                     </div>
                                     <div class="food-menu-offer-img">
-                                        <img loading="lazy" src="assets/img/dish-2.png" alt="food">
+                                        <img loading="lazy" decoding="async" src="assets/img/dish-2.png" alt="food">
                                     </div>
                                     <div class="img-offer-wrap menu-offer">
                                         <img src="assets/img/offer-banner.png" alt="food">
-                                        <span>20% Off Now</span>
+                                        <span>Call Us Now</span>
                                     </div>
                                     <div class="cap-down mouse_move">
-                                        <img loading="lazy" class="mouse" value="0.9" src="assets/img/capcicum.png" alt="food">
+                                        <img loading="lazy" decoding="async" class="mouse" value="0.9" src="assets/img/capcicum.png" alt="food">
                                     </div>
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-12">
                                 <div class="menu-list">
-                                    <img loading="lazy" src="assets/Photos/banner-1.jpg" alt="food">
+                                    <img loading="lazy" decoding="async" src="assets/Photos/jam-toast.jpg" alt="food">
                                     <div class="menu-list-details">
                                         <strong>Butter and Jam Toast</strong>
                                         <p>Toast with butter and jam
@@ -311,7 +311,7 @@
                                 </div>
 
                                 <div class="menu-list">
-                                    <img loading="lazy" src="assets/Photos/banner-3.jpg" alt="food">
+                                    <img loading="lazy" decoding="async" src="assets/Photos/olive.jpg" alt="food">
                                     <div class="menu-list-details">
                                         <strong>Tostada De Aceite </strong>
                                         <p>Toasted bread with olive oil</span>
@@ -325,7 +325,7 @@
                                 </div>
 
                                 <div class="menu-list">
-                                    <img loading="lazy" src="assets/Photos/banner-2.jpg" alt="food">
+                                    <img loading="lazy" decoding="async" src="assets/Photos/natural.jpg" alt="food">
                                     <div class="menu-list-details">
                                         <strong>Natural Breakfast</strong>
                                         <p>Muesli, Yogurt, Fruta, Tosta</span>
@@ -348,7 +348,7 @@
                         <div class="row">
                             <div class="col-md-4 col-sm-12">
                                 <div class="menu-list">
-                                    <img loading="lazy" src="assets/Photos/banner-2.jpg" alt="food">
+                                    <img loading="lazy" decoding="async" src="assets/Photos/chick-breast.jpg" alt="food">
                                     <div class="menu-list-details">
                                         <strong>Pechuga De Pllo</strong>
                                         <p>Chicken Breast</span>
@@ -362,7 +362,7 @@
                                 </div>
 
                                 <div class="menu-list">
-                                    <img loading="lazy" src="assets/Photos/banner-3.jpg" alt="food">
+                                    <img loading="lazy" decoding="async" src="assets/Photos/banner-3.jpg" alt="food">
                                     <div class="menu-list-details">
                                         <strong>Escalope De Pollo</strong>
                                         <p>Chicken Escalope</span>
@@ -376,7 +376,7 @@
                                 </div>
 
                                 <div class="menu-list">
-                                    <img loading="lazy" src="assets/Photos/banner-1.jpg" alt="food">
+                                    <img loading="lazy" decoding="async" src="assets/Photos/wa7.jpg" alt="food">
                                     <div class="menu-list-details">
                                         <strong>Lomo De Cerdo Con Patatas Y Ensalada</strong>
                                         <p>Pork Loin With Potatoes And Salad</span>
@@ -393,24 +393,24 @@
                             <div class="col-md-4 col-sm-12">
                                 <div class="food-offer-wrap">
                                     <div class="food-bg-cap mouse_move">
-                                        <img loading="lazy" class="mouse" value="0.9" src="assets/img/capcicum.png" alt="food">
+                                        <img loading="lazy" decoding="async" class="mouse" value="0.9" src="assets/img/capcicum.png" alt="food">
                                     </div>
                                     <div class="food-menu-offer-img">
-                                        <img loading="lazy" src="assets/img/menu-se(2).png" alt="food">
+                                        <img loading="lazy" decoding="async" src="assets/img/menu-se(2).png" alt="food">
                                     </div>
                                     <div class="img-offer-wrap menu-offer">
                                         <img src="assets/img/offer-banner.png" alt="food">
-                                        <span>20% Off Now</span>
+                                        <span>Call Us Now</span>
                                     </div>
                                     <div class="cap-down mouse_move">
-                                        <img loading="lazy" class="mouse" value="0.9" src="assets/img/capcicum.png" alt="food">
+                                        <img loading="lazy" decoding="async" class="mouse" value="0.9" src="assets/img/capcicum.png" alt="food">
                                     </div>
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-12">
                                 <div class="menu-list">
-                                    <img loading="lazy" src="assets/Photos/banner-1.jpg" alt="food">
+                                    <img loading="lazy" decoding="async" src="assets/Photos/ribeye.jpg" alt="food">
                                     <div class="menu-list-details">
                                         <strong>Entrecotte</strong>
                                         <p>Ribeye Steak</span>
@@ -424,7 +424,7 @@
                                 </div>
 
                                 <div class="menu-list">
-                                    <img loading="lazy" src="assets/Photos/banner-3.jpg" alt="food">
+                                    <img loading="lazy" decoding="async" src="assets/Photos/banner-1.jpg" alt="food">
                                     <div class="menu-list-details">
                                         <strong>Costilla Barbacoa</strong>
                                         <p>Barbecue Ribs</span>
@@ -438,7 +438,7 @@
                                 </div>
 
                                 <div class="menu-list">
-                                    <img loading="lazy" src="assets/Photos/banner-2.jpg" alt="food">
+                                    <img loading="lazy" decoding="async" src="assets/Photos/lamb.jpg" alt="food">
                                     <div class="menu-list-details">
                                         <strong>Chuleta Cordero</strong>
                                         <p>Lamb Chop</span>
@@ -460,7 +460,7 @@
                         <div class="row">
                             <div class="col-md-4 col-sm-12">
                                 <div class="menu-list">
-                                    <img loading="lazy" src="assets/Photos/banner-2.jpg" alt="food">
+                                    <img loading="lazy" decoding="async" src="assets/Photos/salad.jpg" alt="food">
                                     <div class="menu-list-details">
                                         <strong>Ensalada mixta</strong>
                                         <p>Lechuga, tomate, cebolla pepino, aceitunas y mozzarella</span>
@@ -474,7 +474,7 @@
                                 </div>
 
                                 <div class="menu-list">
-                                    <img loading="lazy" src="assets/Photos/banner-3.jpg" alt="food">
+                                    <img loading="lazy" decoding="async" src="assets/Photos/ceaser.jpg" alt="food">
                                     <div class="menu-list-details">
                                         <strong>Ensalada César 10,95€</strong>
                                         <p>Lettuce, chicken, cherry tomato, croutons, crispy onion and Caesar sauce</span>
@@ -491,24 +491,24 @@
                             <div class="col-md-4 col-sm-12">
                                 <div class="food-offer-wrap">
                                     <div class="food-bg-cap mouse_move">
-                                        <img loading="lazy" class="mouse" value="0.9" src="assets/img/capcicum.png" alt="food">
+                                        <img loading="lazy" decoding="async" class="mouse" value="0.9" src="assets/img/capcicum.png" alt="food">
                                     </div>
                                     <div class="food-menu-offer-img">
-                                        <img loading="lazy" src="assets/img/menu-se(1).png" alt="food">
+                                        <img loading="lazy" decoding="async" src="assets/img/menu-se(1).png" alt="food">
                                     </div>
                                     <div class="img-offer-wrap menu-offer">
                                         <img src="assets/img/offer-banner.png" alt="food">
-                                        <span>20% Off Now</span>
+                                        <span>Call Us Now</span>
                                     </div>
                                     <div class="cap-down mouse_move">
-                                        <img loading="lazy" class="mouse" value="0.9" src="assets/img/capcicum.png" alt="food">
+                                        <img loading="lazy" decoding="async" class="mouse" value="0.9" src="assets/img/capcicum.png" alt="food">
                                     </div>
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-12">
                                 <div class="menu-list">
-                                    <img loading="lazy" src="assets/Photos/banner-1.jpg" alt="food">
+                                    <img loading="lazy" decoding="async" src="assets/Photos/toamto-salad.jpg" alt="food">
                                     <div class="menu-list-details">
                                         <strong>Ensalada Caprese</strong>
                                         <p>Tomato, mozzarella cheese and oregano</span>
@@ -522,7 +522,7 @@
                                 </div>
 
                                 <div class="menu-list">
-                                    <img loading="lazy" src="assets/Photos/banner-1.jpg" alt="food">
+                                    <img loading="lazy" decoding="async" src="assets/Photos/prawn.jpg" alt="food">
                                     <div class="menu-list-details">
                                         <strong>Ensalada gambas</strong>
                                         <p>Lettuce, tomato, onion, avocado, shrimp and pink sauce</span>
@@ -544,7 +544,7 @@
                         <div class="row">
                             <div class="col-md-4 col-sm-12">
                                 <div class="menu-list">
-                                    <img loading="lazy" src="assets/Photos/banner-2.jpg" alt="food">
+                                    <img loading="lazy" decoding="async" src="assets/Photos/bolognesa.jpg" alt="food">
                                     <div class="menu-list-details">
                                         <strong>SPAGUETTI BOLOGNESA</strong>
                                         <p>Spaghetti or macaroni Bolognese</span>
@@ -558,7 +558,7 @@
                                 </div>
 
                                 <div class="menu-list">
-                                    <img loading="lazy" src="assets/Photos/banner-3.jpg" alt="food">
+                                    <img loading="lazy" decoding="async" src="assets/Photos/carbonara.jpg" alt="food">
                                     <div class="menu-list-details">
                                         <strong>SPAGUETTI CARBONARA</strong>
                                         <p>Spaghetti or macaroni carbonara</span>
@@ -576,24 +576,24 @@
                             <div class="col-md-4 col-sm-12">
                                 <div class="food-offer-wrap">
                                     <div class="food-bg-cap mouse_move">
-                                        <img loading="lazy" class="mouse" value="0.9" src="assets/img/capcicum.png" alt="food">
+                                        <img loading="lazy" decoding="async" class="mouse" value="0.9" src="assets/img/capcicum.png" alt="food">
                                     </div>
                                     <div class="food-menu-offer-img">
-                                        <img loading="lazy" src="assets/img/dish-2.png" alt="food">
+                                        <img loading="lazy" decoding="async" src="assets/img/dish-2.png" alt="food">
                                     </div>
                                     <div class="img-offer-wrap menu-offer">
                                         <img src="assets/img/offer-banner.png" alt="food">
-                                        <span>20% Off Now</span>
+                                        <span>Call Us Now</span>
                                     </div>
                                     <div class="cap-down mouse_move">
-                                        <img loading="lazy" class="mouse" value="0.9" src="assets/img/capcicum.png" alt="food">
+                                        <img loading="lazy" decoding="async" class="mouse" value="0.9" src="assets/img/capcicum.png" alt="food">
                                     </div>
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-12">
                                 <div class="menu-list">
-                                    <img loading="lazy" src="assets/Photos/banner-1.jpg" alt="food">
+                                    <img loading="lazy" decoding="async" src="assets/Photos/lasagna.jpg" alt="food">
                                     <div class="menu-list-details">
                                         <strong>LASAÑA BOLOÑESA </strong>
                                         <p>Lasagna Bolognese</span>
@@ -607,7 +607,7 @@
                                 </div>
 
                                 <div class="menu-list">
-                                    <img loading="lazy" src="assets/Photos/banner-3.jpg" alt="food">
+                                    <img loading="lazy" decoding="async" src="assets/Photos/lasagna-veg.jpg" alt="food">
                                     <div class="menu-list-details">
                                         <strong>LASAÑA VEGETAL </strong>
                                         <p>Vegetable Lasagna</span>
@@ -630,7 +630,7 @@
                         <div class="row">
                             <div class="col-md-4 col-sm-12">
                                 <div class="menu-list">
-                                    <img loading="lazy" src="assets/Photos/banner-2.jpg" alt="food">
+                                    <img loading="lazy" decoding="async" src="assets/Photos/margarita.jpg" alt="food">
                                     <div class="menu-list-details">
                                         <strong>Margarita </strong>
                                         <p>Tomato, cheese, oregano</span>
@@ -644,7 +644,7 @@
                                 </div>
 
                                 <div class="menu-list">
-                                    <img loading="lazy" src="assets/Photos/banner-3.jpg" alt="food">
+                                    <img loading="lazy" decoding="async" src="assets/Photos/tuna-pizza.jpg" alt="food">
                                     <div class="menu-list-details">
                                         <strong>Atun/Tuna </strong>
                                         <p>Tomato, cheese, tuna & onion</span>
@@ -658,7 +658,7 @@
                                 </div>
 
                                 <div class="menu-list">
-                                    <img loading="lazy" src="assets/Photos/banner-1.jpg" alt="food">
+                                    <img loading="lazy" decoding="async" src="assets/Photos/pineapple-pizza.jpg" alt="food">
                                     <div class="menu-list-details">
                                         <strong>Hawai</strong>
                                         <p>Tomato, cheese, ham & pineapple</span>
@@ -675,24 +675,24 @@
                             <div class="col-md-4 col-sm-12">
                                 <div class="food-offer-wrap">
                                     <div class="food-bg-cap mouse_move">
-                                        <img loading="lazy" class="mouse" value="0.9" src="assets/img/capcicum.png" alt="food">
+                                        <img loading="lazy" decoding="async" class="mouse" value="0.9" src="assets/img/capcicum.png" alt="food">
                                     </div>
                                     <div class="food-menu-offer-img">
-                                        <img loading="lazy" src="assets/img/menu-se(3).png" alt="food">
+                                        <img loading="lazy" decoding="async" src="assets/img/menu-se(3).png" alt="food">
                                     </div>
                                     <div class="img-offer-wrap menu-offer">
                                         <img src="assets/img/offer-banner.png" alt="food">
-                                        <span>20% Off Now</span>
+                                        <span>Call Us Now</span>
                                     </div>
                                     <div class="cap-down mouse_move">
-                                        <img loading="lazy" class="mouse" value="0.9" src="assets/img/capcicum.png" alt="food">
+                                        <img loading="lazy" decoding="async" class="mouse" value="0.9" src="assets/img/capcicum.png" alt="food">
                                     </div>
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-12">
                                 <div class="menu-list">
-                                    <img loading="lazy" src="assets/Photos/banner-1.jpg" alt="food">
+                                    <img loading="lazy" decoding="async" src="assets/Photos/ham-pizza.png" alt="food">
                                     <div class="menu-list-details">
                                         <strong>Caprichosa</strong>
                                         <p>Tomato, cheese, ham & mushrooms</span>
@@ -706,7 +706,7 @@
                                 </div>
 
                                 <div class="menu-list">
-                                    <img loading="lazy" src="assets/Photos/banner-3.jpg" alt="food">
+                                    <img loading="lazy" decoding="async" src="assets/Photos/veg-pizza.jpg" alt="food">
                                     <div class="menu-list-details">
                                         <strong>Vegetariana</strong>
                                         <p>Fresh mix vegetable</span>
@@ -728,7 +728,7 @@
                         <div class="row">
                             <div class="col-md-4 col-sm-12">
                                 <div class="menu-list">
-                                    <img loading="lazy" src="assets/Photos/banner-2.jpg" alt="food">
+                                    <img loading="lazy" decoding="async" src="assets/Photos/bolognesa.jpg" alt="food">
                                     <div class="menu-list-details">
                                         <strong>Espaghetti Bolognese </strong>
                                         <p>Spaghetti Bolognese
@@ -742,7 +742,7 @@
                                 </div>
 
                                 <div class="menu-list">
-                                    <img loading="lazy" src="assets/Photos/banner-3.jpg" alt="food">
+                                    <img loading="lazy" decoding="async" src="assets/Photos/min-burger.jpg" alt="food">
                                     <div class="menu-list-details">
                                         <strong>Hamburguesa pequeña con patatas fritas</strong>
                                         <p>Mini hamburger with chips
@@ -760,24 +760,24 @@
                             <div class="col-md-4 col-sm-12">
                                 <div class="food-offer-wrap">
                                     <div class="food-bg-cap mouse_move">
-                                        <img loading="lazy" class="mouse" value="0.9" src="assets/img/capcicum.png" alt="food">
+                                        <img loading="lazy" decoding="async" class="mouse" value="0.9" src="assets/img/capcicum.png" alt="food">
                                     </div>
                                     <div class="food-menu-offer-img">
-                                        <img loading="lazy" src="assets/img/menu(2).png" alt="food">
+                                        <img loading="lazy" decoding="async" src="assets/img/menu(2).png" alt="food">
                                     </div>
                                     <div class="img-offer-wrap menu-offer">
                                         <img src="assets/img/offer-banner.png" alt="food">
-                                        <span>20% Off Now</span>
+                                        <span>Call Us Now</span>
                                     </div>
                                     <div class="cap-down mouse_move">
-                                        <img loading="lazy" class="mouse" value="0.9" src="assets/img/capcicum.png" alt="food">
+                                        <img loading="lazy" decoding="async" class="mouse" value="0.9" src="assets/img/capcicum.png" alt="food">
                                     </div>
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-12">
                                 <div class="menu-list">
-                                    <img loading="lazy" src="assets/Photos/banner-1.jpg" alt="food">
+                                    <img loading="lazy" decoding="async" src="assets/Photos/nuggets.jpg" alt="food">
                                     <div class="menu-list-details">
                                         <strong>Chicken nuggets with french fries</strong>
                                         <p>Nuggets de pollo con patatas fritas</span>
@@ -879,10 +879,10 @@
     <!-- ===========testimonial html starts--------------------- -->
     <section class="guest-review">
         <div class="mouse_move objects">
-            <img loading="lazy" class="mouse" value="1.8" src="assets/img/ob-1.png" alt="food fly">
-            <img loading="lazy" class="mouse" value="1.8" src="assets/img/ob-2.png" alt="food fly">
-            <img loading="lazy" class="mouse" value="1.8" src="assets/img/ob-3.png" alt="food fly">
-            <img loading="lazy" class="mouse" value="1.8" src="assets/img/ob-1.png" alt="food fly">
+            <img loading="lazy" decoding="async" class="mouse" value="1.8" src="assets/img/ob-1.png" alt="food fly">
+            <img loading="lazy" decoding="async" class="mouse" value="1.8" src="assets/img/ob-2.png" alt="food fly">
+            <img loading="lazy" decoding="async" class="mouse" value="1.8" src="assets/img/ob-3.png" alt="food fly">
+            <img loading="lazy" decoding="async" class="mouse" value="1.8" src="assets/img/ob-1.png" alt="food fly">
         </div>
         <div class="container">
             <div class="row">
@@ -894,91 +894,87 @@
                             <div class="item">
                                 <div class="review-box-wrap">
                                     <div class="quotation">
-                                        <img loading="lazy" src="assets/img/Qq.png" alt="qoute">
+                                        <img loading="lazy" decoding="async" src="assets/img/Qq.png" alt="qoute">
                                     </div>
                                     <div class="user-profile">
-                                        <img loading="lazy" src="assets/img/Ellipse16.png" alt="user">
                                         <div class="user-name">
-                                            <strong> Flores, Jaunita</strong>
+                                            <strong> ros anchors</strong>
                                         </div>
                                     </div>
-                                    <p>Thank you so much for the treasure trove of advice. We feel like we have a place to
-                                        start now and a
-                                        To-the-point, actionable in his advice and extremely friendly. A blinder of a
-                                        session! I will defo b
+                                    <p>A great location with very reasonably priced drinks, live music and tasty bites . The barbecue looks fantastic. We hope Subas and his super friendly team do well. Definitely worth a visit.
                                     </p>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="review-box-wrap">
                                     <div class="quotation">
-                                        <img loading="lazy" src="assets/img/Qq.png" alt="qoute">
+                                        <img loading="lazy" decoding="async" src="assets/img/Qq.png" alt="qoute">
                                     </div>
                                     <div class="user-profile">
-                                        <img loading="lazy" src="assets/img/Ellipse16.png" alt="user">
                                         <div class="user-name">
-                                            <strong> Flores, Jaunita</strong>
+                                            <strong> Alison Reeve</strong>
                                         </div>
                                     </div>
-                                    <p>Thank you so much for the treasure trove of advice. We feel like we have a place to
-                                        start now and a
-                                        To-the-point, actionable in his advice and extremely friendly. A blinder of a
-                                        session! I will defo b
+                                    <p>Great place for a full English, lovely staff too! Highly recommended
                                     </p>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="review-box-wrap">
                                     <div class="quotation">
-                                        <img loading="lazy" src="assets/img/Qq.png" alt="qoute">
+                                        <img loading="lazy" decoding="async" src="assets/img/Qq.png" alt="qoute">
                                     </div>
                                     <div class="user-profile">
-                                        <img loading="lazy" src="assets/img/Ellipse16.png" alt="user">
                                         <div class="user-name">
-                                            <strong> Flores, Jaunita</strong>
+                                            <strong> Maria josefa Perez</strong>
                                         </div>
                                     </div>
-                                    <p>Thank you so much for the treasure trove of advice. We feel like we have a place to
-                                        start now and a
-                                        To-the-point, actionable in his advice and extremely friendly. A blinder of a
-                                        session! I will defo b
+                                    <p>Quiet and spacious place. The food was excellent, I liked the momos and their spiciness, the perfect menu, a lot of food, the delicious homemade desserts. Very good treatment, I recommend it.
                                     </p>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="review-box-wrap">
                                     <div class="quotation">
-                                        <img loading="lazy" src="assets/img/Qq.png" alt="qoute">
+                                        <img loading="lazy" decoding="async" src="assets/img/Qq.png" alt="qoute">
                                     </div>
                                     <div class="user-profile">
-                                        <img loading="lazy" src="assets/img/Ellipse16.png" alt="user">
                                         <div class="user-name">
-                                            <strong> Flores, Jaunita</strong>
+                                            <strong>Andrea Cortes</strong>
                                         </div>
                                     </div>
-                                    <p>Thank you so much for the treasure trove of advice. We feel like we have a place to
-                                        start now and a
-                                        To-the-point, actionable in his advice and extremely friendly. A blinder of a
-                                        session! I will defo b
+                                    <p>Place to have a good time. Good prices and excellent service. Live music.
                                     </p>
                                 </div>
                             </div>
                         </div>
                         <div class="social-platform">
-                            <img loading="lazy" src="assets/img/google-review-logo.png" alt="google">
-                            <img loading="lazy" src="assets/img/trip.png" alt="tripadvisor">
-                            <img loading="lazy" src="assets/img/yelp-review-logo.png" alt="yelp">
-                            <img loading="lazy" src="assets/img/facebook-review-logo.png" alt="facebook">
+                            <a href="https://maps.app.goo.gl/Qxv4vPFTU7Gq9g77A" target="_blank">
+                                <img loading="lazy" decoding="async" src="assets/img/google-review-logo.png" alt="google">
+
+                            </a>
+                            <a href="https://www.tripadvisor.com/Restaurant_Review-g1064230-d27493514-Reviews-The_Momos_Cafe_Bar-Alicante_Costa_Blanca_Province_of_Alicante_Valencian_Communi.html?m=19905" target="_blank">
+                                <img loading="lazy" decoding="async" src="assets/img/trip.png" alt="tripadvisor">
+
+                            </a>
+                            <a href="" target="_blank">
+                                <img loading="lazy" decoding="async" src="assets/img/yelp-review-logo.png" alt="yelp">
+
+                            </a>
+                            <a href="https://www.facebook.com/themomscafebar/reviews" target="_blank">
+                                <img loading="lazy" decoding="async" src="assets/img/facebook-review-logo.png" alt="facebook">
+
+                            </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-12 col-lg-6">
                     <div class="circle-animated-box">
                         <div class="move-mouse mouse_move" id="main">
-                            <img loading="lazy" class="mouse" value="1.5" src="assets/img/capcicum.png" alt="food" id="bg-1" data-depth="30">
-                            <img loading="lazy" class="mouse" value="0.8" src="assets/img/cherry-tomato.png" alt="food" id="bg-2" data-depth="40">
-                            <img loading="lazy" class="mouse" value="1.5" src="assets/img/leaf-3.png" alt="food" id="bg-3" data-depth="20">
-                            <img loading="lazy" class="mouse" value="1.5" src="assets/img/capcicum.png" alt="food" id="bg-4" data-depth="25">
+                            <img loading="lazy" decoding="async" class="mouse" value="1.5" src="assets/img/capcicum.png" alt="food" id="bg-1" data-depth="30">
+                            <img loading="lazy" decoding="async" class="mouse" value="0.8" src="assets/img/cherry-tomato.png" alt="food" id="bg-2" data-depth="40">
+                            <img loading="lazy" decoding="async" class="mouse" value="1.5" src="assets/img/leaf-3.png" alt="food" id="bg-3" data-depth="20">
+                            <img loading="lazy" decoding="async" class="mouse" value="1.5" src="assets/img/capcicum.png" alt="food" id="bg-4" data-depth="25">
                         </div>
 
                         <div class="main-container-md">

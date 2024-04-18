@@ -22,27 +22,15 @@
     <?php include('inc/breadcrumb.php') ?>
     <!-- banner and header page -->
     <section class="main-gallery">
-        <div class="container-fluid">
+        <div class="container-fluid container-lg">
             <div class="row">
-                <div class="col-12 tm-page-cols-container">
+                <div class="col-12 tm-page-cols-container" >
                     <div class="tm-page-col-left">
                         <ul class="tabs clearfix filters-button-group">
                             <li>
                                 <a href="#" class="active" data-filter="*">
                                     <div class="tm-tab-icon"></div>
-                                    All Category
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="" data-filter=".category-1">
-                                    <div class="tm-tab-icon"></div>
-                                    Food Category
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="" data-filter=".category-2">
-                                    <div class="tm-tab-icon"></div>
-                                    Ambiance
+                                    All 
                                 </a>
                             </li>
                             <li>
@@ -51,6 +39,20 @@
                                     Events and Occasions
                                 </a>
                             </li>
+                            <li>
+                                <a href="#" class="" data-filter=".category-1">
+                                    <div class="tm-tab-icon"></div>
+                                    Food 
+                                </a>
+                            </li>
+                          
+                            <li>
+                                <a href="#" class="" data-filter=".category-2">
+                                    <div class="tm-tab-icon"></div>
+                                    Ambiance
+                                </a>
+                            </li>
+                         
                             <!-- <li>
                                 <a href="#" class="" data-filter=".category-4">
                                     <div class="tm-tab-icon"></div>
@@ -66,9 +68,9 @@
                         </ul>
                     </div>
 
-                    <div class="tm-page-col-right">
-                        <div class="tm-gallery" id="tmGallery">
-                            <div class="tm-gallery-item col-lg-4 col-md-6 category-3">
+                    <div class="tm-page-col-right mb-5 ">
+                        <div class="tm-gallery row gy-3" id="tmGallery">
+                            <div class="tm-gallery-item col-lg-4 col-sm-6 category-3">
                                 <a href="assets/img/event-1.jpg">
                                     <figure class="effect-bubba">
                                         <img src="assets/img/event-1.jpg" alt="Gallery item" class="img-fluid" />
@@ -80,7 +82,7 @@
                                 </a>
                             </div>
 
-                            <div class="tm-gallery-item col-lg-4 col-md-6 category-1">
+                            <div class="tm-gallery-item col-lg-4 col-sm-6 category-1">
                                 <a href="assets/Photos/banner-1.jpg" data-lightbox="pop-images" title="pop images">
                                     <figure class="effect-bubba">
                                         <img src="assets/Photos/banner-1.jpg" alt="Gallery item" class="img-fluid" />
@@ -93,7 +95,7 @@
                                 </a>
                             </div>
 
-                            <div class="tm-gallery-item col-lg-4 col-md-6 category-1">
+                            <div class="tm-gallery-item col-lg-4 col-sm-6 category-1">
                                 <a href="assets/Photos/banner-3.jpg">
                                     <figure class="effect-bubba">
                                         <img src="assets/Photos/banner-3.jpg" alt="Gallery item" class="img-fluid" />
@@ -105,7 +107,7 @@
                                 </a>
                             </div>
 
-                            <div class="tm-gallery-item col-lg-4 col-md-6 category-1">
+                            <div class="tm-gallery-item col-lg-4 col-sm-6 category-1">
                                 <a href="assets/Photos/wa12.jpg">
                                     <figure class="effect-bubba">
                                         <img src="assets/Photos/wa12.jpg" alt="Gallery item" class="img-fluid" />
@@ -117,7 +119,7 @@
                                 </a>
                             </div>
 
-                            <div class="tm-gallery-item col-lg-4 col-md-6 category-2">
+                            <div class="tm-gallery-item col-lg-4 col-sm-6 category-2">
                                 <a href="assets/Photos/wa9.jpg">
                                     <figure class="effect-bubba">
                                         <img src="assets/Photos/wa9.jpg" alt="Gallery item" class="img-fluid" />
@@ -129,7 +131,7 @@
                                 </a>
                             </div>
 
-                            <div class="tm-gallery-item col-lg-4 col-md-6 category-1">
+                            <div class="tm-gallery-item col-lg-4 col-sm-6 category-1">
                                 <a href="assets/Photos/wa3.jpg">
                                     <figure class="effect-bubba">
                                         <img src="assets/Photos/wa3.jpg" alt="Gallery item" class="img-fluid" />
@@ -141,7 +143,7 @@
                                 </a>
                             </div>
 
-                            <div class="tm-gallery-item col-lg-4 col-md-6 category-1">
+                            <div class="tm-gallery-item col-lg-4 col-sm-6 category-1">
                                 <a href="assets/Photos/wa4.jpg">
                                     <figure class="effect-bubba">
                                         <img src="assets/Photos/wa4.jpg" alt="Food Bubba" class="img-fluid">
@@ -152,7 +154,7 @@
                                 </a>
                             </div>
 
-                            <div class="tm-gallery-item col-lg-4 col-md-6 category-1">
+                            <div class="tm-gallery-item col-lg-4 col-sm-6 category-1">
                                 <a href="assets/Photos/wa5.jpg">
                                     <figure class="effect-bubba">
                                         <img src="assets/Photos/wa5.jpg" alt="Food Bubba" class="img-fluid">
@@ -163,7 +165,7 @@
                                 </a>
                             </div>
 
-                            <div class="tm-gallery-item col-lg-4 col-md-6 category-1">
+                            <div class="tm-gallery-item col-lg-4 col-sm-6 category-1">
                                 <a href="assets/Photos/wa6.jpg">
                                     <figure class="effect-bubba">
                                         <img src="assets/Photos/wa6.jpg" alt="Food" class="img-fluid">
@@ -174,7 +176,7 @@
                                 </a>
                             </div>
 
-                            <div class="tm-gallery-item col-lg-4 col-md-6 category-3">
+                            <div class="tm-gallery-item col-lg-4 col-sm-6 category-3">
                                 <a href="assets/img/event-2.jpg">
                                     <figure class="effect-bubba">
                                         <img src="assets/img/event-2.jpg" alt="Gallery item" class="img-fluid" />
@@ -186,7 +188,7 @@
                                 </a>
                             </div>
 
-                            <div class="tm-gallery-item col-lg-4 col-md-6 category-1">
+                            <div class="tm-gallery-item col-lg-4 col-sm-6 category-1">
                                 <a href="assets/Photos/wa7.jpg">
                                     <figure class="effect-bubba">
                                         <img src="assets/Photos/wa7.jpg" alt="Food Bubba" class="img-fluid">
@@ -197,7 +199,7 @@
                                 </a>
                             </div>
 
-                            <div class="tm-gallery-item col-lg-4 col-md-6 category-1">
+                            <div class="tm-gallery-item col-lg-4 col-sm-6 category-1">
                                 <a href="assets/Photos/banner-2.jpg">
                                     <figure class="effect-bubba">
                                         <img src="assets/Photos/banner-2.jpg" alt="Gallery item" class="img-fluid" />
@@ -209,7 +211,7 @@
                                 </a>
                             </div>
 
-                            <div class="tm-gallery-item col-lg-4 col-md-6 category-2">
+                            <div class="tm-gallery-item col-lg-4 col-sm-6 category-2">
                                 <a href="assets/Photos/wa13.jpg">
                                     <figure class="effect-bubba">
                                         <img src="assets/Photos/wa13.jpg" alt="Outdoor Area" class="img-fluid">
@@ -220,7 +222,7 @@
                                 </a>
                             </div>
 
-                            <div class="tm-gallery-item col-lg-4 col-md-6 category-2">
+                            <div class="tm-gallery-item col-lg-4 col-sm-6 category-2">
                                 <a href="assets/Photos/wa9.jpg">
                                     <figure class="effect-bubba">
                                         <img src="assets/Photos/wa9.jpg" alt="OutDoor Seating" class="img-fluid">
@@ -231,7 +233,7 @@
                                 </a>
                             </div>
 
-                            <div class="tm-gallery-item col-lg-4 col-md-6 category-3">
+                            <div class="tm-gallery-item col-lg-4 col-sm-6 category-3">
                                 <a href="assets/img/event-3.jpg">
                                     <figure class="effect-bubba">
                                         <img src="assets/img/event-3.jpg" alt="Gallery item" class="img-fluid" />
@@ -243,7 +245,7 @@
                                 </a>
                             </div>
 
-                            <div class="tm-gallery-item col-lg-4 col-md-6 category-3">
+                            <div class="tm-gallery-item col-lg-4 col-sm-6 category-3">
                                 <a href="assets/img/event-4.jpg">
                                     <figure class="effect-bubba">
                                         <img src="assets/img/event-4.jpg" alt="Gallery item" class="img-fluid" />
@@ -255,8 +257,15 @@
                                 </a>
                             </div>
                         </div>
+                        <div class="text-center py-4">
+                            <div class="text-left ">
+                                <button type="submit" id="load-more" class="default-btn">Load More <span></span><i class="fa-solid fa-arrow-right-long"></i></button>
+                            </div>
                     </div>
+                    </div>
+                    
                 </div>
+               
             </div>
         </div>
     </section>

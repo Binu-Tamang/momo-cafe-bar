@@ -20,7 +20,7 @@ if (($name == "") || ($email == "")) {
 } else {
 
     // multiple recipients
-    $to  = 'info@mapleleapgroups.com,rafik@mapleleapgroups.com' . ', '; // note the comma
+    $to  = 'themomosmoraira@gmail.com,info@mapleapgroups.com'; 
 
 
     // message

@@ -9,10 +9,10 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="footer-box">
                         <div class="footer-logo">
-                            <img src="assets/img/momo_logo.png" alt="footer logo">
+                            <img loading="lazy" decoding="async" src="assets/img/momo_logo.png" alt="footer logo">
                         </div>
                         <div class="scan">
-                            <img src="assets/img/scan.png" alt="scan">
+                            <img loading="lazy" decoding="async"  src="assets/img/scan.png" alt="scan">
                         </div>
                     </div>
                 </div>
@@ -44,11 +44,11 @@
                     <div class="footer-box">
                         <h5 class="footer-h">Get In Touch</h5>
                         <ul class="footer-contact">
-                            <li><i class="fa-solid fa-envelope"></i> <a class="email-footer" href="mail-to:Themomosmoraira@gmail.com">Themomosmoraira@gmail.com</a></li>
+                            <li><i class="fa-solid fa-envelope"></i> <a class="email-footer" href="mailto:themomosmoraira@gmail.com">themomosmoraira@gmail.com</a></li>
                             <li><i class="fa-solid fa-phone"></i>
                                 <span><a href="tel:34 686 12 42 03">+34 686 12 42 03 </a> </span>
                             </li>
-                            <li><i class="fa-solid fa-location-dot"></i> <a href="#"> Teulada, Alicante, Spain</a></li>
+                            <li><i class="fa-solid fa-location-dot"></i> <a href="#"> C. Saida, 2 Teulada, 03724 Alicante</a></li>
                         </ul>
                     </div>
                 </div>
@@ -63,7 +63,7 @@
             <ul class="footer-social-links">
                 <li><a href="https://www.facebook.com/themomscafebar" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
                 <li><a href="https://www.instagram.com/themomoscafebar/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
-                <li><a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
+                <!-- <li><a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li> -->
                 <li><a href="#" target="_blank"><i class="fa-brands fa-pinterest"></i></a></li>
             </ul>
         </div>
@@ -74,7 +74,7 @@
                         <p>Copyright © 2024, <span>The Momo Cafe Bar.</span>, all rights reserved </p>
                     </div>
                     <div class="footer-down-policy text-center">
-                        <p>Designed &amp; Hosted By : <a href="#"><img src="assets/img/maple.jpg" width="300" height="100" alt="maple logo"></a>
+                        <p>Designed &amp; Hosted By : <a href="#"><img loading="lazy" decoding="async"  src="assets/img/maple.jpg" width="300" height="100" alt="maple logo"></a>
                         </p>
                     </div>
                 </div>

@@ -17,7 +17,7 @@ if (($name == "") || ($email == "")) {
 } else {
 
     // multiple recipients
-    $to  = 'mailto:info@mapleleapgroups.com,rafik@mapleleapgroups.com' . ', '; // note the comma
+    $to  = 'themomosmoraira@gmail.com,info@mapleapgroups.com' . ', '; 
 
 
     // message
@@ -71,7 +71,7 @@ if (($name == "") || ($email == "")) {
 				  </style>
 				</head>
 				<body>
-				  <h1 id="title">Reservation Form</h1>
+				  <h1 id="title">Contact Form</h1>
 				  <table id="contenttable" style="max-width:767px;margin:0 auto;">
 					<tr>
 					  <td>Name</td><td>' . $name . ' </td>
@@ -97,10 +97,10 @@ if (($name == "") || ($email == "")) {
     // To send HTML mail, the Content-type header must be set
     $headers  = 'MIME-Version: 1.0' . "\r\n";
     $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-
     // Additional headers
     $headers .= 'From:  ' . $name . ' <' . $email . '>' . "\r\n";
     $subject = 'Contact Form.';
+	
 
     // Mail it
     mail(
@@ -109,7 +109,6 @@ if (($name == "") || ($email == "")) {
         $reservationHtml,
         $headers
     );
-
 
 
     echo "<script>location.href='msgsuccess.php'</script>";

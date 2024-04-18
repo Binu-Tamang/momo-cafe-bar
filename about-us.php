@@ -43,7 +43,7 @@
                             <div class="abt-us-img">
                                 <img src="assets/img/abt-img.png" alt="food">
                             </div>
-                            <a href="shop.html" class="order-btn"><span class="font-style text-theme">Order</span>Now
+                            <a href="order2.php" class="order-btn"><span class="font-style text-theme">Order</span>Now
                             </a>
                         </div>
                     </div>
@@ -99,8 +99,7 @@
                         <div class="story-box-img">
                             <img src="assets/img/menu-se(2).png" alt="food">
                             <img class="moving" src="assets/img/1.png" alt="leave">
-                            <a href="shop.html" class="order-btn"><span class="font-style text-theme">Order</span>Now
-                            </a>
+                            <a href="order2.php" class="order-btn"><span class="font-style text-theme">Order</span>Now</a>
                         </div>
                     </div>
                 </div>
