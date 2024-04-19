@@ -1057,7 +1057,7 @@ ul.footer-contact li i {
 ul.footer-contact li {
   display: flex;
   padding: 6px 0;
-  word-break: break-all;
+  /* word-break: break-all; */
 }
 a.email-footer {
   text-decoration: underline !important;
@@ -3078,7 +3078,9 @@ FOOD ORDER CSS STARTS
   background: transparent;
   border: 1px solid #e8cb9a;
 }
-
+li.nav-item {
+  margin: 6px;
+}
 .nav-pills .nav-link.active {
   background: var(--maincolor);
   /* color: #222; */
@@ -3291,17 +3293,17 @@ FOOD ORDER CSS STARTS
 }
 
 .order-side-list li a.active {
-  color: var(--maincolor);
+  color: #09b724;
   font-weight: 500;
-  background: -webkit-gradient(
+  /* background: -webkit-gradient(
     linear,
     left top,
     right top,
     from(transparent),
     to(rgba(213, 55, 48, 0.2))
-  );
-  background: linear-gradient(to right, transparent, rgba(213, 55, 48, 0.2));
-  border-right-color: var(--maincolor);
+  ); */
+  /* background: linear-gradient(to right, transparent, rgba(213, 55, 48, 0.2)); */
+  border-right-color: #09b724;
 }
 
 .order-side-list-select {
@@ -3469,6 +3471,7 @@ FOOD ORDER CSS STARTS
   -ms-flex-align: center;
   align-items: center;
   opacity: 0.4;
+  justify-content: center;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
@@ -3718,7 +3721,7 @@ FOOD ORDER CSS STARTS
   width: 50%;
   color: #00a145;
   padding: 0.5rem 0.25rem;
-  font-size: 1.25rem;
+  font-size: 13px;
   cursor: pointer;
 }
 
@@ -3759,7 +3762,7 @@ FOOD ORDER CSS STARTS
   right: 0;
   width: 3rem;
   text-align: center;
-  font-size: 1.25rem;
+  font-size: 12px;
   padding: 0.5rem 0.25rem;
   background-color: #fff;
   border: 2px solid var(--maincolor);
@@ -3804,7 +3807,7 @@ FOOD ORDER CSS STARTS
 }
 
 .order-cart-item-removedmsg {
-  font-size: 1.3rem;
+  font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
   width: 100%;
@@ -3865,6 +3868,8 @@ FOOD ORDER CSS STARTS
   margin: 1rem 0;
   border: 0;
   cursor: pointer;
+  display: block;
+  text-align: center;
 }
 
 .order-cart-summary-delivery.disabled {
@@ -3957,6 +3962,7 @@ FOOD ORDER CSS STARTS
     -webkit-box-flex: 1;
     -ms-flex: auto;
     flex: auto;
+    /* padding-right: 10px; */
   }
 }
 
@@ -4030,8 +4036,10 @@ FOOD ORDER CSS STARTS
   position: absolute;
   top: 1rem;
   right: 1rem;
-  font-size: 3rem;
+  font-size: 28px;
   cursor: pointer;
+  background: transparent;
+  border: 0;
 }
 
 .order-modal .modal-header .close:hover {
@@ -4039,7 +4047,7 @@ FOOD ORDER CSS STARTS
 }
 
 .order-modal .modal-title {
-  font-size: 2.5rem;
+  font-size: 25px;
   margin-bottom: 1rem;
 }
 
@@ -4060,17 +4068,18 @@ FOOD ORDER CSS STARTS
 }
 
 .order-modal .modal-price {
-  font-size: 2rem;
+  font-size: 20px;
 }
 
 .order-modal .modal-desc {
-  font-size: 1.4rem;
+  font-size: 14px;
   opacity: 0.8;
+  padding: 0;
 }
 
 .order-modal .modal-instructions label {
   display: block;
-  font-size: 1.4rem;
+  font-size: 14px;
   font-weight: 500;
   text-transform: uppercase;
 }

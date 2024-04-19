@@ -1,7 +1,7 @@
 <footer class="main-footer">
     <div class="container">
         <!-- ====scroll up to btn -->
-        <button id="scrollToTopBtn"><i class="fa-solid fa-arrow-up"></i></button>
+        <!-- <button id="scrollToTopBtn"><i class="fa-solid fa-arrow-up"></i></button> -->
 
         <!-- ====scroll up to btn -->
         <div class="footer-up">
@@ -22,8 +22,9 @@
                         <ul class="imp-link">
                             <li><a href="index.php"> Home</a></li>
                             <li><a href="about-us.php"> About Us</a></li>
-                            <li><a href="menu.php"> Menu</a></li>
+                            <li><a href="menu2.php"> Menu</a></li>
                             <li><a href="gallery.php"> Gallery</a></li>
+                            <li><a href="events.php"> Events</a></li>
                             <li><a href="contact-us.php"> Contact Us</a></li>
                         </ul>
                     </div>

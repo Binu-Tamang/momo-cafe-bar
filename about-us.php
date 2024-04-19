@@ -43,7 +43,7 @@
                             <div class="abt-us-img">
                                 <img src="assets/img/abt-img.png" alt="food">
                             </div>
-                            <a href="order2.php" class="order-btn"><span class="font-style text-theme">Order</span>Now
+                            <a href="order.php" class="order-btn"><span class="font-style text-theme">Order</span>Now
                             </a>
                         </div>
                     </div>
@@ -99,7 +99,7 @@
                         <div class="story-box-img">
                             <img src="assets/img/menu-se(2).png" alt="food">
                             <img class="moving" src="assets/img/1.png" alt="leave">
-                            <a href="order2.php" class="order-btn"><span class="font-style text-theme">Order</span>Now</a>
+                            <a href="order.php" class="order-btn"><span class="font-style text-theme">Order</span>Now</a>
                         </div>
                     </div>
                 </div>
@@ -321,17 +321,17 @@ HOW WE WORK
     <!-- ================================================
 video and facebook feed
 ==================================================== -->
-    <section class="social-media-wrap">
+<section class="social-media-wrap">
         <div class="container">
             <div class="row">
                 <div class="col-lg-7">
                     <div class="VideoContent text-center">
-                        <iframe id="ytplayer" title="Youtube Video" loading="lazy" type="text/html" width="540" height="320" src="https://www.youtube.com/embed/LrAyijNjSfE?si=FvdcASK_QBr7IRUx" frameborder="0"></iframe>
-                    </div>
+                        <iframe id="ytplayer" width="560" height="400" src="https://www.youtube.com/embed/3FeN8au3qQA?si=SgdHhmD5zlFSFapV" title="Momo Cafe Bar Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+                        </div>
                 </div>
                 <div class="col-lg-5 text-center pt-lg-0 pt-5">
                     <div class="facebook-link fb-responsive">
-                        <iframe loading="lazy" title="Facebook Page" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fthemomscafebar&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="400" height="400" style="border: none; overflow: hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                        <iframe loading="lazy" title="Facebook Page" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fthemomscafebar&amp;tabs=timeline&amp;width=340&amp;height=500&amp;small_header=false&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=true&amp;appId" width="400" height="400" style="border: none; overflow: hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
                     </div>
                 </div>
             </div>

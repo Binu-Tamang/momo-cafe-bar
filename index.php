@@ -44,7 +44,7 @@
                     <div class="left-banner">
                         <strong>An <span>Ambient</span> <br> Dining Journey</strong>
                         <p>The Momos Cafe Bar, where we're breaking new ground with an exciting array of dishes to be enjoyed.</p>
-                        <a href="menu.php" class="default-btn"> Explore Menu<span></span><i class="fa-solid fa-arrow-right-long"></i></a>
+                        <a href="menu2.php" class="default-btn"> Explore Menu<span></span><i class="fa-solid fa-arrow-right-long"></i></a>
                         <div id="circlebanner">
 
                         </div>
@@ -64,9 +64,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="item banner-box" data-dot='<img rel="preload" src="assets/img/b-2.png" alt="food-slider" as="image">'>
+                            <div class="item banner-box" data-dot='<img rel="preload" src="assets/img/real-food-1.png" alt="food-slider" as="image">'>
                                 <div class="banner-img-cover">
-                                    <img rel="preload" src="assets/img/b-2.png" alt="food-slider" as="image">
+                                    <img rel="preload" src="assets/img/real-food-1.png" alt="food-slider" as="image">
                                 </div>
                                 <div class="offer-rate-banner">
                                     <div class="img-offer-wrap">
@@ -796,8 +796,8 @@
                 </div>
             </div>
             <div class="text-center pt-5 two-btn">
-                <a href="order2.php" class="default-btn"> Order Online<span></span><i class="fa-solid fa-arrow-right-long"></i></a>
-                <a href="menu.php" class="yellow_btn mx-4"> View Our Menu <span></span><i class="fa-solid fa-arrow-right-long"></i></a>
+                <a href="order.php" class="default-btn"> Order Online<span></span><i class="fa-solid fa-arrow-right-long"></i></a>
+                <a href="menu2.php" class="yellow_btn mx-4"> View Our Menu <span></span><i class="fa-solid fa-arrow-right-long"></i></a>
             </div>
         </div>
     </section>

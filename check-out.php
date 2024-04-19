@@ -212,7 +212,7 @@
                                                     </th>
                                                 </tr>
                                             </thead> -->
-                                        <tbody>
+                                            <tbody>
                                             <tr class="order-cart-item">
                                                 <td class="order-cart-item-cell order-cart-item-quantity">
                                                     <span class="order-cart-item-num">2</span>
@@ -226,14 +226,12 @@
                                                     </div>
                                                 </td>
                                                 <td class="order-cart-item-cell order-cart-item-cont">
-                                                    <span class="order-cart-item-name">Masala papadom (order:
-                                                        Mild,
-                                                        Medium or Hot)</span>
+                                                    <span class="order-cart-item-name">English Breakfast Small</span>
                                                     <p class="order-cart-item-desc">Need it in hot, but less
                                                         spicier.</p>
                                                 </td>
                                                 <td class="order-cart-item-cell order-cart-item-value">
-                                                    <span class="order-cart-item-price">9,50​ €</span>
+                                                    <span class="order-cart-item-price">5,50​ €</span>
                                                     <div class="order-cart-item-remove">
                                                         <span class="order-cart-item-remove-toggler fa fa-times"></span>
                                                     </div>
@@ -252,7 +250,7 @@
                                                     </div>
                                                 </td>
                                                 <td class="order-cart-item-cell order-cart-item-cont">
-                                                    <span class="order-cart-item-name">Tomato Soup</span>
+                                                    <span class="order-cart-item-name">Tostada jamón serranoy tomate</span>
                                                     <p class="order-cart-item-desc">Prepared with fresh tomato,
                                                         fresh cream and spices.</p>
                                                 </td>
@@ -276,12 +274,12 @@
                                                     </div>
                                                 </td>
                                                 <td class="order-cart-item-cell order-cart-item-cont">
-                                                    <span class="order-cart-item-name">Nepali Herbal Soup</span>
-                                                    <p class="order-cart-item-desc">Prepared with fresh ginger,
-                                                        tomato, special herbs and spices.</p>
+                                                    <span class="order-cart-item-name">Hamburguesa pequeña con patatas fritas</span>
+                                                    <p class="order-cart-item-desc">Prepared with fresh bun,
+                                                        tomato, special ketchup and spices.</p>
                                                 </td>
                                                 <td class="order-cart-item-cell order-cart-item-value">
-                                                    <span class="order-cart-item-price">4,00 €</span>
+                                                    <span class="order-cart-item-price">6,50 €</span>
                                                     <div class="order-cart-item-remove">
                                                         <span class="order-cart-item-remove-toggler fa fa-times"></span>
                                                     </div>
@@ -297,12 +295,12 @@
                                             </li>
                                             <!-- Discount Voucher Section -->
                                             <li>
-                                            <div class="discount-voucher-section">
-                                                <div class="formfield">
-                                                    <input type="text" id="voucherCode" placeholder="Enter Discount Code">
+                                                <div class="discount-voucher-section">
+                                                    <div class="formfield">
+                                                        <input type="text" id="voucherCode" placeholder="Enter Discount Code">
+                                                    </div>
+                                                    <button class="apply-voucher-btn">Apply</button>
                                                 </div>
-                                                <button class="apply-voucher-btn">Apply</button>
-                                            </div>
                                             </li>
                                             <li>
                                                 <div class="order-cart-summary-list-name"><span>Service Charge</span></div>
@@ -318,9 +316,9 @@
                                             </li>
                                         </ul>
 
-                                        <div>
+                                        <!-- <div>
                                             <button class="order-cart-summary-btn">Proceed to Checkout</button>
-                                        </div>
+                                        </div> -->
                                     </div>
 
                                 </div>
@@ -391,12 +389,6 @@
     include('inc/footer.php');
     include('inc/js.php')
     ?>
-    <script>
-        const navItems = document.querySelectorAll('.header-menu-wrap ul li > a ');
-        if (navItems.length >= 5) {
-            navItems[4].classList.add("active");
-        }
-    </script>
 </body>
 
 </html>

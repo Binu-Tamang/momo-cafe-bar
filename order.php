@@ -16,16 +16,6 @@
     <?php include('inc/header.php') ?>
     <!-- header part ends -->
 
-    <!-- <div class="mouse_move objects">
-            <img class="mouse" value="1.8" src="assets/img/ob-1.png" alt="food fly" style="transform: translateX(-0.202222px) translateY(1.56222px);">
-            <img class="mouse" value="1.8" src="assets/img/ob-2.png" alt="food fly" style="transform: translateX(-0.202222px) translateY(1.56222px);">
-            <img class="mouse" value="1.8" src="assets/img/ob-3.png" alt="food fly" style="transform: translateX(-0.202222px) translateY(1.56222px);">
-            <img class="mouse" value="1.8" src="assets/img/ob-1.png" alt="food fly" style="transform: translateX(-0.202222px) translateY(1.56222px);">
-            <img loading="lazy" class="mouse" value="0.8" src="assets/img/cherry-tomato.png" alt="food" id="bg-2" data-depth="40" style="transform: translateX(10.9378px) translateY(-25.2067px);">
-            <img loading="lazy" class="mouse" value="1.5" src="assets/img/leaf-3.png" alt="food" id="bg-3" data-depth="20" style="transform: translateX(15.0778px) translateY(-50.4778px); right:10%;">
-            <img class="mouse" value="1.8" src="assets/img/mint.png" alt="food" style="transform: translateX(0.877778px) translateY(-4.07778px); left:10%; bottom:20%;">
-            <img loading="lazy" class="mouse" value="0.8" src="assets/img/cherry-tomato.png" alt="food" id="bg-2" data-depth="40" style="transform: translateX(10.9378px) translateY(-25.2067px); bottom:15%; right:10%; rotate:190deg;">
-        </div> -->
     <div class="sitewrapper">
         <!-- banner and headre page  -->
         <?php $page_title = 'Food Order ' ?>
@@ -65,7 +55,7 @@
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#orderSectionNaanPastas" class="page-scroll">
+                                                <a href="#orderSectionPastas" class="page-scroll">
                                                     Pastas <span class="order-side-list-num">(9)</span>
                                                 </a>
                                             </li>
@@ -99,7 +89,7 @@
                                                     <option value="#orderSectionSalads" class="page-scroll">
                                                         Salads <span class="order-side-list-num">(32)</span>
                                                         </a>
-                                                    <option value="#orderSectionNaanPastas" class="page-scroll">
+                                                    <option value="#orderSectionPastas" class="page-scroll">
                                                         Pastas <span class="order-side-list-num">(9)</span>
                                                         </a>
                                                     <option value="#orderSectionPizzas" class="page-scroll">
@@ -111,12 +101,9 @@
                                                 </select>
                                                 <div class="order-search">
                                                     <div class="order-search-field">
-                                                        <span class="order-search-icon icon-magnifier">
-                                                            <img src="images/icons/magnifying-glass.svg" alt="">
-                                                        </span>
                                                         <input type="text" placeholder="Search within menu">
                                                         <span class="order-search-icon icon-close">
-                                                            <img src="images/icons/cancel.svg" alt="">
+                                                        <i class="fa fa-times"></i>
                                                         </span>
                                                     </div>
                                                 </div>
@@ -130,10 +117,6 @@
                                                         <div class="order-item-box">
                                                             <div class="order-item-box-cont">
                                                                 <h4 class="order-item-box-title"> Breakfast </h4>
-                                                                <div class="order-item-box-icons">
-                                                                    <span><img src="images/menu-icons/celery.png" alt=""></span>
-                                                                    <span><img src="images/menu-icons/eggs.png" alt=""></span>
-                                                                </div>
                                                                 <p class="order-item-box-para">Café, zumo de naranja, 1 tostada con tomate,
                                                                     aceite o mantequilla, mermelada
                                                                     Coffee, Orange Juice, 1 Toast, Tomato, olive
@@ -151,10 +134,6 @@
                                                         <div class="order-item-box">
                                                             <div class="order-item-box-cont">
                                                                 <h4 class="order-item-box-title">English Breakfast Small</h4>
-                                                                <div class="order-item-box-icons">
-                                                                    <span><img src="images/menu-icons/celery.png" alt=""></span>
-                                                                    <span><img src="images/menu-icons/eggs.png" alt=""></span>
-                                                                </div>
                                                                 <p class="order-item-box-para">1 bacon, 1 sausage, 1 egg, 1 toast, tomato and beans</p>
                                                             </div>
                                                             <div class="order-item-box-pricing">
@@ -169,10 +148,6 @@
                                                         <div class="order-item-box">
                                                             <div class="order-item-box-cont">
                                                                 <h4 class="order-item-box-title">English Breakfast Big</h4>
-                                                                <div class="order-item-box-icons">
-                                                                    <span><img src="images/menu-icons/celery.png" alt=""></span>
-                                                                    <span><img src="images/menu-icons/eggs.png" alt=""></span>
-                                                                </div>
                                                                 <p class="order-item-box-para">2 beicon, 1 salchicha, 2 huevos, 2 tosta- das,
                                                                     tomate y judías ** Después de las 14: 00hrs el
                                                                     precio será de 6,50 € ** 2 bacons, 1sasuage,
@@ -191,10 +166,6 @@
                                                         <div class="order-item-box">
                                                             <div class="order-item-box-cont">
                                                                 <h4 class="order-item-box-title">Desayuno - Natural</h4>
-                                                                <div class="order-item-box-icons">
-                                                                    <span><img src="images/menu-icons/gluten.png" alt=""></span>
-                                                                    <span><img src="images/menu-icons/shellfish.png" alt=""></span>
-                                                                </div>
                                                                 <p class="order-item-box-para">Muesli, Yogurt, Fruta, Tosta, cafe y 2 umo de naranja</p>
                                                             </div>
                                                             <div class="order-item-box-pricing">
@@ -240,10 +211,6 @@
                                                         <div class="order-item-box">
                                                             <div class="order-item-box-cont">
                                                                 <h4 class="order-item-box-title">Tostada jamón serranoy tomate</h4>
-                                                                <div class="order-item-box-icons">
-                                                                    <span><img src="images/menu-icons/fish.png" alt=""></span>
-                                                                    <span><img src="images/menu-icons/lupins.png" alt=""></span>
-                                                                </div>
                                                                 <p class="order-item-box-para">Toast serrano ham and tomato</p>
                                                             </div>
                                                             <div class="order-item-box-pricing">
@@ -320,10 +287,6 @@
                                                         <div class="order-item-box">
                                                             <div class="order-item-box-cont">
                                                                 <h4 class="order-item-box-title">Espaghetti Bolognese</h4>
-                                                                <div class="order-item-box-icons">
-                                                                    <span><img src="images/menu-icons/celery.png" alt=""></span>
-                                                                    <span><img src="images/menu-icons/eggs.png" alt=""></span>
-                                                                </div>
                                                                 <p class="order-item-box-para">Spaghetti Bolognese</p>
                                                             </div>
                                                             <div class="order-item-box-pricing">
@@ -352,10 +315,6 @@
                                                         <div class="order-item-box">
                                                             <div class="order-item-box-cont">
                                                                 <h4 class="order-item-box-title">Hamburguesa pequeña con patatas fritas</h4>
-                                                                <div class="order-item-box-icons">
-                                                                    <span><img src="images/menu-icons/fish.png" alt=""></span>
-                                                                    <span><img src="images/menu-icons/lupins.png" alt=""></span>
-                                                                </div>
                                                                 <p class="order-item-box-para">Mini hamburger with chips</p>
                                                             </div>
                                                             <div class="order-item-box-pricing">
@@ -369,17 +328,13 @@
 
                                                 </div>
                                             </section>
-                                            <section class="order-section" id="orderSectionSoupSnacks">
+                                            <section class="order-section" id="orderSectionSoupsnacks">
                                                 <h4 class="order-section-title">Soup & Snacks</h4>
                                                 <div class="order-item-wrap">
                                                     <div class="order-item">
                                                         <div class="order-item-box">
                                                             <div class="order-item-box-cont">
                                                                 <h4 class="order-item-box-title">Sopa de tomate</h4>
-                                                                <div class="order-item-box-icons">
-                                                                    <span><img src="images/menu-icons/celery.png" alt=""></span>
-                                                                    <span><img src="images/menu-icons/eggs.png" alt=""></span>
-                                                                </div>
                                                                 <p class="order-item-box-para">Tomato Soup</p>
                                                             </div>
                                                             <div class="order-item-box-pricing">
@@ -408,10 +363,6 @@
                                                         <div class="order-item-box">
                                                             <div class="order-item-box-cont">
                                                                 <h4 class="order-item-box-title">Sopa de pollo</h4>
-                                                                <div class="order-item-box-icons">
-                                                                    <span><img src="images/menu-icons/fish.png" alt=""></span>
-                                                                    <span><img src="images/menu-icons/lupins.png" alt=""></span>
-                                                                </div>
                                                                 <p class="order-item-box-para">Chicken soup</p>
                                                             </div>
                                                             <div class="order-item-box-pricing">
@@ -455,10 +406,6 @@
                                                             <div class="order-item-box-cont">
                                                                 <h4 class="order-item-box-title">Patatas fritas,
                                                                     beicon y queso</h4>
-                                                                <div class="order-item-box-icons">
-                                                                    <span><img src="images/menu-icons/gluten.png" alt=""></span>
-                                                                    <span><img src="images/menu-icons/shellfish.png" alt=""></span>
-                                                                </div>
                                                                 <p class="order-item-box-para">French fries, bacon & cheese</p>
                                                             </div>
                                                             <div class="order-item-box-pricing">
@@ -501,11 +448,6 @@
                                                         <div class="order-item-box">
                                                             <div class="order-item-box-cont">
                                                                 <h4 class="order-item-box-title">Nuggets de pollo</h4>
-                                                                <div class="order-item-box-icons">
-                                                                    <span><img src="images/menu-icons/sesame.png" alt=""></span>
-                                                                    <span><img src="images/menu-icons/eggs.png" alt=""></span>
-                                                                    <span><img src="images/menu-icons/mustard.png" alt=""></span>
-                                                                </div>
                                                                 <p class="order-item-box-para">Chicken nuggets</p>
                                                             </div>
                                                             <div class="order-item-box-pricing">
@@ -525,10 +467,6 @@
                                                         <div class="order-item-box">
                                                             <div class="order-item-box-cont">
                                                                 <h4 class="order-item-box-title">Ensalada mixta</h4>
-                                                                <div class="order-item-box-icons">
-                                                                    <span><img src="images/menu-icons/celery.png" alt=""></span>
-                                                                    <span><img src="images/menu-icons/eggs.png" alt=""></span>
-                                                                </div>
                                                                 <p class="order-item-box-para">Lechuga, tomate, cebolla pepino, aceitunas y mozzarella
                                                                     Lettuce, tomato, onion, cucumber, mozzarella and olives</p>
                                                             </div>
@@ -558,10 +496,6 @@
                                                         <div class="order-item-box">
                                                             <div class="order-item-box-cont">
                                                                 <h4 class="order-item-box-title">Coctail de gambas</h4>
-                                                                <div class="order-item-box-icons">
-                                                                    <span><img src="images/menu-icons/fish.png" alt=""></span>
-                                                                    <span><img src="images/menu-icons/lupins.png" alt=""></span>
-                                                                </div>
                                                                 <p class="order-item-box-para">Prawn cocktail</p>
                                                             </div>
                                                             <div class="order-item-box-pricing">
@@ -603,17 +537,13 @@
                                                     </div>
                                                 </div>
                                             </section>
-                                            <section class="order-section" id="orderSectionNaanPastas">
+                                            <section class="order-section" id="orderSectionPastas">
                                                 <h4 class="order-section-title">Pastas</h4>
                                                 <div class="order-item-wrap">
                                                     <div class="order-item">
                                                         <div class="order-item-box">
                                                             <div class="order-item-box-cont">
                                                                 <h4 class="order-item-box-title">Espaguetti Pasta bolognese</h4>
-                                                                <div class="order-item-box-icons">
-                                                                    <span><img src="images/menu-icons/celery.png" alt=""></span>
-                                                                    <span><img src="images/menu-icons/eggs.png" alt=""></span>
-                                                                </div>
                                                                 <p class="order-item-box-para">Spagh gnese</p>
                                                             </div>
                                                             <div class="order-item-box-pricing">
@@ -642,10 +572,6 @@
                                                         <div class="order-item-box">
                                                             <div class="order-item-box-cont">
                                                                 <h4 class="order-item-box-title">Pasta Momo</h4>
-                                                                <div class="order-item-box-icons">
-                                                                    <span><img src="images/menu-icons/fish.png" alt=""></span>
-                                                                    <span><img src="images/menu-icons/lupins.png" alt=""></span>
-                                                                </div>
                                                                 <p class="order-item-box-para">Spaghetti pollo, cevolla, pimientos Salsa agridutse y picante</p>
                                                             </div>
                                                             <div class="order-item-box-pricing">
@@ -693,10 +619,6 @@
                                                         <div class="order-item-box">
                                                             <div class="order-item-box-cont">
                                                                 <h4 class="order-item-box-title">MARGARITA</h4>
-                                                                <div class="order-item-box-icons">
-                                                                    <span><img src="images/menu-icons/celery.png" alt=""></span>
-                                                                    <span><img src="images/menu-icons/eggs.png" alt=""></span>
-                                                                </div>
                                                                 <p class="order-item-box-para">Tomate, queso, orégano
                                                                     Tomato, cheese, oregano</p>
                                                             </div>
@@ -726,10 +648,6 @@
                                                         <div class="order-item-box">
                                                             <div class="order-item-box-cont">
                                                                 <h4 class="order-item-box-title">HAWAI</h4>
-                                                                <div class="order-item-box-icons">
-                                                                    <span><img src="images/menu-icons/fish.png" alt=""></span>
-                                                                    <span><img src="images/menu-icons/lupins.png" alt=""></span>
-                                                                </div>
                                                                 <p class="order-item-box-para">Tomate, queso, jamón y piña Tomato, cheese, ham & pineapple</p>
                                                             </div>
                                                             <div class="order-item-box-pricing">
@@ -773,10 +691,6 @@
                                                         <div class="order-item-box">
                                                             <div class="order-item-box-cont">
                                                                 <h4 class="order-item-box-title">Pizza Mascarpone</h4>
-                                                                <div class="order-item-box-icons">
-                                                                    <span><img src="images/menu-icons/gluten.png" alt=""></span>
-                                                                    <span><img src="images/menu-icons/shellfish.png" alt=""></span>
-                                                                </div>
                                                                 <p class="order-item-box-para">Tomate, queso, atun, Beicon, jamon serrano Tomato, cheese, tuna, bacon, serrano ham</p>
                                                             </div>
                                                             <div class="order-item-box-pricing">
@@ -796,10 +710,6 @@
                                                         <div class="order-item-box">
                                                             <div class="order-item-box-cont">
                                                                 <h4 class="order-item-box-title">Pechuga de pollo plancha</h4>
-                                                                <div class="order-item-box-icons">
-                                                                    <span><img src="images/menu-icons/celery.png" alt=""></span>
-                                                                    <span><img src="images/menu-icons/eggs.png" alt=""></span>
-                                                                </div>
                                                                 <p class="order-item-box-para">Grilled chicken breast
                                                                     Grillet kyllingbryst</p>
                                                             </div>
@@ -830,10 +740,6 @@
                                                         <div class="order-item-box">
                                                             <div class="order-item-box-cont">
                                                                 <h4 class="order-item-box-title">Solomillo de cerdo</h4>
-                                                                <div class="order-item-box-icons">
-                                                                    <span><img src="images/menu-icons/fish.png" alt=""></span>
-                                                                    <span><img src="images/menu-icons/lupins.png" alt=""></span>
-                                                                </div>
                                                                 <p class="order-item-box-para">Pork llet
                                                                     Svinekjøttlé</p>
                                                             </div>
@@ -878,10 +784,6 @@
                                                         <div class="order-item-box">
                                                             <div class="order-item-box-cont">
                                                                 <h4 class="order-item-box-title">Stconverguarnicion Patatas</h4>
-                                                                <div class="order-item-box-icons">
-                                                                    <span><img src="images/menu-icons/gluten.png" alt=""></span>
-                                                                    <span><img src="images/menu-icons/shellfish.png" alt=""></span>
-                                                                </div>
                                                                 <p class="order-item-box-para">Verduras</p>
                                                             </div>
                                                             <div class="order-item-box-pricing">
@@ -973,14 +875,12 @@
                                                             </div>
                                                         </td>
                                                         <td class="order-cart-item-cell order-cart-item-cont">
-                                                            <span class="order-cart-item-name">Masala papadom (order:
-                                                                Mild,
-                                                                Medium or Hot)</span>
+                                                            <span class="order-cart-item-name">English Breakfast Small</span>
                                                             <p class="order-cart-item-desc">Need it in hot, but less
                                                                 spicier.</p>
                                                         </td>
                                                         <td class="order-cart-item-cell order-cart-item-value">
-                                                            <span class="order-cart-item-price">9,50​ €</span>
+                                                            <span class="order-cart-item-price">5,50​ €</span>
                                                             <div class="order-cart-item-remove">
                                                                 <span class="order-cart-item-remove-toggler fa fa-times"></span>
                                                             </div>
@@ -999,7 +899,7 @@
                                                             </div>
                                                         </td>
                                                         <td class="order-cart-item-cell order-cart-item-cont">
-                                                            <span class="order-cart-item-name">Tomato Soup</span>
+                                                            <span class="order-cart-item-name">Tostada jamón serranoy tomate</span>
                                                             <p class="order-cart-item-desc">Prepared with fresh tomato,
                                                                 fresh cream and spices.</p>
                                                         </td>
@@ -1023,12 +923,12 @@
                                                             </div>
                                                         </td>
                                                         <td class="order-cart-item-cell order-cart-item-cont">
-                                                            <span class="order-cart-item-name">Nepali Herbal Soup</span>
-                                                            <p class="order-cart-item-desc">Prepared with fresh ginger,
-                                                                tomato, special herbs and spices.</p>
+                                                            <span class="order-cart-item-name">Hamburguesa pequeña con patatas fritas</span>
+                                                            <p class="order-cart-item-desc">Prepared with fresh bun,
+                                                                tomato, special ketchup and spices.</p>
                                                         </td>
                                                         <td class="order-cart-item-cell order-cart-item-value">
-                                                            <span class="order-cart-item-price">4,00 €</span>
+                                                            <span class="order-cart-item-price">6,50 €</span>
                                                             <div class="order-cart-item-remove">
                                                                 <span class="order-cart-item-remove-toggler fa fa-times"></span>
                                                             </div>
@@ -1065,7 +965,7 @@
                                                     </li>
                                                 </ul>
                                                 <div>
-                                                    <button class="order-cart-summary-btn">Proceed to Checkout</button>
+                                                    <a href="check-out.php" class="order-cart-summary-btn">Proceed to Checkout</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1081,19 +981,15 @@
     </div>
 
     <!-- Modal -->
-    <!-- <div class="modal fade order-modal" id="orderModal" tabindex="-1" role="dialog"
+    <div class="modal fade order-modal" id="orderModal" tabindex="-1" role="dialog"
         aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
                     <h3 id="modal-title" class="modal-title">Papadom</h3>
-                    <div class="modal-icons">
-                        <span><img src="images/menu-icons/eggs.png" alt=""></span>
-                        <span><img src="images/menu-icons/fish.png" alt=""></span>
-                    </div>
                     <span class="modal-price">9,50 €</span>
                     <p class="modal-desc">Fried plain crispy lentils wafer.</p>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
                         <i class="fa fa-times"></i>
                     </button>
                 </div>
@@ -1108,7 +1004,7 @@
                         <div class="col-md-6">
                             <div class="row">
                                 <div class="col-md-6">
-                                    <button class="modal-btn-remove">Remove</button>
+                                    <button  class="modal-btn-remove" data-bs-dismiss="modal">Remove</button>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="order-modal-quantity">
@@ -1134,24 +1030,8 @@
                 </div>
             </div>
         </div>
-    </div> -->
-    <div class="modal fade" id="orderModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    ...
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
-            </div>
-        </div>
-    </div>
+    </div> 
+   
 
     <!-- ---------------------------footer starts--------------------- -->
     <?php

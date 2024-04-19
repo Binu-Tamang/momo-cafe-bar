@@ -345,678 +345,1295 @@
     </section> -->
 
 
+
+
     <section class="food-menu main-menu-list">
-        <div class="mouse_move objects">
-        </div>
         <div class="container">
-            <ul class="nav nav-pills mb-3 food-list-menu" id="pills-tab" role="tablist">
+            <ul class="nav nav-pills" id="pills-tab" role="tablist">
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Breakfast</button>
+                    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Breakfast</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Children Menu</button>
+                    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Children Menu</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="soup-tab" data-bs-toggle="pill" data-bs-target="#soup-tab" type="button" role="tab" aria-controls="soup" aria-selected="false">Soup & Snacks</button>
+                    <button class="nav-link" id="soup-tab" data-bs-toggle="pill" href="#pills-soup" role="tab" aria-controls="pills-soup" aria-selected="false">Soup & Snacks</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="salads-tab" data-bs-toggle="pill" data-bs-target="#salads" type="button" role="tab" aria-controls="salads" aria-selected="false">Salads</button>
+                    <button class="nav-link" id="salads-tab" data-bs-toggle="pill" href="#pills-salads" role="tab" aria-controls="pills-salads" aria-selected="false">Salads</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="pasta-tab" data-bs-toggle="pill" data-bs-target="#pasta" type="button" role="tab" aria-controls="pasta" aria-selected="false">Pasta</button>
+                    <button class="nav-link" id="pasta-tab" data-bs-toggle="pill" href="#pills-pasta" role="tab" aria-controls="pills-pasta" aria-selected="false">Pasta</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="pizza-tab" data-bs-toggle="pill" data-bs-target="#pizza" type="button" role="tab" aria-controls="pizza" aria-selected="false">Pizza</button>
+                    <button class="nav-link" id="pizza-tab" data-bs-toggle="pill" href="#pills-pizza" role="tab" aria-controls="pills-pizza" aria-selected="false">Pizza</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="meat-tab" data-bs-toggle="pill" data-bs-target="#meat" type="button" role="tab" aria-controls="meat" aria-selected="false">Meat</button>
+                    <button class="nav-link" id="meat-tab" data-bs-toggle="pill" href="#pills-meat" role="tab" aria-controls="pills-meat" aria-selected="false">Meat</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="fish-tab" data-bs-toggle="pill" data-bs-target="#fish" type="button" role="tab" aria-controls="fish" aria-selected="false">Fish</button>
+                    <button class="nav-link" id="fish-tab" data-bs-toggle="pill" href="#pills-fish" role="tab" aria-controls="pills-fish" aria-selected="false">Fish</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="paella-tab" data-bs-toggle="pill" data-bs-target="#paella" type="button" role="tab" aria-controls="paella" aria-selected="false">Potato & Paella</button>
+                    <button class="nav-link" id="paella-tab" data-bs-toggle="pill" href="#pills-paella" role="tab" aria-controls="pills-paella" aria-selected="false">Potato & Paella</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="momo-tab" data-bs-toggle="pill" data-bs-target="#momo" type="button" role="tab" aria-controls="momo" aria-selected="false">Momo</button>
+                    <button class="nav-link" id="momo-tab" data-bs-toggle="pill" href="#pills-momo" role="tab" aria-controls="pills-momo" aria-selected="false">Momo</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="desserts-tab" data-bs-toggle="pill" data-bs-target="#desserts" type="button" role="tab" aria-controls="desserts" aria-selected="false">Desserts</button>
+                    <button class="nav-link" id="desserts-tab" data-bs-toggle="pill" href="#pills-desserts" role="tab" aria-controls="pills-desserts" aria-selected="false">Desserts</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="soft-drinks-tab" data-bs-toggle="pill" data-bs-target="#soft-drinks" type="button" role="tab" aria-controls="soft-drinks" aria-selected="false">Soft Drinks</button>
+                    <button class="nav-link" id="soft-drinks-tab" data-bs-toggle="pill" href="#pills-soft-drinks" role="tab" aria-controls="pills-soft-drinks" aria-selected="false">Soft Drinks</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="hard-drinks-tab" data-bs-toggle="pill" data-bs-target="#hard-drinks" type="button" role="tab" aria-controls="hard-drinks" aria-selected="false">Hard Drinks</button>
+                    <button class="nav-link" id="hard-drinks-tab" data-bs-toggle="pill" href="#pills-hard-drinks" role="tab" aria-controls="pills-hard-drinks" aria-selected="false">Hard Drinks</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="coffee-tab" data-bs-toggle="pill" data-bs-target="#coffee" type="button" role="tab" aria-controls="coffee" aria-selected="false">Coffee</button>
+                    <button class="nav-link" id="coffee-tab" data-bs-toggle="pill" href="#pills-coffee" role="tab" aria-controls="pills-coffee" aria-selected="false">Coffee</button>
                 </li>
             </ul>
-
             <div class="tab-content" id="pills-tabContent">
-                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
-                    <div class="menu-box">
-                        <div class="menu-details">
-                            <!-- <h2 class="web-tittle text-center">Soup &amp; Snacks</h2> -->
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="menu-list-details main-menu-line">
-                                        <div class="food-describe">
-                                            <strong>Desayuno</strong>
-                                            <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                    enim ligula venenatis dolor.</span>
-                                                <button onclick="myFunction(this)" class="myBtn">Read more</button>
-                                            </p>
-                                        </div>
-                                        <div class="food-review">
-                                            <span class="item-price">22,2€</span>
-                                        </div>
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                    <!-- Content for Breakfast tab -->
+                    <p class="text-center">This is the content for Breakfast tab.</p>
+                    <div class="menu-details">
+                        <!-- <h2 class="web-tittle text-center">Soup &amp; Snacks</h2> -->
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
                                     </div>
-
-                                    <div class="menu-list-details main-menu-line">
-                                        <div class="food-describe">
-                                            <strong>Desayuno</strong>
-                                            <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                    enim ligula venenatis dolor.</span>
-                                                <button onclick="myFunction(this)" class="myBtn">Read more</button>
-                                            </p>
-                                        </div>
-                                        <div class="food-review">
-                                            <span class="item-price">22,2€</span>
-                                        </div>
-                                    </div>
-
-                                    <div class="menu-list-details main-menu-line">
-                                        <div class="food-describe">
-                                            <strong>Desayuno</strong>
-                                            <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                    enim ligula venenatis dolor.</span>
-                                                <button onclick="myFunction(this)" class="myBtn">Read more</button>
-                                            </p>
-                                        </div>
-                                        <div class="food-review">
-                                            <span class="item-price">22,2€</span>
-                                        </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="menu-list-details main-menu-line">
-                                        <div class="food-describe">
-                                            <strong>Desayuno</strong>
-                                            <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                    enim ligula venenatis dolor.</span>
-                                                <button onclick="myFunction(this)" class="myBtn">Read more</button>
-                                            </p>
-                                        </div>
-                                        <div class="food-review">
-                                            <span class="item-price">22,2€</span>
-                                        </div>
-                                    </div>
 
-                                    <div class="menu-list-details main-menu-line">
-                                        <div class="food-describe">
-                                            <strong>Desayuno</strong>
-                                            <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                    enim ligula venenatis dolor.</span>
-                                                <button onclick="myFunction(this)" class="myBtn">Read more</button>
-                                            </p>
-                                        </div>
-                                        <div class="food-review">
-                                            <span class="item-price">22,2€</span>
-                                        </div>
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
                                     </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
 
-                                    <div class="menu-list-details main-menu-line">
-                                        <div class="food-describe">
-                                            <strong>Desayuno</strong>
-                                            <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                    enim ligula venenatis dolor.</span>
-                                                <button onclick="myFunction(this)" class="myBtn">Read more</button>
-                                            </p>
-                                        </div>
-                                        <div class="food-review">
-                                            <span class="item-price">22,2€</span>
-                                        </div>
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
+
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
+
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
                 <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-                    <div class="menu-box">
-                        <div class="menu-details">
-                            <!-- <h2 class="web-tittle text-center">Soup &amp; Snacks</h2> -->
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="menu-list-details main-menu-line">
-                                        <div class="food-describe">
-                                            <strong>Desayuno</strong>
-                                            <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                    enim ligula venenatis dolor.</span>
-                                                <button onclick="myFunction(this)" class="myBtn">Read more</button>
-                                            </p>
-                                        </div>
-                                        <div class="food-review">
-                                            <span class="item-price">22,2€</span>
-                                        </div>
+                    <!-- Content for Children Menu tab -->
+                    <p class="text-center">This is the content for Children Menu tab.</p>
+                    <div class="menu-details">
+                        <!-- <h2 class="web-tittle text-center">Soup &amp; Snacks</h2> -->
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
                                     </div>
-
-                                    <div class="menu-list-details main-menu-line">
-                                        <div class="food-describe">
-                                            <strong>Desayuno</strong>
-                                            <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                    enim ligula venenatis dolor.</span>
-                                                <button onclick="myFunction(this)" class="myBtn">Read more</button>
-                                            </p>
-                                        </div>
-                                        <div class="food-review">
-                                            <span class="item-price">22,2€</span>
-                                        </div>
-                                    </div>
-
-                                    <div class="menu-list-details main-menu-line">
-                                        <div class="food-describe">
-                                            <strong>Desayuno</strong>
-                                            <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                    enim ligula venenatis dolor.</span>
-                                                <button onclick="myFunction(this)" class="myBtn">Read more</button>
-                                            </p>
-                                        </div>
-                                        <div class="food-review">
-                                            <span class="item-price">22,2€</span>
-                                        </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="menu-list-details main-menu-line">
-                                        <div class="food-describe">
-                                            <strong>Desayuno</strong>
-                                            <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                    enim ligula venenatis dolor.</span>
-                                                <button onclick="myFunction(this)" class="myBtn">Read more</button>
-                                            </p>
-                                        </div>
-                                        <div class="food-review">
-                                            <span class="item-price">22,2€</span>
-                                        </div>
-                                    </div>
 
-                                    <div class="menu-list-details main-menu-line">
-                                        <div class="food-describe">
-                                            <strong>Desayuno</strong>
-                                            <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                    enim ligula venenatis dolor.</span>
-                                                <button onclick="myFunction(this)" class="myBtn">Read more</button>
-                                            </p>
-                                        </div>
-                                        <div class="food-review">
-                                            <span class="item-price">22,2€</span>
-                                        </div>
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
                                     </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
 
-                                    <div class="menu-list-details main-menu-line">
-                                        <div class="food-describe">
-                                            <strong>Desayuno</strong>
-                                            <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                    enim ligula venenatis dolor.</span>
-                                                <button onclick="myFunction(this)" class="myBtn">Read more</button>
-                                            </p>
-                                        </div>
-                                        <div class="food-review">
-                                            <span class="item-price">22,2€</span>
-                                        </div>
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
+
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
+
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="tab-pane fade" id="pills-soup" role="tabpanel" aria-labelledby="soup-tab" >
-                    <div class="menu-box">
-                        <div class="menu-details">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="menu-list-details main-menu-line">
-                                        <div class="food-describe">
-                                            <strong>Desayuno</strong>
-                                            <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                    enim ligula venenatis dolor.</span>
-                                                <button onclick="myFunction(this)" class="myBtn">Read more</button>
-                                            </p>
-                                        </div>
-                                        <div class="food-review">
-                                            <span class="item-price">22,2€</span>
-                                        </div>
+                <div class="tab-pane fade" id="pills-soup" role="tabpanel" aria-labelledby="pills-soup-tab">
+                    <!-- Content for Soup & Snacks tab -->
+                    <p class="text-center">This is the content for Soup & Snacks tab.</p>
+                    <div class="menu-details">
+                        <!-- <h2 class="web-tittle text-center">Soup &amp; Snacks</h2> -->
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
                                     </div>
-
-                                    <div class="menu-list-details main-menu-line">
-                                        <div class="food-describe">
-                                            <strong>Desayuno</strong>
-                                            <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                    enim ligula venenatis dolor.</span>
-                                                <button onclick="myFunction(this)" class="myBtn">Read more</button>
-                                            </p>
-                                        </div>
-                                        <div class="food-review">
-                                            <span class="item-price">22,2€</span>
-                                        </div>
-                                    </div>
-
-                                    <div class="menu-list-details main-menu-line">
-                                        <div class="food-describe">
-                                            <strong>Desayuno</strong>
-                                            <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                    enim ligula venenatis dolor.</span>
-                                                <button onclick="myFunction(this)" class="myBtn">Read more</button>
-                                            </p>
-                                        </div>
-                                        <div class="food-review">
-                                            <span class="item-price">22,2€</span>
-                                        </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="menu-list-details main-menu-line">
-                                        <div class="food-describe">
-                                            <strong>Desayuno</strong>
-                                            <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                    enim ligula venenatis dolor.</span>
-                                                <button onclick="myFunction(this)" class="myBtn">Read more</button>
-                                            </p>
-                                        </div>
-                                        <div class="food-review">
-                                            <span class="item-price">22,2€</span>
-                                        </div>
-                                    </div>
 
-                                    <div class="menu-list-details main-menu-line">
-                                        <div class="food-describe">
-                                            <strong>Desayuno</strong>
-                                            <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                    enim ligula venenatis dolor.</span>
-                                                <button onclick="myFunction(this)" class="myBtn">Read more</button>
-                                            </p>
-                                        </div>
-                                        <div class="food-review">
-                                            <span class="item-price">22,2€</span>
-                                        </div>
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
                                     </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
 
-                                    <div class="menu-list-details main-menu-line">
-                                        <div class="food-describe">
-                                            <strong>Desayuno</strong>
-                                            <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                    enim ligula venenatis dolor.</span>
-                                                <button onclick="myFunction(this)" class="myBtn">Read more</button>
-                                            </p>
-                                        </div>
-                                        <div class="food-review">
-                                            <span class="item-price">22,2€</span>
-                                        </div>
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
+
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
+
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="tab-pane fade" id="salads" role="tabpanel" aria-labelledby="salads-tab">
-                    <div class="menu-box">
-                        <div class="menu-details">
-                            <!-- <h2 class="web-tittle text-center">Soup &amp; Snacks</h2> -->
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="menu-list-details main-menu-line">
-                                        <div class="food-describe">
-                                            <strong>Desayuno</strong>
-                                            <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                    enim ligula venenatis dolor.</span>
-                                                <button onclick="myFunction(this)" class="myBtn">Read more</button>
-                                            </p>
-                                        </div>
-                                        <div class="food-review">
-                                            <span class="item-price">22,2€</span>
-                                        </div>
+                <div class="tab-pane fade" id="pills-salads" role="tabpanel" aria-labelledby="pills-salads-tab">
+                    <!-- Content for Salads tab -->
+                    <p class="text-center">This is the content for Salads tab.</p>
+                    <div class="menu-details">
+                        <!-- <h2 class="web-tittle text-center">Soup &amp; Snacks</h2> -->
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
                                     </div>
-
-                                    <div class="menu-list-details main-menu-line">
-                                        <div class="food-describe">
-                                            <strong>Desayuno</strong>
-                                            <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                    enim ligula venenatis dolor.</span>
-                                                <button onclick="myFunction(this)" class="myBtn">Read more</button>
-                                            </p>
-                                        </div>
-                                        <div class="food-review">
-                                            <span class="item-price">22,2€</span>
-                                        </div>
-                                    </div>
-
-                                    <div class="menu-list-details main-menu-line">
-                                        <div class="food-describe">
-                                            <strong>Desayuno</strong>
-                                            <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                    enim ligula venenatis dolor.</span>
-                                                <button onclick="myFunction(this)" class="myBtn">Read more</button>
-                                            </p>
-                                        </div>
-                                        <div class="food-review">
-                                            <span class="item-price">22,2€</span>
-                                        </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="menu-list-details main-menu-line">
-                                        <div class="food-describe">
-                                            <strong>Desayuno</strong>
-                                            <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                    enim ligula venenatis dolor.</span>
-                                                <button onclick="myFunction(this)" class="myBtn">Read more</button>
-                                            </p>
-                                        </div>
-                                        <div class="food-review">
-                                            <span class="item-price">22,2€</span>
-                                        </div>
-                                    </div>
 
-                                    <div class="menu-list-details main-menu-line">
-                                        <div class="food-describe">
-                                            <strong>Desayuno</strong>
-                                            <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                    enim ligula venenatis dolor.</span>
-                                                <button onclick="myFunction(this)" class="myBtn">Read more</button>
-                                            </p>
-                                        </div>
-                                        <div class="food-review">
-                                            <span class="item-price">22,2€</span>
-                                        </div>
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
                                     </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
 
-                                    <div class="menu-list-details main-menu-line">
-                                        <div class="food-describe">
-                                            <strong>Desayuno</strong>
-                                            <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                    enim ligula venenatis dolor.</span>
-                                                <button onclick="myFunction(this)" class="myBtn">Read more</button>
-                                            </p>
-                                        </div>
-                                        <div class="food-review">
-                                            <span class="item-price">22,2€</span>
-                                        </div>
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
+
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
+
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="tab-pane fade" id="pasta" role="tabpanel" aria-labelledby="pasta-tab">
-                    <div class="menu-box">
-                        <div class="menu-details">
-                            <!-- <h2 class="web-tittle text-center">Soup &amp; Snacks</h2> -->
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="menu-list-details main-menu-line">
-                                        <div class="food-describe">
-                                            <strong>Desayuno</strong>
-                                            <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                    enim ligula venenatis dolor.</span>
-                                                <button onclick="myFunction(this)" class="myBtn">Read more</button>
-                                            </p>
-                                        </div>
-                                        <div class="food-review">
-                                            <span class="item-price">22,2€</span>
-                                        </div>
+                <div class="tab-pane fade" id="pills-pasta" role="tabpanel" aria-labelledby="pills-pasta-tab">
+                    <!-- Content for Pasta tab -->
+                    <p class="text-center">This is the content for Pasta tab.</p>
+                    <div class="menu-details">
+                        <!-- <h2 class="web-tittle text-center">Soup &amp; Snacks</h2> -->
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
                                     </div>
-
-                                    <div class="menu-list-details main-menu-line">
-                                        <div class="food-describe">
-                                            <strong>Desayuno</strong>
-                                            <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                    enim ligula venenatis dolor.</span>
-                                                <button onclick="myFunction(this)" class="myBtn">Read more</button>
-                                            </p>
-                                        </div>
-                                        <div class="food-review">
-                                            <span class="item-price">22,2€</span>
-                                        </div>
-                                    </div>
-
-                                    <div class="menu-list-details main-menu-line">
-                                        <div class="food-describe">
-                                            <strong>Desayuno</strong>
-                                            <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                    enim ligula venenatis dolor.</span>
-                                                <button onclick="myFunction(this)" class="myBtn">Read more</button>
-                                            </p>
-                                        </div>
-                                        <div class="food-review">
-                                            <span class="item-price">22,2€</span>
-                                        </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="menu-list-details main-menu-line">
-                                        <div class="food-describe">
-                                            <strong>Desayuno</strong>
-                                            <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                    enim ligula venenatis dolor.</span>
-                                                <button onclick="myFunction(this)" class="myBtn">Read more</button>
-                                            </p>
-                                        </div>
-                                        <div class="food-review">
-                                            <span class="item-price">22,2€</span>
-                                        </div>
-                                    </div>
 
-                                    <div class="menu-list-details main-menu-line">
-                                        <div class="food-describe">
-                                            <strong>Desayuno</strong>
-                                            <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                    enim ligula venenatis dolor.</span>
-                                                <button onclick="myFunction(this)" class="myBtn">Read more</button>
-                                            </p>
-                                        </div>
-                                        <div class="food-review">
-                                            <span class="item-price">22,2€</span>
-                                        </div>
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
                                     </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
 
-                                    <div class="menu-list-details main-menu-line">
-                                        <div class="food-describe">
-                                            <strong>Desayuno</strong>
-                                            <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                    enim ligula venenatis dolor.</span>
-                                                <button onclick="myFunction(this)" class="myBtn">Read more</button>
-                                            </p>
-                                        </div>
-                                        <div class="food-review">
-                                            <span class="item-price">22,2€</span>
-                                        </div>
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
+
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
+
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="tab-pane fade" id="pizza" role="tabpanel" aria-labelledby="pizza-tab">
-                    <div class="menu-box">
-                        <div class="menu-details">
-                            <!-- <h2 class="web-tittle text-center">Soup &amp; Snacks</h2> -->
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="menu-list-details main-menu-line">
-                                        <div class="food-describe">
-                                            <strong>Desayuno</strong>
-                                            <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                    enim ligula venenatis dolor.</span>
-                                                <button onclick="myFunction(this)" class="myBtn">Read more</button>
-                                            </p>
-                                        </div>
-                                        <div class="food-review">
-                                            <span class="item-price">22,2€</span>
-                                        </div>
+                <div class="tab-pane fade" id="pills-pizza" role="tabpanel" aria-labelledby="pills-pizza-tab">
+                    <!-- Content for Pizza tab -->
+                    <p class="text-center">This is the content for Pizza tab.</p>
+                    <div class="menu-details">
+                        <!-- <h2 class="web-tittle text-center">Soup &amp; Snacks</h2> -->
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
                                     </div>
-
-                                    <div class="menu-list-details main-menu-line">
-                                        <div class="food-describe">
-                                            <strong>Desayuno</strong>
-                                            <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                    enim ligula venenatis dolor.</span>
-                                                <button onclick="myFunction(this)" class="myBtn">Read more</button>
-                                            </p>
-                                        </div>
-                                        <div class="food-review">
-                                            <span class="item-price">22,2€</span>
-                                        </div>
-                                    </div>
-
-                                    <div class="menu-list-details main-menu-line">
-                                        <div class="food-describe">
-                                            <strong>Desayuno</strong>
-                                            <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                    enim ligula venenatis dolor.</span>
-                                                <button onclick="myFunction(this)" class="myBtn">Read more</button>
-                                            </p>
-                                        </div>
-                                        <div class="food-review">
-                                            <span class="item-price">22,2€</span>
-                                        </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="menu-list-details main-menu-line">
-                                        <div class="food-describe">
-                                            <strong>Desayuno</strong>
-                                            <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                    enim ligula venenatis dolor.</span>
-                                                <button onclick="myFunction(this)" class="myBtn">Read more</button>
-                                            </p>
-                                        </div>
-                                        <div class="food-review">
-                                            <span class="item-price">22,2€</span>
-                                        </div>
-                                    </div>
 
-                                    <div class="menu-list-details main-menu-line">
-                                        <div class="food-describe">
-                                            <strong>Desayuno</strong>
-                                            <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                    enim ligula venenatis dolor.</span>
-                                                <button onclick="myFunction(this)" class="myBtn">Read more</button>
-                                            </p>
-                                        </div>
-                                        <div class="food-review">
-                                            <span class="item-price">22,2€</span>
-                                        </div>
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
                                     </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
 
-                                    <div class="menu-list-details main-menu-line">
-                                        <div class="food-describe">
-                                            <strong>Desayuno</strong>
-                                            <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                    enim ligula venenatis dolor.</span>
-                                                <button onclick="myFunction(this)" class="myBtn">Read more</button>
-                                            </p>
-                                        </div>
-                                        <div class="food-review">
-                                            <span class="item-price">22,2€</span>
-                                        </div>
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
+
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
+
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-                    <div class="menu-box">
-                        <div class="menu-details">
-                            <!-- <h2 class="web-tittle text-center">Soup &amp; Snacks</h2> -->
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="menu-list-details main-menu-line">
-                                        <div class="food-describe">
-                                            <strong>Desayuno</strong>
-                                            <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                    enim ligula venenatis dolor.</span>
-                                                <button onclick="myFunction(this)" class="myBtn">Read more</button>
-                                            </p>
-                                        </div>
-                                        <div class="food-review">
-                                            <span class="item-price">22,2€</span>
-                                        </div>
+                <div class="tab-pane fade" id="pills-meat" role="tabpanel" aria-labelledby="pills-meat-tab">
+                    <!-- Content for Meat tab -->
+                    <p class="text-center">This is the content for Meat tab.</p>
+                    <div class="menu-details">
+                        <!-- <h2 class="web-tittle text-center">Soup &amp; Snacks</h2> -->
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
                                     </div>
-
-                                    <div class="menu-list-details main-menu-line">
-                                        <div class="food-describe">
-                                            <strong>Desayuno</strong>
-                                            <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                    enim ligula venenatis dolor.</span>
-                                                <button onclick="myFunction(this)" class="myBtn">Read more</button>
-                                            </p>
-                                        </div>
-                                        <div class="food-review">
-                                            <span class="item-price">22,2€</span>
-                                        </div>
-                                    </div>
-
-                                    <div class="menu-list-details main-menu-line">
-                                        <div class="food-describe">
-                                            <strong>Desayuno</strong>
-                                            <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                    enim ligula venenatis dolor.</span>
-                                                <button onclick="myFunction(this)" class="myBtn">Read more</button>
-                                            </p>
-                                        </div>
-                                        <div class="food-review">
-                                            <span class="item-price">22,2€</span>
-                                        </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="menu-list-details main-menu-line">
-                                        <div class="food-describe">
-                                            <strong>Desayuno</strong>
-                                            <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                    enim ligula venenatis dolor.</span>
-                                                <button onclick="myFunction(this)" class="myBtn">Read more</button>
-                                            </p>
-                                        </div>
-                                        <div class="food-review">
-                                            <span class="item-price">22,2€</span>
-                                        </div>
-                                    </div>
 
-                                    <div class="menu-list-details main-menu-line">
-                                        <div class="food-describe">
-                                            <strong>Desayuno</strong>
-                                            <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                    enim ligula venenatis dolor.</span>
-                                                <button onclick="myFunction(this)" class="myBtn">Read more</button>
-                                            </p>
-                                        </div>
-                                        <div class="food-review">
-                                            <span class="item-price">22,2€</span>
-                                        </div>
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
                                     </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
 
-                                    <div class="menu-list-details main-menu-line">
-                                        <div class="food-describe">
-                                            <strong>Desayuno</strong>
-                                            <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
-                                                    enim ligula venenatis dolor.</span>
-                                                <button onclick="myFunction(this)" class="myBtn">Read more</button>
-                                            </p>
-                                        </div>
-                                        <div class="food-review">
-                                            <span class="item-price">22,2€</span>
-                                        </div>
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
+
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
+
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-fish" role="tabpanel" aria-labelledby="pills-fish-tab">
+                    <!-- Content for Fish tab -->
+                    <p class="text-center">This is the content for Fish tab.</p>
+                    <div class="menu-details">
+                        <!-- <h2 class="web-tittle text-center">Soup &amp; Snacks</h2> -->
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
+
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
+
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
+
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
+
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-paella" role="tabpanel" aria-labelledby="pills-paella-tab">
+                    <!-- Content for Potato & Paella tab -->
+                    <p class="text-center">This is the content for Potato & Paella tab.</p>
+                    <div class="menu-details">
+                        <!-- <h2 class="web-tittle text-center">Soup &amp; Snacks</h2> -->
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
+
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
+
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
+
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
+
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-momo" role="tabpanel" aria-labelledby="pills-momo-tab">
+                    <!-- Content for Momo tab -->
+                    <p class="text-center">This is the content for Momo tab.</p>
+                    <div class="menu-details">
+                        <!-- <h2 class="web-tittle text-center">Soup &amp; Snacks</h2> -->
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
+
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
+
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
+
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
+
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-desserts" role="tabpanel" aria-labelledby="pills-desserts-tab">
+                    <!-- Content for Desserts tab -->
+                    <p class="text-center">This is the content for Desserts tab.</p>
+                    <div class="menu-details">
+                        <!-- <h2 class="web-tittle text-center">Soup &amp; Snacks</h2> -->
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
+
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
+
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
+
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
+
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-soft-drinks" role="tabpanel" aria-labelledby="pills-soft-drinks-tab">
+                    <!-- Content for Soft Drinks tab -->
+                    <p class="text-center">This is the content for Soft Drinks tab.</p>
+                    <div class="menu-details">
+                        <!-- <h2 class="web-tittle text-center">Soup &amp; Snacks</h2> -->
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
+
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
+
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
+
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
+
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-hard-drinks" role="tabpanel" aria-labelledby="pills-hard-drinks-tab">
+                    <!-- Content for Hard Drinks tab -->
+                    <p class="text-center">This is the content for Hard Drinks tab.</p>
+                    <div class="menu-details">
+                        <!-- <h2 class="web-tittle text-center">Soup &amp; Snacks</h2> -->
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
+
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
+
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
+
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
+
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-coffee" role="tabpanel" aria-labelledby="pills-coffee-tab">
+                    <!-- Content for Coffee tab -->
+                    <p class="text-center">This is the content for Coffee tab.</p>
+                    <div class="menu-details">
+                        <!-- <h2 class="web-tittle text-center">Soup &amp; Snacks</h2> -->
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
+
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
+
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
+
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
+                                    </div>
+                                </div>
+
+                                <div class="menu-list-details main-menu-line">
+                                    <div class="food-describe">
+                                        <strong>Desayuno</strong>
+                                        <p>Spinach cooked with homemade cottage with house special sauce <span class="dots">...</span><span class="more" style="display: none;">erisque
+                                                enim ligula venenatis dolor.</span>
+                                            <button onclick="myFunction(this)" class="myBtn">Read more</button>
+                                        </p>
+                                    </div>
+                                    <div class="food-review">
+                                        <span class="item-price">22,2€</span>
                                     </div>
                                 </div>
                             </div>
@@ -1024,7 +1641,6 @@
                     </div>
                 </div>
             </div>
-           
         </div>
     </section>
     <!-- ==================food menu ======================== -->

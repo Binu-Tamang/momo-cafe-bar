@@ -41,7 +41,12 @@
                             <p><span>End Date:</span> 2024-04-13</p>
                             <p><span>Time:</span> 12pm-6pm</p>
                             <p><span>Contact Us:</span> <a href="tel:34 686 12 42 03">+34 686 12 42 03 </a></p>
-                            <button class="default-btn mt-2">Book A Table</button>
+                            <form action="book-table.php" method="post">
+                                <input type="text" name="date" value="2024-04-12" hidden>
+                                <input type="text" name="subject" value="Moraira And David Bellingham" hidden>
+                                <button type="submit" class="default-btn mt-2">Book A Table</button>
+
+                            </form>
                         </div>
                         <div class="events-time-box">
                         <p>Craving mouth-watering momos in Teulada, Alicante? Look no further than The Momo Cafe Bar! 🌟Come and experience the irresistible flavors that will leave you craving for more. Our cozy cafe bar is the perfect spot to indulge in the best momos in town. Bring your friends and family for a delightful culinary adventure!

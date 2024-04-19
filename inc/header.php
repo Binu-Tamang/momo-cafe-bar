@@ -27,7 +27,7 @@
           <ul class="slider-menu">
             <li><a href="index.php">Home</a></li>
             <li><a href="about-us.php">About Us</a></li>
-            <li><a href="menu.php">Menu</a></li>
+            <li><a href="menu2.php">Menu</a></li>
             <li><a href="gallery.php">Gallery</a></li>
             <li><a href="events.php">Events</a></li>
             <li><a href="book-table.php">Book a Table</a></li>
@@ -36,7 +36,7 @@
         </div><!-- /.header-menu-wrap -->
         <div class="header-right">
           <div class="search-icon dl-search-icon" style="visibility: hidden;"><i class="las la-search"></i></div>
-          <a href="order2.php" class="default-btn"> Order Online<span></span><i class="fa-solid fa-arrow-right-long"></i></a>
+          <a href="order.php" class="default-btn"> Order Online<span></span><i class="fa-solid fa-arrow-right-long"></i></a>
           <!-- Burger menu -->
           <div class="mobile-menu-icon">
             <div class="burger-menu">

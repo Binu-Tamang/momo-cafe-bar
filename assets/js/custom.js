@@ -1,8 +1,3 @@
-// =========================
-// wow JS
-// =========================
-new WOW().init();
-
 var $ = jQuery;
 // ==========================
 // Read more and Read less option
@@ -254,25 +249,25 @@ $(".owl-carousel.banner-review-carousel").owlCarousel({
 // Scroll top to bottom js starts
 // ===============================================
 // Show the button when the user scrolls down 20px from the top of the document
-window.onscroll = function () {
-  scrollFunction();
-};
+// window.onscroll = function () {
+//   scrollFunction();
+// };
 
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    document.getElementById("scrollToTopBtn").style.display = "block";
-  } else {
-    document.getElementById("scrollToTopBtn").style.display = "none";
-  }
-}
+// function scrollFunction() {
+//   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+//     document.getElementById("scrollToTopBtn").style.display = "block";
+//   } else {
+//     document.getElementById("scrollToTopBtn").style.display = "none";
+//   }
+// }
 
 // When the user clicks on the button, scroll to the top of the document
-document
-  .getElementById("scrollToTopBtn")
-  .addEventListener("click", function () {
-    document.body.scrollTop = 0; // For Safari
-    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-  });
+// document
+//   .getElementById("scrollToTopBtn")
+//   .addEventListener("click", function () {
+//     document.body.scrollTop = 0; // For Safari
+//     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+//   });
 
 
 // ========================================
@@ -411,53 +406,32 @@ var $gallery = $('.gallery').isotope({
   layoutMode: 'fitRows'
 });
 
-// ====================================
-// GALLERY OWL CAROUSEL
-// ====================================
-$('.owl-carousel.gallery-carousel').owlCarousel({
-  loop:true,
-  margin:10,
-  nav:false,
-  dots:false,
-  autoplay: true,
-  responsive:{
-      0:{
-          items:1
-      },
-      600:{
-          items:3
-      },
-      1000:{
-          items:5
-      }
-  }
-})
 
 // ========================================
 // menu list owl owlCarousel
 // ========================================
-$(document).ready(function() {
-  $('.owl-carousel.food-menu-slider').owlCarousel({
-      loop: false,
-      margin: 10,
-      autoWidth:true,
-      nav: true,
-      autoplay: false,
-      dots: false,
-      navText: ["<i class='fas fa-chevron-left'></i>", "<i class='fas fa-chevron-right'></i>"], // Custom navigation icons
-      responsive: {
-          0: {
-              items: 2
-          },
-          600: {
-              items: 4
-          },
-          1000: {
-              items: 6
-          }
-      }
-  });
-});
+// $(document).ready(function() {
+//   $('.owl-carousel.food-menu-slider').owlCarousel({
+//       loop: false,
+//       margin: 10,
+//       autoWidth:true,
+//       nav: true,
+//       autoplay: false,
+//       dots: false,
+//       navText: ["<i class='fas fa-chevron-left'></i>", "<i class='fas fa-chevron-right'></i>"], // Custom navigation icons
+//       responsive: {
+//           0: {
+//               items: 2
+//           },
+//           600: {
+//               items: 4
+//           },
+//           1000: {
+//               items: 6
+//           }
+//       }
+//   });
+// });
 
 
 // =========================================
@@ -537,27 +511,23 @@ $('.order-cart-item-remove').click(function () {
     $(parentDiv).remove();
   }, 2000);
 });
+if(document.getElementById('orderModal')){
 
-$('.order-item').click(function () {
-  console.log('here');    
-  var title = $(this).find('.order-item-box-title').html();
-  var icons = $(this).find('.order-item-box-icons').html();
-  var content = $(this).find('.order-item-box-para').html();
-  var price = $(this).find('.order-item-box-price').html();
+  var myModal = new bootstrap.Modal(document.getElementById('orderModal'));
 
-  // modalReplace(title, icons, content, price);
-  let orderModal  =document.getElementById('orderModal');
-  orderModal.show();
-  if (orderModal.classList.contains('show')) {
-    orderModal.classList.remove('show');
-    orderModal.style.display = 'none';
-    document.body.classList.remove('modal-open'); // Remove the class to prevent scrolling
-  } else {
-    orderModal.classList.add('show');
-    orderModal.style.display = 'block';
-    document.body.classList.add('modal-open'); // Add the class to prevent scrolling
-  }
-});
+  $('.order-item').click(function () {
+    console.log('here');    
+    var title = $(this).find('.order-item-box-title').html();
+    var icons = $(this).find('.order-item-box-icons').html();
+    var content = $(this).find('.order-item-box-para').html();
+    var price = $(this).find('.order-item-box-price').html();
+  
+    modalReplace(title, icons, content, price);
+    myModal.show();
+   
+  });
+}
+ 
 
 $('.order-cart-toggle').click(function () {
   var orderCart = $('.order-cart');
@@ -591,7 +561,7 @@ function orderHeaderSticky() {
 
   var $window = $(window);
   var orderMain = $('.order-main');
-  var orderHeader = $('.order-header');
+  var orderHeader = $('.order-main header-sticky');
   var orderHeaderMarginBt = parseInt(orderHeader.css('margin-bottom'));
   var offsetTop = orderMain.offset().top;
   var orderHeaderHeight = orderHeader.outerHeight();
@@ -617,7 +587,7 @@ function orderHeaderSticky() {
       orderMain.css('margin-top', '');
       orderHeader.css({
         position: '',
-        top: '',
+        top: '100px',
         left: ''
       });
     }
@@ -661,3 +631,93 @@ $(document).ready(function() {
 // ==================================================================================
 // the delivery toggle js starts here 
 // ==================================================================================
+
+
+// ==================================================================================
+// The order cart div have sticjy fron Js
+// ==================================================================================
+$(document).ready(function() {
+  // Function to initialize sticky elements based on window width
+  function initializeStickyElements() {
+      if ($(window).width() > 768) {
+          $(".order-list-sticky").stick_in_parent({
+              offset_top: 90
+          });
+      }
+      if ($(window).width() > 991) {
+          $(".order-cart-sticky").stick_in_parent({
+              offset_top: 90
+          });
+      }
+  }
+
+  // Initialize sticky elements on page load
+  initializeStickyElements();
+
+  // Re-initialize sticky elements on window resize
+  $(window).resize(function() {
+      // Destroy existing sticky elements (to reset)
+      $(".order-list-sticky, .order-cart-sticky").trigger("sticky_kit:detach");
+
+      // Re-initialize sticky elements
+      initializeStickyElements();
+  });
+});
+
+
+
+$(window).scroll(function () {
+  var scrollTop = $(document).scrollTop();
+  var anchors = $('.order-section');
+
+  for (var i = 0; i < anchors.length; i++) {
+    if (scrollTop > $(anchors[i]).offset().top - 120 && scrollTop < $(anchors[i]).offset().top + $(anchors[i]).height() - 120) {
+      $('.order-side-list li a[href="#' + $(anchors[i]).attr('id') + '"]').addClass('active');
+    } else if (scrollTop < $(anchors[0]).offset().top) {
+      $('.order-side-list li:first-child a').addClass('active');
+    } else {
+      $('.order-side-list li a[href="#' + $(anchors[i]).attr('id') + '"]').removeClass('active');
+    }
+  }
+});
+
+
+//smooth scroll
+$("a.page-scroll").bind("click", function (event) {
+  var $anchor = $(this);
+  var topSpacer = 60;
+
+  if ($('.menu-cat-tab').length === 1) {
+    if ($(window).width() < 1201) {
+      var headerHeight = $('.header').height();
+      var menuBarHeight = $('.menu-cat-tab-list').height();
+      if (menuBarHeight == null) {
+        menuBarHeight = 0;
+      }
+      topSpacer = headerHeight + menuBarHeight;
+      console.log(headerHeight);
+      console.log(menuBarHeight);
+    }
+  }
+
+  if ($('.order').length === 1) {
+    topSpacer = 90
+  }
+
+  $("html, body").stop().animate({
+    scrollTop: $($anchor.attr("href")).offset().top - topSpacer
+  }, 400, "easeInOutExpo");
+
+  event.preventDefault();
+});
+
+// =========================================================
+// for the option to id JS,scrolling to a section on option change
+$(document).on('change', '#orderselectCat', function () {
+
+  var topSpacer = $('.header').outerHeight() + $('.order-header').outerHeight();
+
+  $("html, body").stop().animate({
+    scrollTop: $($(this).val()).offset().top - topSpacer
+  }, 400, "easeInOutExpo");
+});
