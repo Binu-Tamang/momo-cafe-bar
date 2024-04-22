@@ -320,8 +320,14 @@
   .events-details {
     padding: 0 1rem;
   }
+  .membership-box {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 }
-
+}
+.membership-box {
+  padding: 0 4rem;
+}
 section.banner-slider {
   padding: 3rem 0;
 }

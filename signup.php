@@ -44,7 +44,7 @@
                                 <input type="email" name="email" placeholder="Your Email Address">
                             </div>
                             <div class="login-hero-form-field">
-                                <i class="fa fa-phone login-hero-form-field-icon"></i>
+                                <i class="fa-solid fa-phone login-hero-form-field-icon"></i>
                                 <input type="tel" name="tel" placeholder="Your Phone Number">
                             </div>
                             <div class="login-hero-form-field">

@@ -2,11 +2,15 @@
   <div class="header-top">
     <div class="container">
       <div class="header-contact-detail">
-        <span><i class="fa-regular fa-clock"></i>  9 AM - 11 PM</span>
+        <span><i class="fa-regular fa-clock"></i> 9 AM - 11 PM</span>
         <span><i class="fa-solid fa-phone"></i> <a href="tel:686124203">+34 686 12 42 03</a></span>
       </div>
       <div class="wrap-icon">
-        
+        <div class="login-i">
+          <!-- <i class="fa-regular fa-user"></i> -->
+          <span><a href="signup.php">Signup</a> / <a href="login.php">Login</a></span>
+        </div>
+
         <!-- <div class="cart">
           <i class="fa-solid fa-cart-plus"></i>
           <span>4</span>

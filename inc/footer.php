@@ -25,7 +25,9 @@
                             <li><a href="menu2.php"> Menu</a></li>
                             <li><a href="gallery.php"> Gallery</a></li>
                             <li><a href="events.php"> Events</a></li>
+                            <li><a href="book-table.php"> Book A Table</a></li>
                             <li><a href="contact-us.php"> Contact Us</a></li>
+                            <li><a href="membership.php"> Membership</a></li>
                         </ul>
                     </div>
                 </div>

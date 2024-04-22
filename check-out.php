@@ -27,7 +27,7 @@
             <div class="section-inner">
                 <div class="order">
                     <div class="order-row row">
-                        <div class="col-lg-8">
+                        <div class="col-lg-8 order-2 order-md-1">
                             <div class="checkout-form-wrap">
                                 <form action="" class="checkout-form">
                                     <div class="checkout-form-section" id="billingDetails">
@@ -172,24 +172,25 @@
                                             </div>
                                         </div>
                                     </div>
-
                                     <div class="checkout-form-footer mb-4">
+                                        <a class="yellow_btn" href="order.php">Go Back</a>
                                         <button class="default-btn">Place Order</button>
                                     </div>
                                 </form>
                             </div>
                         </div>
-                        <div class="col-lg-4">
-                            <div class="order-cart-fixed app-md">
+
+                        <div class="col-lg-4 order-1 order-md-2">
+                            <!-- <div class="order-cart-fixed app-md">
                                 <span class="order-cart-fixed-total">(3 items) 27,00 €</span>
                                 <button class="order-cart-toggle order-cart-fixed-toggle">View Basket</button>
-                            </div>
-                            <div class="order-cart order-cart-sticky">
-                                <div class="order-cart-exit order-cart-toggle app-md">
+                            </div> -->
+                            <div class="cart-display">
+                                <!-- <div class="order-cart-exit order-cart-toggle app-md">
                                     <i class="fa fa-times"></i>
-                                </div>
+                                </div> -->
                                 <div class="order-cart-inner">
-                                    <h3 class="order-cart-title">Your Cart</h3>
+                                    <h3 class="order-cart-title">Your Order Summary</h3>
                                     <div class="order-type">
                                         <div class="order-type-title">
                                             <h4>Food For:</h4>
@@ -212,8 +213,8 @@
                                                     </th>
                                                 </tr>
                                             </thead> -->
-                                            <tbody>
-                                            <tr class="order-cart-item">
+                                        <tbody>
+                                            <!-- <tr class="order-cart-item">
                                                 <td class="order-cart-item-cell order-cart-item-quantity">
                                                     <span class="order-cart-item-num">2</span>
                                                     <div class="order-cart-item-num-toggle">
@@ -236,7 +237,7 @@
                                                         <span class="order-cart-item-remove-toggler fa fa-times"></span>
                                                     </div>
                                                 </td>
-                                            </tr>
+                                            </tr> -->
                                             <tr class="order-cart-item">
                                                 <td class="order-cart-item-cell order-cart-item-quantity">
                                                     <span class="order-cart-item-num">1</span>

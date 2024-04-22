@@ -2514,12 +2514,6 @@ section.section-login {
   transform: translateY(-50%);
   left: 2rem;
 }
-
-.login-hero-form-field-icon.fa-phone {
-  -webkit-transform: translateY(-50%) rotateY(180deg);
-  transform: translateY(-50%) rotateY(180deg);
-}
-
 .login-hero-form-field input:not([type="submit"]) {
   width: 100%;
   height: 3rem;
@@ -2527,7 +2521,6 @@ section.section-login {
   background-color: #fff;
   border: 0;
   border-radius: 222px;
-  /* -webkit-box-shadow: 0 0 8px 1px rgba(0,0,0,.2); */
   /* box-shadow: 0 0 8px 1px rgba(0,0,0,.2); */
 }
 
@@ -3552,10 +3545,11 @@ li.nav-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  justify-content: space-between;
 }
 
 .order-item-box-cont {
-  width: calc(100% - 12rem);
+  width: calc(100% - 7rem);
   /* padding-right: 2rem; */
 }
 
@@ -3578,8 +3572,8 @@ li.nav-item {
 }
 
 .order-item-box-pricing {
-  width: 12rem;
-  margin-left: auto;
+  width: auto;
+  /* margin-left: auto; */
   text-align: right;
 }
 
@@ -3588,7 +3582,7 @@ li.nav-item {
   border: 1px solid rgba(213, 55, 48, 0.25);
   border-radius: 4px;
   outline: 0;
-  margin-left: 1rem;
+  margin-left: 10px;
   cursor: pointer;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
@@ -3896,13 +3890,13 @@ li.nav-item {
 }
 
 .order-cart-fixed-total {
-  font-size: 1.5rem;
+  font-size: 15px;
   font-weight: 500;
 }
 
 .order-cart-fixed-toggle {
-  font-size: 1.45rem;
-  padding: 1rem 2rem;
+  font-size: 14px;
+  padding: 10px 20px;
   color: #fff;
   background-color: #00a145;
   margin-left: auto;
@@ -3974,7 +3968,7 @@ li.nav-item {
     left: 0;
     width: 100vw;
     height: 100vh;
-    padding: 10rem 2rem 6rem;
+    padding: 6rem 2rem 6rem;
     background-color: rgba(255, 255, 255, 0.75);
     -webkit-backdrop-filter: blur(5px) contrast(0.8);
     backdrop-filter: blur(5px) contrast(0.8);
@@ -4018,7 +4012,7 @@ li.nav-item {
     position: absolute;
     top: 2rem;
     right: 2rem;
-    font-size: 3rem;
+    font-size: 30px;
     cursor: pointer;
   }
 
@@ -4201,7 +4195,9 @@ li.nav-item {
 .order-modal-add-to-cart:hover {
   background-color: #008d3c;
 }
-
+.cart-display {
+  padding: 20px 0;
+}
 .checkout-heading {
   font-size: 22px;
   font-weight: 500;
@@ -4626,3 +4622,102 @@ check out css starts here
 .section-order input::placeholder {
   color: #222;
 }
+
+/* ==================================================
+MEMBERSHIP CSS STARTS HERE
+===================================================== */
+/* CSS for Food E-Commerce Membership Form */
+section.section-membership {
+    position: relative;
+    padding: 4rem 0;
+}
+/* Fieldset styling */
+.section-membership fieldset {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 15px;
+  background: linear-gradient(
+      to right bottom,
+      rgba(255, 255, 255, 0.4),
+      rgba(255, 255, 255, 0.2)
+  );
+  backdrop-filter: blur(1rem);
+}
+
+.section-membership legend {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Label styling */
+.section-membership label {
+  display: block;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+/* Input field styling */
+.section-membership input[type="text"],
+.section-membership input[type="email"],
+.section-membership input[type="tel"],
+.section-membership textarea,
+.section-membership select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc !important;
+}
+
+/* ==================================================
+MEMBERSHIP CSS ENDS HERE
+===================================================== */
+
+/* ==================================================
+PAGINATION AND SORTLIST CSS STARTS HERE
+===================================================== */
+.pagination {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.pagination a {
+  color: var(--maincolor);
+  padding: 8px 16px;
+  text-decoration: none;
+  border: 1px solid #ddd;
+}
+
+.pagination a.active {
+  background-color: var(--maincolor);
+  color: white;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+.pagination .prev,
+.pagination .next {
+  background-color: #f9f9f9;
+}
+
+.pagination .prev:hover,
+.pagination .next:hover {
+  background-color: var(--maincolor);
+}
+
+.sort-container {
+  display: flex;
+  justify-content: right;
+}
+
+.sort-container label {
+  margin-right: 10px;
+}
+
+/* ==================================================
+PAGINATION AND SORTLIST CSS ENDS HERE
+===================================================== */

@@ -837,11 +837,13 @@
   margin-right: 20px;
   font-size: 15px;
 }
-.header-contact-detail i,
-.cart i {
-  color: #fff;
+.header-contact-detail i {
+  color: var(--maincolor);
   font-size: 18px;
   margin-right: 6px;
+}
+.cart i{
+  color: #fff;
 }
 .cart span {
   background: #e9831d;
@@ -859,6 +861,14 @@
 }
 .header-menu-wrap ul li > a{
   position: relative;
+}
+.login-i i {
+  color: var(--maincolor);
+}
+.login-i a {
+  color: #fff;
+  text-decoration: underline;
+  /* margin-right: 10px; */
 }
 /* ==================a hover effects ===================== */
 
@@ -897,4 +907,29 @@
   .header-menu-wrap ul li > a::before{
     bottom: 30%;
   }
+}
+
+/* Container for the list */
+.imp-link {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between; 
+  list-style-type: none; 
+  padding: 0;
+}
+
+/* Style for each list item */
+.imp-link li {
+  width: calc(50% - 10px); 
+  margin-bottom: 10px; 
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .imp-link li {
+      width: 100%; 
+  }
+}
+.login-i span {
+  color: #fff;
 }

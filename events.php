@@ -24,6 +24,14 @@
 
     <section class="main-events">
         <div class="container">
+            <div class="sort-container">
+                <label for="sortType">Sort By:</label>
+                <select id="sortType">
+                    <option value="latest">Latest</option>
+                    <option value="upcoming">Upcoming</option>
+                </select>
+                <!-- <button onclick="sortEvents()">Sort</button> -->
+            </div>
             <!-- <span class="small-heading text-center">Our Events</span>
             <h1 class="web-tittle text-center">Upcoming Events</h1>
             <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptatibus architecto deserunt tenetur minus enim aperiam ipsam</p> -->
@@ -82,6 +90,13 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="pagination">
+                <a href="#" class="prev"><i class="fa-solid fa-caret-left"></i> </a>
+                <a href="#" class="active">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#" class="next"> <i class="fa-solid fa-caret-right"></i> </a>
             </div>
         </div>
     </section>
